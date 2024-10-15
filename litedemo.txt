@@ -17,6 +17,8 @@ CCTV14,
 CCTV15,
 CCTV16,
 CCTV17,
+
+央视频道,#genre#
 CCTV-1 综合,
 CCTV-2 财经,
 CCTV-3 综艺,
