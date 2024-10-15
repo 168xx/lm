@@ -124,72 +124,67 @@ def filter_source_urls(template_file, correction_file):
     matched_channels = match_channels(template_channels, all_channels)
 
     return matched_channels, template_channels
+
+import re  
+import datetime  
+from collections import OrderedDict  
   
 def is_ipv6(url):  
-    return re.match(r'^http://\[[0-9a-fA-F:]+\]', url) is not None  
+    return re.match(r'^http:\/\/\[[0-9a-fA-F:]+\]', url) is not None  
   
 def updateChannelUrlsM3U(channels, template_channels):  
     written_urls = set()  
-    current_date = datetime.now().strftime("%Y-%m-%d")  
-      
-    # 假设 litecon.announcements 和 litecon.epg_urls 已经被正确定义和填充  
+  
+    current_date = datetime.datetime.now().strftime("%Y-%m-%d")  
     for group in litecon.announcements:  
         for announcement in group['entries']:  
             if announcement['name'] is None:  
                 announcement['name'] = current_date  
-      
-      with (open("lv/litelive.m3u", "w", encoding="utf-8") as f_m3u,  
-          open("anotherfile.txt", "r", encoding="utf-8") as f_txt):  
-          
-        # 写入 M3U 文件的头部  
-        epg_urls_str = ','.join(f'"{epg_url}"' for epg_url in litecon.epg_urls)  
-        f_m3u.write(f'#EXTM3U x-tvg-url="{epg_urls_str}"\n')  
-          
-        # 写入公告信息到 M3U 和 TXT 文件  
-        for group in litecon.announcements:  
-            f_txt.write(f"{group['channel']},#genre#\n")  
-            for announcement in group['entries']:  
-                f_m3u_line = (  
-                    f"#EXTINF:-1 tvg-id=\"1\" tvg-name=\"{announcement['name']}\" "  
-                    f"tvg-logo=\"{announcement['logo']}\" group-title=\"{group['channel']}\","  
-                    f"{announcement['name']}\n"  
-                )  
-                f_m3u.write(f_m3u_line)  
-                f_m3u.write(f"{announcement['url']}\n")  
-                f_txt.write(f"{announcement['name']},{announcement['url']}\n")  
-                written_urls.add(announcement['url'])  
-          
-        # 写入模板通道信息（去重、筛选 IPv6/IPv4）  
-        for category, channel_list in template_channels.items():  
-            f_txt.write(f"{category},#genre#\n")  
-            if category in channels:  
-                for channel_name in channel_list:  
-                    if channel_name in channels[category]:  
-                        unique_urls = list(OrderedDict.fromkeys([url_tuple[1] for url_tuple in channels[category][channel_name]]))  
-                          
-                        # 分离 IPv6 和 IPv4 地址  
-                        ipv6_urls = [url for url in unique_urls if is_ipv6(url)]  
-                        ipv4_urls = [url for url in unique_urls if not is_ipv6(url)]  
-                          
-                        # 根据优先级选择 URL 列表  
-                        if litecon.ip_version_priority == "ipv6":  
-                            sorted_urls = ipv6_urls  
-                        else:  
-                            sorted_urls = ipv4_urls  
-                          
-                        # 过滤掉已经在 written_urls 中的 URL 和黑名单中的 URL  
-                        filtered_urls = [  
-                            url for url in sorted_urls  
-                            if url not in written_urls and not any(blacklist in url for blacklist in litecon.url_blacklist)  
-                        ]  
-                          
-                        # 写入筛选后的 URL（如果需要的话，取消以下行的注释）  
-                        # for url in filtered_urls:  
-                        #     f_m3u.write(f"#EXTINF: 相关信息\n{url}\n")  # 需要填写 "#EXTINF: 相关信息"  
+  
+    with open("lv/litelive.m3u", "w", encoding="utf-8") as f_m3u:  
+        f_m3u.write(f"#EXTM3U x-tvg-url={','.join(f'\"{epg_url}\"' for epg_url in litecon.epg_urls)}\n")  
+  
+        with open("lv/litelive.txt", "w", encoding="utf-8") as f_txt:  
+            for group in litecon.announcements:  
+                f_txt.write(f"{group['channel']},#genre#\n")  
+                for announcement in group['entries']:  
+                    f_m3u.write(f"#EXTINF:-1 tvg-id=\"1\" tvg-name=\"{announcement['name']}\" tvg-logo=\"{announcement['logo']}\" group-title=\"{group['channel']}\",{announcement['name']}\n")  
+                    f_m3u.write(f"{announcement['url']}\n")  
+                    f_txt.write(f"{announcement['name']},{announcement['url']}\n")  
+  
+            for category, channel_list in template_channels.items():  
+                f_txt.write(f"{category},#genre#\n")  
+                if category in channels:  
+                    for channel_name in channel_list:  
+                        if channel_name in channels[category]:  
+                            # 去重逻辑  
+                            unique_urls = list(OrderedDict.fromkeys([url for _, url in channels[category][channel_name]]))  
+                              
+                            # 分离IPv6和IPv4地址  
+                            ipv6_urls = [url for url in unique_urls if is_ipv6(url)]  
+                            ipv4_urls = [url for url in unique_urls if not is_ipv6(url)]  
+  
+                            # 根据配置优先选择IPv6或IPv4，但只保留一种  
+                            if litecon.ip_version_priority == "ipv6":  
+                                filtered_urls = ipv6_urls  
+                            else:  
+                                filtered_urls = ipv4_urls  
+  
+                            # 去重和过滤黑名单  
+                            final_urls = [url for url in filtered_urls if url not in written_urls and not any(blacklist in url for blacklist in litecon.url_blacklist)]  
+  
+                            # 更新已写入的URL集合  
+                            written_urls.update(final_urls)  
+  
+                            # 写入M3U和TXT文件  
+                            for url in final_urls:  
+                                f_m3u.write(f"{url}\n")  
+                                f_txt.write(f"SomeName,{url}\n")  # 注意：这里需要替换SomeName为合适的名称或逻辑  
 
+                            # 保证数字连续
                             index = 1
                             for url in filtered_urls:
-                                url_suffix = f"$轩蓓直播•IPV6" if len(filtered_urls) == 1 else f"$轩蓓直播•IPV6『线路{index}』"
+                                url_suffix = f"$雷蒙影视•IPV4" if len(filtered_urls) == 1 else f"$雷蒙影视•IPV4『线路{index}』"
                                 if '$' in url:
                                     base_url = url.split('$', 1)[0]
                                 else:
