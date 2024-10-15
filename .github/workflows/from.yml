@@ -3,41 +3,37 @@ name: Remove URLs from tv.txt
 on:  
   push:  
     branches:  
-      - main  # 确保这是你的默认分支  
-  pull_request:  
-    branches:  
-      - main  # 确保这是你的默认分支  
+      - main  # 根据需要更改分支名称  
   
 jobs:  
   remove-urls:  
     runs-on: ubuntu-latest  
   
     steps:  
-    - name: Checkout repository  
-      uses: actions/checkout@v3  # 使用最新版本的actions/checkout  
+      - name: Checkout repository  
+        uses: actions/checkout@v2  
   
-    - name: Ensure tv.txt exists and is not empty  
-      run: |  
-        #!/bin/bash  
-        if [[ ! -f tv.txt || -s tv.txt == 0 ]]; then  
-          echo "tv.txt does not exist or is empty."  
-          exit 1  
-        fi  
+      - name: Set up environment  
+        run: |  
+          # 确保工作目录是干净的  
+          git config --global user.name 'github-actions'  
+          git config --global user.email 'github-actions@github.com'  
   
-    - name: Remove lines containing http:// or https://  
-      run: |  
-        #!/bin/bash  
-        grep -Ev '(http://|https://)' tv.txt > temp.txt && mv temp.txt tt.txt  
+      - name: Remove URLs from tv.txt  
+        run: |  
+          # 使用 sed 命令删除包含 http:// 或 https:// 的行，并将结果保存到 tt.txt  
+          sed -n '/http:\/\/\|https:\/\//!p' tv.txt > tt.txt  
   
-    - name: Commit and push changes if any  
-      run: |  
-        #!/bin/bash  
-        if [[ -n "$(git status --porcelain | grep '^ M tt.txt$')" ]]; then  
-          git config --local user.email "actions@126.com"  
-          git config --local user.name "GitHub Action"  
-          git add tt.txt  
-          git commit -m "Remove lines containing http:// or https:// from tv.txt"  
-          git push "${GITHUB_TOKEN}@github.com:${GITHUB_REPOSITORY}.git" HEAD:${GITHUB_REF}  
-        fi  
-      env:  
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push changes  
+        run: |  
+          # 检查是否有更改  
+          if [ -n "$(git status --porcelain)" ]; then  
+            # 添加更改  
+            git add tt.txt  
+            # 提交更改  
+            git commit -m "Removed URLs from tv.txt and saved to tt.txt"  
+            # 推送到仓库  
+            git push  
+          else  
+            echo "No changes to commit"  
+          fi
