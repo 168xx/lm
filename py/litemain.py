@@ -146,7 +146,9 @@ def updateChannelUrlsM3U(channels, template_channels):
        formatted_urls = ','.join(url_parts)  
        f_m3u.write(f"#EXTM3U x-tvg-url={formatted_urls}\n")
   
-        with open("lv/litelive.txt", "w", encoding="utf-8") as f_txt:  
+   with open("lv/litelive.txt", "w", encoding="utf-8") as f_txt:  
+     # 在这里添加写入文件的代码  
+     f_txt.write("Some text")
             for group in litecon.announcements:  
                 f_txt.write(f"{group['channel']},#genre#\n")  
                 for announcement in group['entries']:  
