@@ -170,7 +170,7 @@ def updateChannelUrlsM3U(channels, template_channels):
                               
                             index = 1
                             for url in filtered_urls:
-                                url_suffix = f"$雷蒙影视•IPV4" if len(filtered_urls) == 1 else f"$雷蒙影视•IPV4『线路{index}』"
+                                url_suffix = f"$轩蓓直播•IPV6" if len(filtered_urls) == 1 else f"$轩蓓直播•IPV6『线路{index}』"
                                 if '$' in url:
                                     base_url = url.split('$', 1)[0]
                                 else:
