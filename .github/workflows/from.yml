@@ -1,4 +1,4 @@
-name: Remove URLs from tv.txt  
+name: Remove URLs and Save as tt.txt  
   
 on:  
   push:  
@@ -7,30 +7,43 @@ on:
   workflow_dispatch:  # 允许手动触发  
   
 jobs:  
-  remove-urls:  
+  remove-urls-and-save:  
     runs-on: ubuntu-latest  
   
     steps:  
     - name: Checkout repository  
       uses: actions/checkout@v2  
   
-    - name: Remove URLs from tv.txt  
+    - name: Remove URLs and save as tt.txt  
       run: |  
-        # 使用 sed 命令替换 'http://...' 或 'https://...' 为空字符串  
-        sed -i 's|http[s?]://[^ ]*||g' tv.txt  
+        # 使用 sed 命令处理 tv.txt，并将结果保存到临时文件 temp.txt  
+        sed 's|http[s?]://[^ ]*||g' tv.txt > temp.txt  
+          
+        # 检查 temp.txt 是否与 tv.txt 不同（避免在没有更改时覆盖原始文件）  
+        if cmp -s tv.txt temp.txt; then  
+          echo "No changes to save."  
+          # 如果没有更改，可以选择删除临时文件（可选）  
+          rm temp.txt  
+        else  
+          # 如果有更改，将临时文件重命名为 tt.txt  
+          mv temp.txt tt.txt  
+        fi  
   
     - name: Commit changes  
       run: |  
-        # 获取当前日期时间作为提交信息的一部分  
-        commit_message="Updated tv.txt to remove URLs on $(date +'%Y-%m-%d %H:%M:%S')"  
-        # 检查文件是否有更改（避免在没有更改时提交空提交）  
-        if git diff --quiet --cached; then  
-          echo "No changes to commit."  
-        else  
-          # 添加修改到暂存区  
-          git add tv.txt  
+        # 检查 tt.txt 是否存在（即是否有更改需要提交）  
+        if [ -f "tt.txt" ]; then  
+          # 获取当前日期时间作为提交信息的一部分  
+          commit_message="Created tt.txt with URLs removed from tv.txt on $(date +'%Y-%m-%d %H:%M:%S')"  
+            
+          # 添加新文件到暂存区  
+          git add tt.txt  
+            
           # 提交修改  
           git commit -m "$commit_message"  
+            
           # 推送到远程仓库  
           git push  
+        else  
+          echo "No tt.txt file to commit."  
         fi
