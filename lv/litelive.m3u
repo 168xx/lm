@@ -7,3 +7,533 @@ https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N
 https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/CRIMETVPV1.mkv
 #EXTINF:-1 tvg-id="1" tvg-name="2024-10-15" tvg-logo="https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON4.png" group-title="🤠雷蒙影视直播",2024-10-15
 https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/CRIMETVPV2.mkv
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV1.png" group-title="🇨🇳央视",CCTV1
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000021973/1.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV1" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV1.png" group-title="🇨🇳央视",CCTV1
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000265001/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="CCTV1" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV1.png" group-title="🇨🇳央视",CCTV1
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010011/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="CCTV1" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV1.png" group-title="🇨🇳央视",CCTV1
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226153/index.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="CCTV1" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV1.png" group-title="🇨🇳央视",CCTV1
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226733/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV2.png" group-title="🇨🇳央视",CCTV2
+http://[2409:8087:5e00:24::11]:6060/200000001898/460000089800010211/$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV2.png" group-title="🇨🇳央视",CCTV2
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000012442/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="CCTV2" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV2.png" group-title="🇨🇳央视",CCTV2
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000023315/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="CCTV2" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV2.png" group-title="🇨🇳央视",CCTV2
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000005000031113/1.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="CCTV2" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV2.png" group-title="🇨🇳央视",CCTV2
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010211/1.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV3" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV3.png" group-title="🇨🇳央视",CCTV3
+http://[2409:8087:1a01:df::4041]:80/TVOD/88888888/224/3221225799/main.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV3" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV3.png" group-title="🇨🇳央视",CCTV3
+http://[2409:8087:5e00:24::11]:6060/200000001898/460000089800010212/$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV3.png" group-title="🇨🇳央视",CCTV3
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000011218/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="CCTV3" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV3.png" group-title="🇨🇳央视",CCTV3
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010212/1.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="CCTV3" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV3.png" group-title="🇨🇳央视",CCTV3
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010212/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV4" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV4.png" group-title="🇨🇳央视",CCTV4
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000031664/1.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV4" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV4.png" group-title="🇨🇳央视",CCTV4
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000265004/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="CCTV4" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV4.png" group-title="🇨🇳央视",CCTV4
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226539/index.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV4.png" group-title="🇨🇳央视",CCTV4
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226652/index.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="CCTV4" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV4.png" group-title="🇨🇳央视",CCTV4
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002173/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV5.png" group-title="🇨🇳央视",CCTV5
+http://[2409:8087:5e00:24::10]:6060/200000001898/460000089800010145/main.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV5" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV5.png" group-title="🇨🇳央视",CCTV5
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000004794/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="CCTV5" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV5.png" group-title="🇨🇳央视",CCTV5
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226365/index.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="CCTV5" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV5.png" group-title="🇨🇳央视",CCTV5
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000005/index.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="CCTV5" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV5.png" group-title="🇨🇳央视",CCTV5
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000020/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV5+" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV5+.png" group-title="🇨🇳央视",CCTV5+
+http://[2409:8087:5e00:24::10]:6060/200000001898/460000089800010202/$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV5+" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV5+.png" group-title="🇨🇳央视",CCTV5+
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000020505/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="CCTV5+" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV5+.png" group-title="🇨🇳央视",CCTV5+
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010202/$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="CCTV5+" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV5+.png" group-title="🇨🇳央视",CCTV5+
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010202/1.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="CCTV5+" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV5+.png" group-title="🇨🇳央视",CCTV5+
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010202/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV6" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV6.png" group-title="🇨🇳央视",CCTV6
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000016466/1.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV6" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV6.png" group-title="🇨🇳央视",CCTV6
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000265006/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="CCTV6" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV6.png" group-title="🇨🇳央视",CCTV6
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010214/$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="CCTV6" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV6.png" group-title="🇨🇳央视",CCTV6
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010214/1.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="CCTV6" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV6.png" group-title="🇨🇳央视",CCTV6
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226148/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV7" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV7.png" group-title="🇨🇳央视",CCTV7
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000017218/1.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV7" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV7.png" group-title="🇨🇳央视",CCTV7
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000024341/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="CCTV7" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV7.png" group-title="🇨🇳央视",CCTV7
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000265007/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="CCTV7" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV7.png" group-title="🇨🇳央视",CCTV7
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010215/index.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="CCTV7" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV7.png" group-title="🇨🇳央视",CCTV7
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226432/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV8" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV8.png" group-title="🇨🇳央视",CCTV8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000003736/1.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV8" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV8.png" group-title="🇨🇳央视",CCTV8
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010216/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="CCTV8" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV8.png" group-title="🇨🇳央视",CCTV8
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010216/index.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="CCTV8" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV8.png" group-title="🇨🇳央视",CCTV8
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226150/index.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="CCTV8" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV8.png" group-title="🇨🇳央视",CCTV8
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000008/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV9" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV9.png" group-title="🇨🇳央视",CCTV9
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000028286/1.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV9" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV9.png" group-title="🇨🇳央视",CCTV9
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010052/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="CCTV9" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV9.png" group-title="🇨🇳央视",CCTV9
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010052/index.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="CCTV9" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV9.png" group-title="🇨🇳央视",CCTV9
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226434/index.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="CCTV9" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV9.png" group-title="🇨🇳央视",CCTV9
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002144/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV10" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV10.png" group-title="🇨🇳央视",CCTV10
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000023734/1.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV10" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV10.png" group-title="🇨🇳央视",CCTV10
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000026367/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="CCTV10" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV10.png" group-title="🇨🇳央视",CCTV10
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000012827/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="CCTV10" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV10.png" group-title="🇨🇳央视",CCTV10
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010203/index.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="CCTV10" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV10.png" group-title="🇨🇳央视",CCTV10
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226164/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV11" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV11.png" group-title="🇨🇳央视",CCTV11
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031106/1.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV11" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV11.png" group-title="🇨🇳央视",CCTV11
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010092/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="CCTV11" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV11.png" group-title="🇨🇳央视",CCTV11
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226541/index.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="CCTV11" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV11.png" group-title="🇨🇳央视",CCTV11
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002177/index.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="CCTV11" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV11.png" group-title="🇨🇳央视",CCTV11
+http://[2409:8087:74f0:22::4]:6410/270000001128/9900000508/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV12" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV12.png" group-title="🇨🇳央视",CCTV12
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000001640/1.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV12" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV12.png" group-title="🇨🇳央视",CCTV12
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000032494/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="CCTV12" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV12.png" group-title="🇨🇳央视",CCTV12
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031107/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="CCTV12" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV12.png" group-title="🇨🇳央视",CCTV12
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010205/1.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="CCTV12" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV12.png" group-title="🇨🇳央视",CCTV12
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002147/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV13" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV13.png" group-title="🇨🇳央视",CCTV13
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000021303/1.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV13" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV13.png" group-title="🇨🇳央视",CCTV13
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031108/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="CCTV13" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV13.png" group-title="🇨🇳央视",CCTV13
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010093/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="CCTV13" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV13.png" group-title="🇨🇳央视",CCTV13
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010093/index.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="CCTV13" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV13.png" group-title="🇨🇳央视",CCTV13
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002179/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV14" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV14.png" group-title="🇨🇳央视",CCTV14
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000021349/1.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV14" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV14.png" group-title="🇨🇳央视",CCTV14
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000006673/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="CCTV14" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV14.png" group-title="🇨🇳央视",CCTV14
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010207/index.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="CCTV14" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV14.png" group-title="🇨🇳央视",CCTV14
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226166/index.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="CCTV14" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV14.png" group-title="🇨🇳央视",CCTV14
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002148/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV15" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV15.png" group-title="🇨🇳央视",CCTV15
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000008163/1.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV15" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV15.png" group-title="🇨🇳央视",CCTV15
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031109/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="CCTV15" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV15.png" group-title="🇨🇳央视",CCTV15
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010094/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="CCTV15" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV15.png" group-title="🇨🇳央视",CCTV15
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010094/index.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="CCTV15" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV15.png" group-title="🇨🇳央视",CCTV15
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226616/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV16" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV16.png" group-title="🇨🇳央视",CCTV16
+http://[2409:8087:5e00:24::10]:6060/200000001898/460000089800010142/$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV16" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV16.png" group-title="🇨🇳央视",CCTV16
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000006000233001/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="CCTV16" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV16.png" group-title="🇨🇳央视",CCTV16
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000006000233002/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="CCTV16" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV16.png" group-title="🇨🇳央视",CCTV16
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010142/index.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="CCTV16" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV16.png" group-title="🇨🇳央视",CCTV16
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010142/main.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV17" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV17.png" group-title="🇨🇳央视",CCTV17
+http://[2409:8087:5e00:24::11]:6060/200000001898/460000089800010210/$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV17" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV17.png" group-title="🇨🇳央视",CCTV17
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000056836/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="CCTV17" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV17.png" group-title="🇨🇳央视",CCTV17
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000006000268004/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="CCTV17" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV17.png" group-title="🇨🇳央视",CCTV17
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010210/1.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="CCTV17" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV17.png" group-title="🇨🇳央视",CCTV17
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010210/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/湖南卫视.png" group-title="📡卫视",湖南卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226307/index.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="湖南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/湖南卫视.png" group-title="📡卫视",湖南卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000009115/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="湖南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/湖南卫视.png" group-title="📡卫视",湖南卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000032695/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="湖南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/湖南卫视.png" group-title="📡卫视",湖南卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000006692/1.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="湖南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/湖南卫视.png" group-title="📡卫视",湖南卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000010000030452/1.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="湖南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/湖南卫视.png" group-title="📡卫视",湖南卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010058/index.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/浙江卫视.png" group-title="📡卫视",浙江卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226339/index.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="浙江卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/浙江卫视.png" group-title="📡卫视",浙江卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000009806/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="浙江卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/浙江卫视.png" group-title="📡卫视",浙江卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000007275/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="浙江卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/浙江卫视.png" group-title="📡卫视",浙江卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000010000017320/1.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="浙江卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/浙江卫视.png" group-title="📡卫视",浙江卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010070/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="浙江卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/浙江卫视.png" group-title="📡卫视",浙江卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002206/index.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="东方卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/东方卫视.png" group-title="📡卫视",东方卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226345/index.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="东方卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/东方卫视.png" group-title="📡卫视",东方卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000005866/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="东方卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/东方卫视.png" group-title="📡卫视",东方卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000030202/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="东方卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/东方卫视.png" group-title="📡卫视",东方卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000014098/1.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="东方卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/东方卫视.png" group-title="📡卫视",东方卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000010000032246/1.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="东方卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/东方卫视.png" group-title="📡卫视",东方卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010054/1.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="北京卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/北京卫视.png" group-title="📡卫视",北京卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226450/index.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="北京卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/北京卫视.png" group-title="📡卫视",北京卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000031556/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="北京卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/北京卫视.png" group-title="📡卫视",北京卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010143/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="北京卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/北京卫视.png" group-title="📡卫视",北京卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010143/index.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="北京卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/北京卫视.png" group-title="📡卫视",北京卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226161/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="北京卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/北京卫视.png" group-title="📡卫视",北京卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002145/index.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="江苏卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/江苏卫视.png" group-title="📡卫视",江苏卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226310/index.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="江苏卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/江苏卫视.png" group-title="📡卫视",江苏卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000001828/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="江苏卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/江苏卫视.png" group-title="📡卫视",江苏卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000004684/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="江苏卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/江苏卫视.png" group-title="📡卫视",江苏卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010059/index.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="江苏卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/江苏卫视.png" group-title="📡卫视",江苏卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010225/1.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="江苏卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/江苏卫视.png" group-title="📡卫视",江苏卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002137/index.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="安徽卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/安徽卫视.png" group-title="📡卫视",安徽卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226391/index.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="安徽卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/安徽卫视.png" group-title="📡卫视",安徽卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000020780/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="安徽卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/安徽卫视.png" group-title="📡卫视",安徽卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000030159/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="安徽卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/安徽卫视.png" group-title="📡卫视",安徽卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000023002/1.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="安徽卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/安徽卫视.png" group-title="📡卫视",安徽卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226205/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="安徽卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/安徽卫视.png" group-title="📡卫视",安徽卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002200/index.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="重庆卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/重庆卫视.png" group-title="📡卫视",重庆卫视
+http://[2409:8087:1a01:df::4051]:80/TVOD/88888888/224/3221225963/main.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="重庆卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/重庆卫视.png" group-title="📡卫视",重庆卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226409/index.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="重庆卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/重庆卫视.png" group-title="📡卫视",重庆卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000001096/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="重庆卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/重庆卫视.png" group-title="📡卫视",重庆卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000018937/1.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="重庆卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/重庆卫视.png" group-title="📡卫视",重庆卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000025797/1.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="重庆卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/重庆卫视.png" group-title="📡卫视",重庆卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226551/index.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="四川卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/四川卫视.png" group-title="📡卫视",四川卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226338/index.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="四川卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/四川卫视.png" group-title="📡卫视",四川卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000016825/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="四川卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/四川卫视.png" group-title="📡卫视",四川卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000006119/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="四川卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/四川卫视.png" group-title="📡卫视",四川卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010115/1.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="四川卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/四川卫视.png" group-title="📡卫视",四川卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010115/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="四川卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/四川卫视.png" group-title="📡卫视",四川卫视
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000025/index.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="东南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/东南卫视.png" group-title="📡卫视",东南卫视
+http://[2409:8087:1a01:df::4035]:80/TVOD/88888888/224/3221225950/main.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="东南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/东南卫视.png" group-title="📡卫视",东南卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226341/index.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="东南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/东南卫视.png" group-title="📡卫视",东南卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000009263/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="东南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/东南卫视.png" group-title="📡卫视",东南卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000010584/1.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="东南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/东南卫视.png" group-title="📡卫视",东南卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010096/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="东南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/东南卫视.png" group-title="📡卫视",东南卫视
+http://[2409:8087:74f0:22::4]:6610/270000001128/9900000519/index.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="深圳卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/深圳卫视.png" group-title="📡卫视",深圳卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226313/index.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="深圳卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/深圳卫视.png" group-title="📡卫视",深圳卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000011645/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="深圳卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/深圳卫视.png" group-title="📡卫视",深圳卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010068/$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="深圳卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/深圳卫视.png" group-title="📡卫视",深圳卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010068/1.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="深圳卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/深圳卫视.png" group-title="📡卫视",深圳卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010068/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="深圳卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/深圳卫视.png" group-title="📡卫视",深圳卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002140/index.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="广东卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/广东卫视.png" group-title="📡卫视",广东卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226248/index.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="广东卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/广东卫视.png" group-title="📡卫视",广东卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000014176/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="广东卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/广东卫视.png" group-title="📡卫视",广东卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000028357/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="广东卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/广东卫视.png" group-title="📡卫视",广东卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000014694/1.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="广东卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/广东卫视.png" group-title="📡卫视",广东卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226180/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="广东卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/广东卫视.png" group-title="📡卫视",广东卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002203/index.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="广西卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/广西卫视.png" group-title="📡卫视",广西卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226549/index.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="广西卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/广西卫视.png" group-title="📡卫视",广西卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000019837/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="广西卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/广西卫视.png" group-title="📡卫视",广西卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031118/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="广西卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/广西卫视.png" group-title="📡卫视",广西卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010099/1.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="广西卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/广西卫视.png" group-title="📡卫视",广西卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010099/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="广西卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/广西卫视.png" group-title="📡卫视",广西卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226452/index.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="厦门卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/厦门卫视.png" group-title="📡卫视",厦门卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000266006/1.m3u8$雷蒙影视•IPV4
+#EXTINF:-1 tvg-id="1" tvg-name="甘肃卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/甘肃卫视.png" group-title="📡卫视",甘肃卫视
+http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225633/index.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="甘肃卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/甘肃卫视.png" group-title="📡卫视",甘肃卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000017827/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="甘肃卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/甘肃卫视.png" group-title="📡卫视",甘肃卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031121/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="甘肃卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/甘肃卫视.png" group-title="📡卫视",甘肃卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010098/1.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="甘肃卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/甘肃卫视.png" group-title="📡卫视",甘肃卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226759/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="甘肃卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/甘肃卫视.png" group-title="📡卫视",甘肃卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002160/index.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="贵州卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/贵州卫视.png" group-title="📡卫视",贵州卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226474/index.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="贵州卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/贵州卫视.png" group-title="📡卫视",贵州卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000003169/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="贵州卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/贵州卫视.png" group-title="📡卫视",贵州卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010100/index.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="贵州卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/贵州卫视.png" group-title="📡卫视",贵州卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226547/index.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="贵州卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/贵州卫视.png" group-title="📡卫视",贵州卫视
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000036/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="贵州卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/贵州卫视.png" group-title="📡卫视",贵州卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002231/index.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="河北卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/河北卫视.png" group-title="📡卫视",河北卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226406/index.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="河北卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/河北卫视.png" group-title="📡卫视",河北卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000017118/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="河北卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/河北卫视.png" group-title="📡卫视",河北卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000006000040016/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="河北卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/河北卫视.png" group-title="📡卫视",河北卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226442/index.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="河北卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/河北卫视.png" group-title="📡卫视",河北卫视
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000057/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="河北卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/河北卫视.png" group-title="📡卫视",河北卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002229/index.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="河南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/河南卫视.png" group-title="📡卫视",河南卫视
+http://[2409:8087:1a01:df::4030]:80/TVOD/88888888/224/3221225988/main.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="河南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/河南卫视.png" group-title="📡卫视",河南卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226480/index.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="河南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/河南卫视.png" group-title="📡卫视",河南卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031119/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="河南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/河南卫视.png" group-title="📡卫视",河南卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226614/index.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="河南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/河南卫视.png" group-title="📡卫视",河南卫视
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000027/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="1" tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/黑龙江卫视.png" group-title="📡卫视",黑龙江卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226327/index.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/黑龙江卫视.png" group-title="📡卫视",黑龙江卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010056/$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/黑龙江卫视.png" group-title="📡卫视",黑龙江卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010056/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/黑龙江卫视.png" group-title="📡卫视",黑龙江卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010222/1.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/黑龙江卫视.png" group-title="📡卫视",黑龙江卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226142/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/黑龙江卫视.png" group-title="📡卫视",黑龙江卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002142/index.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="湖北卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/湖北卫视.png" group-title="📡卫视",湖北卫视
+http://[2409:8087:1a01:df::4030]:80/TVOD/88888888/224/3221225975/main.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="湖北卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/湖北卫视.png" group-title="📡卫视",湖北卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226477/index.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="湖北卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/湖北卫视.png" group-title="📡卫视",湖北卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000010355/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="湖北卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/湖北卫视.png" group-title="📡卫视",湖北卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000024621/1.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="湖北卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/湖北卫视.png" group-title="📡卫视",湖北卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000014954/1.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="湖北卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/湖北卫视.png" group-title="📡卫视",湖北卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010057/index.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="江西卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/江西卫视.png" group-title="📡卫视",江西卫视
+http://[2409:8087:1a01:df::4027]:80/TVOD/88888888/224/3221225935/main.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="江西卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/江西卫视.png" group-title="📡卫视",江西卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226344/index.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="江西卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/江西卫视.png" group-title="📡卫视",江西卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000013731/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="江西卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/江西卫视.png" group-title="📡卫视",江西卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000006000268001/1.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="江西卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/江西卫视.png" group-title="📡卫视",江西卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000011210/1.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="江西卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/江西卫视.png" group-title="📡卫视",江西卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226207/index.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="吉林卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/吉林卫视.png" group-title="📡卫视",吉林卫视
+http://[2409:8087:1a01:df::4051]:80/TVOD/88888888/224/3221225981/main.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="吉林卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/吉林卫视.png" group-title="📡卫视",吉林卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226397/index.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="吉林卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/吉林卫视.png" group-title="📡卫视",吉林卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031117/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="吉林卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/吉林卫视.png" group-title="📡卫视",吉林卫视
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000030/index.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="1" tvg-name="内蒙古卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/内蒙古卫视.png" group-title="📡卫视",内蒙古卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010109/1.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="内蒙古卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/内蒙古卫视.png" group-title="📡卫视",内蒙古卫视
+https://livestream-bt.nmtv.cn/nmtv/2314general.m3u8?txSecret=dc348a27bd36fe1bd63562af5e7269ea&txTime=771EF880$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="1" tvg-name="辽宁卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/辽宁卫视.png" group-title="📡卫视",辽宁卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226546/index.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="辽宁卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/辽宁卫视.png" group-title="📡卫视",辽宁卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000001945/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="辽宁卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/辽宁卫视.png" group-title="📡卫视",辽宁卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000024033/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="辽宁卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/辽宁卫视.png" group-title="📡卫视",辽宁卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000011671/1.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="辽宁卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/辽宁卫视.png" group-title="📡卫视",辽宁卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226209/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="辽宁卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/辽宁卫视.png" group-title="📡卫视",辽宁卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002201/index.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="宁夏卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/宁夏卫视.png" group-title="📡卫视",宁夏卫视
+http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/8/3221226454/index.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="宁夏卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/宁夏卫视.png" group-title="📡卫视",宁夏卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010110/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="1" tvg-name="青海卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/青海卫视.png" group-title="📡卫视",青海卫视
+http://[2409:8087:1a0b:df::4002]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225628/index.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="青海卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/青海卫视.png" group-title="📡卫视",青海卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000013359/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="青海卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/青海卫视.png" group-title="📡卫视",青海卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010111/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="青海卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/青海卫视.png" group-title="📡卫视",青海卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226545/index.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="青海卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/青海卫视.png" group-title="📡卫视",青海卫视
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000042/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="青海卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/青海卫视.png" group-title="📡卫视",青海卫视
+http://[2409:8087:74f0:22::5]:6410/270000001128/9900000042/index.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="山东卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/山东卫视.png" group-title="📡卫视",山东卫视
+http://[2409:8087:1a01:df::4027]:80/TVOD/88888888/224/3221225952/main.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="山东卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/山东卫视.png" group-title="📡卫视",山东卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226456/index.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="山东卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/山东卫视.png" group-title="📡卫视",山东卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000012807/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="山东卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/山东卫视.png" group-title="📡卫视",山东卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/7347081113971056899/1.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="山东卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/山东卫视.png" group-title="📡卫视",山东卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226162/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="山东卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/山东卫视.png" group-title="📡卫视",山东卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002202/index.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="天津卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/天津卫视.png" group-title="📡卫视",天津卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226459/index.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="天津卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/天津卫视.png" group-title="📡卫视",天津卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000000831/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="天津卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/天津卫视.png" group-title="📡卫视",天津卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000003475/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="天津卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/天津卫视.png" group-title="📡卫视",天津卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000001000030788/1.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="天津卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/天津卫视.png" group-title="📡卫视",天津卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000006827/1.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="天津卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/天津卫视.png" group-title="📡卫视",天津卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002205/index.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="海南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/海南卫视.png" group-title="📡卫视",海南卫视
+http://[2409:8087:1a01:df::4025]:80/TVOD/88888888/224/3221225978/main.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="海南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/海南卫视.png" group-title="📡卫视",海南卫视
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226465/index.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="海南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/海南卫视.png" group-title="📡卫视",海南卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/460000100000000075/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="海南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/海南卫视.png" group-title="📡卫视",海南卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000006211/index.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="海南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/海南卫视.png" group-title="📡卫视",海南卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226450/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="海南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/海南卫视.png" group-title="📡卫视",海南卫视
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000037/index.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="新疆卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/新疆卫视.png" group-title="📡卫视",新疆卫视
+http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225635/index.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="新疆卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/新疆卫视.png" group-title="📡卫视",新疆卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000029441/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="新疆卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/新疆卫视.png" group-title="📡卫视",新疆卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010116/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="新疆卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/新疆卫视.png" group-title="📡卫视",新疆卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010116/index.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="1" tvg-name="云南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/云南卫视.png" group-title="📡卫视",云南卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000024694/1.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="云南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/云南卫视.png" group-title="📡卫视",云南卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031120/$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="3" tvg-name="云南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/云南卫视.png" group-title="📡卫视",云南卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010119/1.m3u8$雷蒙影视•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="云南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/云南卫视.png" group-title="📡卫视",云南卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226549/index.m3u8$雷蒙影视•IPV4『线路4』
+#EXTINF:-1 tvg-id="5" tvg-name="云南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/云南卫视.png" group-title="📡卫视",云南卫视
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000035/index.m3u8$雷蒙影视•IPV4『线路5』
+#EXTINF:-1 tvg-id="6" tvg-name="云南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/云南卫视.png" group-title="📡卫视",云南卫视
+http://[2409:8087:74f0:22::7]:6410/270000001128/9900000035/index.m3u8$雷蒙影视•IPV4『线路6』
+#EXTINF:-1 tvg-id="1" tvg-name="西藏卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/西藏卫视.png" group-title="📡卫视",西藏卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/6603041244077933770/1.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="西藏卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/西藏卫视.png" group-title="📡卫视",西藏卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010123/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="1" tvg-name="兵团卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/兵团卫视.png" group-title="📡卫视",兵团卫视
+http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226439/index.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="兵团卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/兵团卫视.png" group-title="📡卫视",兵团卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000266005/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="1" tvg-name="安多卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/安多卫视.png" group-title="📡卫视",安多卫视
+http://[2409:8087:1a0b:df::4007]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225659/index.m3u8$雷蒙影视•IPV4
+#EXTINF:-1 tvg-id="1" tvg-name="康巴卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/康巴卫视.png" group-title="📡卫视",康巴卫视
+http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225660/index.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="康巴卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/康巴卫视.png" group-title="📡卫视",康巴卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000266002/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="1" tvg-name="三沙卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/三沙卫视.png" group-title="📡卫视",三沙卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/4600001000000000117/1.m3u8$雷蒙影视•IPV4
+#EXTINF:-1 tvg-id="1" tvg-name="延边卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/延边卫视.png" group-title="📡卫视",延边卫视
+http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226516/index.m3u8$雷蒙影视•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="延边卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/延边卫视.png" group-title="📡卫视",延边卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000266008/1.m3u8$雷蒙影视•IPV4『线路2』
+#EXTINF:-1 tvg-id="1" tvg-name="凤凰卫视中文台" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/凤凰卫视中文台.png" group-title="🇭🇰香港",凤凰卫视中文台
+http://58.144.154.93/qctv.fengshows.cn/live/0701pcc72.m3u8$雷蒙影视•IPV4
+#EXTINF:-1 tvg-id="1" tvg-name="凤凰卫视资讯台" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/凤凰卫视资讯台.png" group-title="🇭🇰香港",凤凰卫视资讯台
+http://58.144.154.93/qctv.fengshows.cn/live/0701pin72.m3u8$雷蒙影视•IPV4
+#EXTINF:-1 tvg-id="1" tvg-name="凤凰卫视香港台" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/凤凰卫视香港台.png" group-title="🇭🇰香港",凤凰卫视香港台
+http://58.144.154.93/qctv.fengshows.cn/live/0701phk72.m3u8$雷蒙影视•IPV4
