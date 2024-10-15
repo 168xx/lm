@@ -140,7 +140,7 @@ def updateChannelUrlsM3U(channels, template_channels):
     with open("live/litelive.m3u", "w", encoding="utf-8") as f_m3u:
         f_m3u.write(f"""#EXTM3U x-tvg-url={",".join(f'"{epg_url}"' for epg_url in litecon.epg_urls)}\n""")
 
-        with open("llive/itelive.txt", "w", encoding="utf-8") as f_txt:
+        with open("live/litelive.txt", "w", encoding="utf-8") as f_txt:
             for group in litecon.announcements:
                 f_txt.write(f"{group['channel']},#genre#\n")
                 for announcement in group['entries']:
