@@ -33,9 +33,9 @@ jobs:
         pip install requests
 
     - name: Run Python main script
-      run: python main.py
+      run: python py/main.py
     - name: Run Python litemain script
-      run: python litemain.py
+      run: python py/litemain.py
 
     - name: Commit and push if changed
       run: |
