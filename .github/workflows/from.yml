@@ -2,8 +2,9 @@ name: Remove URLs from tv.txt
   
 on:  
   push:  
-    branches:  
-      - main  # 根据需要更改分支名称  
+    paths:  
+      - 'tv.txt'  # 当txt文件发生变化时触发  
+  workflow_dispatch:  # 手动触发  
   
 jobs:  
   remove-urls:  
