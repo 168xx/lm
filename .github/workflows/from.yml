@@ -1,42 +1,39 @@
-name: Remove URLs and Save as tt.txt  
+ Remove URLs from File  
   
 on:  
   push:  
-    paths:  
-      - 'tv.txt'  # 只在这个文件发生变化时触发  
-  workflow_dispatch:  # 允许手动触发  
+    branches:  
+      - main  # 根据你的默认分支名称修改  
+  pull_request:  
+    branches:  
+      - main  # 根据你的默认分支名称修改  
   
 jobs:  
-  remove-urls-and-save:  
+  remove-urls:  
     runs-on: ubuntu-latest  
   
     steps:  
     - name: Checkout repository  
       uses: actions/checkout@v2  
   
-    - name: Remove URLs and save as tt.txt  
-      run: |  
-        # 使用 sed 命令处理 tv.txt，并将结果保存到临时文件 temp.txt  
-        sed 's|http[s?]://[^ ]*||g' tv.txt > temp.txt  
-          
-        # 检查 temp.txt 是否与 tv.txt 不同（避免在没有更改时覆盖原始文件）  
-        if cmp -s tv.txt temp.txt; then  
-          echo "No changes to save."  
-          # 如果没有更改，可以选择删除临时文件（可选）  
-          rm temp.txt  
-        else  
-          # 如果有更改，将临时文件重命名为 tt.txt  
-          mv temp.txt tt.txt  
-        fi  
+    - name: Set up Python  
+      uses: actions/setup-python@v2  
+      with:  
+        python-version: '3.x'  # 可以选择任意Python 3版本  
   
+    - name: Remove lines containing http:// or https://  
+      run: |  
+        #!/bin/bash  
+        # 使用grep -v命令去除包含http://或https://的行  
+        grep -Ev 'http://|https://' tv.txt > tt.txt  
+   
     - name: Commit changes  
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add -A
-        if ! git diff --staged --quiet; then
-          git commit -m "Auto-update live files"
-          git push
-        fi
-
-    env:
+      run: |  
+        #!/bin/bash  
+        git config --local user.email "your-email@example.com"  
+        git config --local user.name "your-username"  
+        git add tt.txt  
+        git commit -m "Remove lines containing http:// or https:// from tv.txt"  
+        git push  
+       env:  
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub自动提供的token，用于推送更改
