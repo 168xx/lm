@@ -22,7 +22,7 @@ jobs:
       - name: Remove URLs from tv.txt  
         run: |  
           # 使用 awk 处理文件，只保留逗号前的部分（频道名）  
-          awk -F, '{if ($2 !~ /^http:\/\// && $2 !~ /^https:\/\//) print $0; else print $1","#removed#"}' tv.txt | sed 's/,#removed#$//' > tt.txt  
+          awk -F, '{if ($2 ~ /^http:\/\// || $2 ~ /^https:\/\//) $2=""; print $1","$2}' tv.txt | sed 's/,,/\n/g;s/,$//' > tt.txt
      
       - name: Remove URLs more accurately  
         run: |  
