@@ -21,8 +21,23 @@ jobs:
   
       - name: Remove URLs from tv.txt  
         run: |  
-          # 使用 sed 命令删除包含 http:// 或 https:// 的行，并将结果保存到 tt.txt  
-          sed -n '/http:\/\/\|https:\/\//!p' tv.txt > tt.txt  
+          # 使用 awk 处理文件，只保留逗号前的部分（频道名）  
+          awk -F, '{if ($2 !~ /^http:\/\// && $2 !~ /^https:\/\//) print $0; else print $1","#removed#"}' tv.txt | sed 's/,#removed#$//' > tt.txt  
+     
+      - name: Remove URLs more accurately  
+        run: |  
+          awk -F, '{  
+            # 如果第二个字段是 URL，则只打印第一个字段（频道名）  
+            if ($2 ~ /^http:\/\// || $2 ~ /^https:\/\//) {  
+              print $1  
+              # 如果需要在频道名后添加逗号（或其他分隔符），请取消下面一行的注释  
+              # print $1","  
+            }  
+            # 如果第二个字段不是 URL，则打印整行  
+            else {  
+              print $0  
+            }  
+          }' tv.txt > tt_temp.txt && mv tt_temp.txt tt.txt  
   
       - name: Commit and push changes  
         run: |  
