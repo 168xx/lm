@@ -138,8 +138,8 @@ def updateChannelUrlsM3U(channels, template_channels):
             if announcement['name'] is None:  
                 announcement['name'] = current_date  
       
-    with open("lv/litelive.m3u", "w", encoding="utf-8") as f_m3u, \  
-         open("lv/litelive.txt", "w", encoding="utf-8") as f_txt:  
+      with (open("lv/litelive.m3u", "w", encoding="utf-8") as f_m3u,  
+          open("anotherfile.txt", "r", encoding="utf-8") as f_txt):  
           
         # 写入 M3U 文件的头部  
         epg_urls_str = ','.join(f'"{epg_url}"' for epg_url in litecon.epg_urls)  
