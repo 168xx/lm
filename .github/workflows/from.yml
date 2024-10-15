@@ -1,48 +1,36 @@
-name: RENAME M3U CONTENT
-
-on:
-  push:
-    paths:
-      - 'litelive.m3u'
-  workflow_dispatch:
-
-jobs:
-  run_script:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.10'
-
-    - name: Cache dependencies
-      uses: actions/cache@v2
-      with:
-        path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-pip-
-
-    - name: Install dependencies
-      run: |
-        pip install requests
-
-    - name: Run Python script
-      run: python py/rename.py
-
-    - name: Commit and push if changed
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add -A
-        if ! git diff --staged --quiet; then
-          git commit -m "已重命名播放链接"
-          git push
+name: Remove URLs from tv.txt  
+  
+on:  
+  push:  
+    paths:  
+      - 'tv.txt'  # 只在这个文件发生变化时触发  
+  workflow_dispatch:  # 允许手动触发  
+  
+jobs:  
+  remove-urls:  
+    runs-on: ubuntu-latest  
+  
+    steps:  
+    - name: Checkout repository  
+      uses: actions/checkout@v2  
+  
+    - name: Remove URLs from tv.txt  
+      run: |  
+        # 使用 sed 命令替换 'http://...' 或 'https://...' 为空字符串  
+        sed -i 's|http[s?]://[^ ]*||g' tv.txt  
+  
+    - name: Commit changes  
+      run: |  
+        # 获取当前日期时间作为提交信息的一部分  
+        commit_message="Updated tv.txt to remove URLs on $(date +'%Y-%m-%d %H:%M:%S')"  
+        # 检查文件是否有更改（避免在没有更改时提交空提交）  
+        if git diff --quiet --cached; then  
+          echo "No changes to commit."  
+        else  
+          # 添加修改到暂存区  
+          git add tv.txt  
+          # 提交修改  
+          git commit -m "$commit_message"  
+          # 推送到远程仓库  
+          git push  
         fi
-
-    env:
-      TZ: Asia/Shanghai
