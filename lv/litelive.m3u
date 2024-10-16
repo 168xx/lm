@@ -5473,26 +5473,60 @@ http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000013/index.m3u8?
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001016/index.m3u8?
 #EXTINF:-1 tvg-id="1" tvg-name="东方影视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/东方影视.png" group-title="电影频道",东方影视
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000013/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000013&IASHttpSessionId=OTT19019320240419154124000281$涛哥直播•IPV6『线路1』
-#EXTINF:-1 tvg-id="1" tvg-name="黑龙江影视" tvg-logo="default" group-title="电影频道",黑龙江影视
-http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226298/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="黑龙江影视" tvg-logo="default" group-title="电影频道",黑龙江影视
-http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226298/index.m3u8$移动V6
-#EXTINF:-1 tvg-id="1" tvg-name="黑龙江影视" tvg-logo="default" group-title="电影频道",黑龙江影视
-http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226365/index.m3u8$移动V6
-#EXTINF:-1 tvg-id="1" tvg-name="黑龙江影视" tvg-logo="default" group-title="电影频道",黑龙江影视
-http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225973/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="黑龙江影视" tvg-logo="default" group-title="电影频道",黑龙江影视
-http://[2409:8087:1a01:df::4051]/TVOD/88888888/224/3221225973/main.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="黑龙江影视" tvg-logo="default" group-title="电影频道",黑龙江影视
-http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226298/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="黑龙江影视" tvg-logo="default" group-title="电影频道",黑龙江影视
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226298/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="黑龙江影视" tvg-logo="default" group-title="电影频道",黑龙江影视
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226298/index.m3u8?
-#EXTINF:-1 tvg-id="1" tvg-name="黑龙江影视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/黑龙江影视.png" group-title="电影频道",黑龙江影视
-http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226365/index.m3u8$涛哥直播•IPV6『线路1』
-#EXTINF:-1 tvg-id="1" tvg-name="嘉兴文化影视" tvg-logo="default" group-title="电影频道",嘉兴文化影视
-http://[2409:8087:2801:22:100::75]/wh7f454c46tw1164986760_1595237598/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221233022/index.m3u8?icpid=88888888&RTS=1717816284&from=5&ocs=2_2409:8087:2801:20:100::4b_80&hms_devid=322&online=1717816284&vqe=3
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 哒啵赛事「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 哒啵赛事「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225675/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 黑莓动画「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 黑莓动画「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225662/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 黑莓电影「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 黑莓电影「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225743/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 超级电影「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 超级电影「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225717/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 超级电视剧「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 超级电视剧「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225716/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 超级体育「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 超级体育「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225715/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 超级综艺「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 超级综艺「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225714/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 金牌综艺「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 金牌综艺「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225666/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 东北热剧「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 东北热剧「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225741/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 古装剧场「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 古装剧场「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225663/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 欢乐剧场「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 欢乐剧场「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225742/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 怡伴健康「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 怡伴健康「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225673/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 潮妈辣婆「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 潮妈辣婆「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225685/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 军旅剧场「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 军旅剧场「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225676/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 军事评论「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 军事评论「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225668/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 中国功夫「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 中国功夫「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225681/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 农业致富「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 农业致富「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225683/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 动作电影「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 动作电影「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225661/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 家庭剧场「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 家庭剧场「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225677/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 惊悚悬疑「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 惊悚悬疑「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225665/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 武博世界「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 武博世界「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225680/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 炫舞未来「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 炫舞未来「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225719/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 爱情喜剧「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 爱情喜剧「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225669/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 精品萌宠「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 精品萌宠「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226505/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 精品体育「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 精品体育「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225674/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 精品大剧「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 精品大剧「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225670/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="NewTV 精品记录「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 精品记录「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225672/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="魅力足球" tvg-logo="default" group-title="体育频道",魅力足球
 http://[2409:8087:5e08:24::5]:6610/000000001000/5000000011000031207/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="魅力足球" tvg-logo="default" group-title="体育频道",魅力足球
@@ -5515,60 +5549,6 @@ http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000007/index.m3u8?
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001018/index.m3u8?
 #EXTINF:-1 tvg-id="1" tvg-name="五星体育" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/五星体育.png" group-title="体育频道",五星体育
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000007/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000007&IASHttpSessionId=OTT19019320240419154124000281$涛哥直播•IPV6『线路1』
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 哒啵赛事「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 哒啵赛事「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225675/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 黑莓动画「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 黑莓动画「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225662/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 黑莓电影「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 黑莓电影「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225743/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 超级电影「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 超级电影「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225717/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 超级电视剧「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 超级电视剧「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225716/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 超级体育「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 超级体育「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225715/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 超级综艺「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 超级综艺「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225714/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 金牌综艺「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 金牌综艺「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225666/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 东北热剧「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 东北热剧「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225741/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 古装剧场「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 古装剧场「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225663/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 欢乐剧场「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 欢乐剧场「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225742/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 怡伴健康「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 怡伴健康「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225673/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 潮妈辣婆「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 潮妈辣婆「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225685/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 军旅剧场「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 军旅剧场「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225676/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 军事评论「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 军事评论「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225668/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 中国功夫「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 中国功夫「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225681/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 农业致富「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 农业致富「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225683/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 动作电影「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 动作电影「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225661/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 家庭剧场「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 家庭剧场「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225677/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 惊悚悬疑「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 惊悚悬疑「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225665/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 武博世界「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 武博世界「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225680/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 炫舞未来「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 炫舞未来「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225719/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 爱情喜剧「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 爱情喜剧「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225669/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 精品萌宠「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 精品萌宠「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226505/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 精品体育「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 精品体育「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225674/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 精品大剧「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 精品大剧「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225670/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 精品记录「IPV6」" tvg-logo="default" group-title="NewTV",NewTV 精品记录「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225672/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="咪咕直播-1" tvg-logo="default" group-title="咪咕直播",咪咕直播-1
 http://[2409:8087:1a01:df::4023]/PLTV/88888888/224/3221225611/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="咪咕直播-3" tvg-logo="default" group-title="咪咕直播",咪咕直播-3
