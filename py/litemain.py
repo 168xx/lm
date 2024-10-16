@@ -144,33 +144,32 @@ def updateChannelUrlsM3U(channels, template_channels):
             for group in litecon.announcements:  
                 f_txt.write(f"{group['channel']},#genre#\n")  
                 for announcement in group['entries']:  
-                    f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{announcement['name']}" tvg-logo="{announcement['logo']}" group-title="{group['channel']}",{announcement['name']}\n""")  
-                    f_m3u.write(f"{announcement['url']}\n")  
-                    f_txt.write(f"{announcement['name']},{announcement['url']}\n")  
-                    # 将已写入的URL添加到集合中，以避免重复  
-                    written_urls.add(announcement['url'])  
+                    # 假设这里只处理IPv6，如果需要IPv6则写入，否则跳过  
+                    if is_ipv6(announcement['url']):  
+                        f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{announcement['name']}" tvg-logo="{announcement['logo']}" group-title="{group['channel']}",{announcement['name']}\n""")  
+                        f_m3u.write(f"{announcement['url']}\n")  
+                        f_txt.write(f"{announcement['name']},{announcement['url']}\n")  
+                        written_urls.add(announcement['url'])  # 记录已写入的IPv6 URL  
   
             for category, channel_list in template_channels.items():  
                 f_txt.write(f"{category},#genre#\n")  
                 if category in channels:  
                     for channel_name in channel_list:  
                         if channel_name in channels[category]:  
-                            # 去重逻辑  
-                            unique_urls = list(OrderedDict.fromkeys([url for _, url in channels[category][channel_name]]))  
-                            # 根据IP版本优先级排序  
-                            if litecon.ip_version_priority == "ipv6":  
-                                # 优先IPv6，然后是非IPv6  
-                                sorted_urls = sorted(unique_urls, key=lambda url: (not is_ipv6(url), url))  
-                            else:  
-                                # 优先非IPv6，然后是IPv6  
-                                sorted_urls = sorted(unique_urls, key=lambda url: (is_ipv6(url), url))  
-                              
-                            # 过滤掉已经在written_urls中的URL，以及黑名单中的URL  
-                            filtered_urls = [url for url in sorted_urls if url not in written_urls and not any(blacklist in url for blacklist in litecon.url_blacklist)]  
-                              
+                            # 去重逻辑，只保留IPv6地址  
+                            unique_ipv6_urls = [url for _, url in channels[category][channel_name] if is_ipv6(url)]  
+                            # 无需排序，因为只保留IPv6  
+                            filtered_urls = [url for url in unique_ipv6_urls if url not in written_urls and not any(blacklist in url for blacklist in litecon.url_blacklist)]  
+                            for url in filtered_urls:  
+                                f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{channel_name}" tvg-logo="default" group-title="{category}",{channel_name}\n""")  # 假设使用频道名作为显示名  
+                                f_m3u.write(f"{url}\n")  
+                                f_txt.write(f"{channel_name},{url}\n")  
+                                written_urls.add(url)  # 记录已写入的IPv6 URL  
+  
+                            # 保证数字连续
                             index = 1
                             for url in filtered_urls:
-                                url_suffix = f"$轩蓓直播•IPV6" if len(filtered_urls) == 1 else f"$轩蓓直播•IPV6『线路{index}』"
+                                url_suffix = f"$雷蒙影视•IPV4" if len(filtered_urls) == 1 else f"$雷蒙影视•IPV4『线路{index}』"
                                 if '$' in url:
                                     base_url = url.split('$', 1)[0]
                                 else:
