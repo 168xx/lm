@@ -5,8 +5,10 @@ source_urls = [
     "https://live.fanmingming.com/tv/m3u/ipv6.m3u", #ADDED BY LEM ON 08/10/2024
     "http://ww.zouming.com/ipv6.txt", #ADDED BY LEM ON 31/07/2024
     "https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.m3u", #ADDED BY LEM ON 15/10/2024
-    "https://4key.cn/FP", #ADDED BY LEM ON 01/08/2024
+    "https://4key.cn/FP", #ADDED BY LEM ON 16/10/2024
+    "https://raw.githubusercontent.com/Wirili/IPTV/refs/heads/main/live.m3u", #ADDED BY LEM ON 16/10/2024
     "https://raw.githubusercontent.com/pxiptv/live/main/iptv.txt", #ADDED BY LEM ON 08/08/2024
+    "https://raw.githubusercontent.com/kakaxi-1/IPTV/refs/heads/main/ipv6.m3u",
     "http://tv.850930.xyz/kdsb.m3u", #ADDED BY LEM ON 29/07/2024
     "http://tv.850930.xyz/kdsb2.m3u", #ADDED BY LEM ON 31/07/2024
     "http://tv.850930.xyz/kdsb.txt", #ADDED BY LEM ON 28/09/2024
