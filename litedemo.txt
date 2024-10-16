@@ -132,7 +132,7 @@ CETV-1
 CETV-2
 CETV-4
 
-IPv6少儿,#genre#
+少儿频道,#genre#
 黑莓动画
 卡酷少儿
 优漫卡通
