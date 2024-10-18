@@ -126,9 +126,6 @@ def filter_source_urls(template_file, correction_file):
     return matched_channels, template_channels
 
 def is_ipv4_with_domain(url):  
-    # 检查是否包含域名部分（非IP地址格式）并且后续可能跟着IPv4地址（但我们不强制验证整个URL的有效性）  
-    # 这里简化处理，只检查是否包含":"之前为字母数字字符（假设为域名部分），之后为IPv4地址格式（可选）  
-    # 注意：这个正则表达式不是完美的URL验证，但它对于我们的简单需求足够了  
     ipv4_pattern = r'\d{1,3}(\.\d{1,3}){3}'  # 简单的IPv4地址模式  
     domain_pattern = r'[a-zA-Z0-9-]+(?:\.[a-zA-Z]{2,})+'  # 简单的域名模式  
     return bool(re.match(rf'^https?:\/\/({domain_pattern})(?:\/|:({ipv4_pattern})(?::\d+)?)?\/?', url))  
