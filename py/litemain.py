@@ -125,13 +125,8 @@ def filter_source_urls(template_file, correction_file):
 
     return matched_channels, template_channels
 
-def is_ipv4_with_domain(url):  
-    # 检查是否包含域名部分（非IP地址格式）并且后续可能跟着IPv4地址（但我们不强制验证整个URL的有效性）  
-    # 这里简化处理，只检查是否包含":"之前为字母数字字符（假设为域名部分），之后为IPv4地址格式（可选）  
-    # 注意：这个正则表达式不是完美的URL验证，但它对于我们的简单需求足够了  
-    ipv4_pattern = r'\d{1,3}(\.\d{1,3}){3}'  # 简单的IPv4地址模式  
-    domain_pattern = r'[a-zA-Z0-9-]+(?:\.[a-zA-Z]{2,})+'  # 简单的域名模式  
-    return bool(re.match(rf'^https?:\/\/({domain_pattern})(?:\/|:({ipv4_pattern})(?::\d+)?)?\/?', url))  
+def is_ipv6(url):  
+    return re.match(r'^http:\/\/\[[0-9a-fA-F:]+\]', url) is not None  
   
 def updateChannelUrlsM3U(channels, template_channels):  
     written_urls = set()  
@@ -149,32 +144,32 @@ def updateChannelUrlsM3U(channels, template_channels):
             for group in litecon.announcements:  
                 f_txt.write(f"{group['channel']},#genre#\n")  
                 for announcement in group['entries']:  
-                    # 这里我们假设announcement['url']已经是处理过的、有效的URL  
-                    # 如果需要，可以在写入之前进行额外的验证  
-                    f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{announcement['name']}" tvg-logo="{announcement['logo']}" group-title="{group['channel']}",{announcement['name']}\n""")  
-                    f_m3u.write(f"{announcement['url']}\n")  
-                    f_txt.write(f"{announcement['name']},{announcement['url']}\n")  
+                    # 假设这里只处理IPv6，如果需要IPv6则写入，否则跳过  
+                    if is_ipv6(announcement['url']):  
+                        f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{announcement['name']}" tvg-logo="{announcement['logo']}" group-title="{group['channel']}",{announcement['name']}\n""")  
+                        f_m3u.write(f"{announcement['url']}\n")  
+                        f_txt.write(f"{announcement['name']},{announcement['url']}\n")  
+                        written_urls.add(announcement['url'])  # 记录已写入的IPv6 URL  
   
             for category, channel_list in template_channels.items():  
                 f_txt.write(f"{category},#genre#\n")  
                 if category in channels:  
                     for channel_name in channel_list:  
                         if channel_name in channels[category]:  
-                            # 去重逻辑  
-                            urls = [url for _, url in channels[category][channel_name]]  
-                            unique_urls = list(OrderedDict.fromkeys(urls))  
-                              
-                            # 过滤出带有域名网址的IPv4地址  
-                            filtered_urls = [url for url in unique_urls if is_ipv4_with_domain(url) and url not in written_urls and not any(blacklist in url for blacklist in litecon.url_blacklist)]  
-                              
-                            # 写入文件（如果需要排序，可以在这里添加排序逻辑，但根据需求，这里不排序）  
+                            # 去重逻辑，只保留IPv6地址  
+                            unique_ipv6_urls = [url for _, url in channels[category][channel_name] if is_ipv6(url)]  
+                            # 无需排序，因为只保留IPv6  
+                            filtered_urls = [url for url in unique_ipv6_urls if url not in written_urls and not any(blacklist in url for blacklist in litecon.url_blacklist)]  
                             for url in filtered_urls:  
-                                written_urls.add(url)  # 标记为已写入  
-   
+                                f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{channel_name}" tvg-logo="default" group-title="{category}",{channel_name}\n""")  # 假设使用频道名作为显示名  
+                                f_m3u.write(f"{url}\n")  
+                                f_txt.write(f"{channel_name},{url}\n")  
+                                written_urls.add(url)  # 记录已写入的IPv6 URL  
+  
                             # 保证数字连续
                             index = 1
                             for url in filtered_urls:
-                                url_suffix = f"$雷蒙影视•IPV4" if len(filtered_urls) == 1 else f"$雷蒙影视•IPV4『线路{index}』"
+                                url_suffix = f"$涛哥直播•IPV6" if len(filtered_urls) == 1 else f"$涛哥直播•IPV6『线路{index}』"
                                 if '$' in url:
                                     base_url = url.split('$', 1)[0]
                                 else:
