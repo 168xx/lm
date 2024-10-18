@@ -163,6 +163,7 @@ def updateChannelUrlsM3U(channels, template_channels):
                             filtered_urls = [url for url in unique_urls if is_ipv4_with_domain(url) and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist)]  
   
                             for url in filtered_urls:  
+                                written_urls.add(url)
 
                             # 保证数字连续
                             index = 1
