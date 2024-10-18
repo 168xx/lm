@@ -1,6 +1,8 @@
 ip_version_priority = "ipv4"
 
 source_urls = [
+    "http://dd.rihou.cc:555/gggg.nzk", #DD BY LEM ON 18/10/2024
+    "https://live.zbds.top/tv/iptv4.txt", #ZBDS BY LEM ON 18/10/2024
     "https://raw.githubusercontent.com/redrainl/iptv/main/speedtest/zubo_fofa.txt", #ADDED BY LEM ON 01/08/2024
     "https://raw.githubusercontent.com/pxiptv/live/main/iptv.txt", #ADDED BY LEM ON 08/08/2024
     "http://tv.850930.xyz/kdsb.m3u", #ADDED BY LEM ON 29/07/2024
