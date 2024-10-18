@@ -128,9 +128,22 @@ def filter_source_urls(template_file, correction_file):
 def is_ipv6(url):  
     return re.match(r'^http:\/\/\[[0-9a-fA-F:]+\]', url) is not None  
   
-def is_ipv4(url):  
-    # 简单的IPv4检查，假设URL以http://开头，后跟IPv4地址（数字加点的格式）  
-    return re.match(r'^http://(?:\d{1,3}\.){3}\d{1,3}', url) is not None  
+def is_pure_ipv4(url):  
+    # 检查是否匹配IPv4地址格式（忽略URL的其他部分）  
+    # 假设IPv4地址在URL中是直接跟在协议后面的，并且可能用方括号括起来（尽管不常见）  
+    ipv4_pattern = re.compile(r'(?<=http:\/\/|https:\/\/)(?:\[([0-9]{1,3}(?:\.[0-9]{1,3}){3})\]|([0-9]{1,3}(?:\.[0-9]{1,3}){3}))')  
+    match = ipv4_pattern.search(url)  
+    if match:  
+        # 提取匹配的IPv4地址，看是否整个URL仅包含这个地址  
+        ip_match = match.group(1) or match.group(2)  
+        # 简化处理：如果URL中仅包含这个IPv4地址（或加上端口），则认为它是纯IPv4地址  
+        # 注意：这个检查很粗略，因为它没有处理URL路径、查询参数等  
+        return re.fullmatch(rf'^{re.escape(url.split("://")[0])}://(?:\[{ip_match}\]|{ip_match})(?::\d+)?/?$', url) is not None  
+    return False  
+  
+def has_domain(url):  
+    # 简单的检查：如果URL不包含纯IPv4地址格式，并且包含'.'，则可能包含域名  
+    return not is_pure_ipv4(url) and '.' in url  
   
 def updateChannelUrlsM3U(channels, template_channels):  
     written_urls = set()  
@@ -148,27 +161,26 @@ def updateChannelUrlsM3U(channels, template_channels):
             for group in litecon.announcements:  
                 f_txt.write(f"{group['channel']},#genre#\n")  
                 for announcement in group['entries']:  
-                    # 假设这里我们只关心IPv4地址，所以直接跳过IPv6  
-                    if is_ipv4(announcement['url']):  
-                        f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{announcement['name']}" tvg-logo="{announcement['logo']}" group-title="{group['channel']}",{announcement['name']}\n""")  
-                        f_m3u.write(f"{announcement['url']}\n")  
-                        f_txt.write(f"{announcement['name']},{announcement['url']}\n")  
-                        written_urls.add(announcement['url'])  # 添加已写入的URL到集合中  
+                    # 这里我们仍然写入所有公告的URL，但后续我们会修改对channels的处理  
+                    f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{announcement['name']}" tvg-logo="{announcement['logo']}" group-title="{group['channel']}",{announcement['name']}\n""")  
+                    f_m3u.write(f"{announcement['url']}\n")  
+                    f_txt.write(f"{announcement['name']},{announcement['url']}\n")  
   
             for category, channel_list in template_channels.items():  
                 f_txt.write(f"{category},#genre#\n")  
                 if category in channels:  
                     for channel_name in channel_list:  
                         if channel_name in channels[category]:  
-                            # 去重逻辑，只保留IPv4地址  
-                            unique_urls = list(OrderedDict.fromkeys([url for _, url in channels[category][channel_name] if is_ipv4(url)]))  
-                            # 过滤逻辑，确保不在黑名单中且尚未写入  
-                            filtered_urls = [url for url in unique_urls if url not in written_urls and not any(blacklist in url for blacklist in litecon.url_blacklist)]  
-                            for url in filtered_urls:  
-                                f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{channel_name}" tvg-logo="" group-title="{category}",{channel_name}\n""")  
-                                f_m3u.write(f"{url}\n")  
-                                f_txt.write(f"{channel_name},{url}\n")  
-                                written_urls.add(url)  # 添加新写入的URL到集合中
+                            # 去重逻辑  
+                            unique_urls = list(OrderedDict.fromkeys([url for _, url in channels[category][channel_name]]))  
+                            # 只保留有域名的IPv4地址或IPv6地址（如果配置优先）  
+                            filtered_urls = [  
+                                url for url in unique_urls  
+                                if (has_domain(url) and not is_ipv6(url)) or (litecon.ip_version_priority == "ipv6" and is_ipv6(url))  
+                            ]  
+                            # 确保没有重复写入  
+                            filtered_urls = [url for url in filtered_urls if url not in written_urls and not any(blacklist in url for blacklist in litecon.url_blacklist)]  
+                            written_urls.update(filtered_urls)  # 更新已写入的URL集合  
 
                             # 保证数字连续
                             index = 1
