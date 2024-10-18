@@ -126,9 +126,22 @@ def filter_source_urls(template_file, correction_file):
     return matched_channels, template_channels
 
 def is_ipv4_with_domain(url):  
-    ipv4_pattern = r'\d{1,3}(\.\d{1,3}){3}'  # 简单的IPv4地址模式  
-    domain_pattern = r'[a-zA-Z0-9-]+(?:\.[a-zA-Z]{2,})+'  # 简单的域名模式  
-    return bool(re.match(rf'^https?:\/\/({domain_pattern})(?:\/|:({ipv4_pattern})(?::\d+)?)?\/?', url))  
+    # 完整的URL匹配模式，包括可选的http/https、域名、可选的端口、可选的路径等  
+    url_pattern = re.compile(  
+        r'^https?:\/\/'  # http或https协议  
+        r'(?:\w+(?:\.\w+)+)'  # 域名部分（一个或多个由点分隔的单词）  
+        r'(?::\d+)?'  # 可选的端口号  
+        r'(?:\/[^\s]*)?'  # 可选的路径部分（非空白字符）  
+        r'(?:\s*(?:\d{1,3}\.){3}\d{1,3})'  # 末尾包含IPv4地址（允许有空格分隔）  
+    )  
+    # 单独的IPv4地址模式（用于检查URL中是否包含IPv4地址）  
+    ipv4_pattern = re.compile(r'\b(?:\d{1,3}\.){3}\d{1,3}\b')  
+      
+    # 先检查整个URL是否符合模式，再检查URL中是否包含IPv4地址  
+    if url_pattern.match(url):  
+        if ipv4_pattern.search(url):  
+            return True  
+    return False  
   
 def updateChannelUrlsM3U(channels, template_channels):  
     written_urls = set()  
@@ -139,35 +152,36 @@ def updateChannelUrlsM3U(channels, template_channels):
             if announcement['name'] is None:  
                 announcement['name'] = current_date  
   
-    with open("lv/live.m3u", "w", encoding="utf-8") as f_m3u:  
-        f_m3u.write(f"""#EXTM3U x-tvg-url={",".join(f'"{epg_url}"' for epg_url in config.epg_urls)}\n""")  
+    with open("lv/live.m3u", "w", encoding="utf-8") as f_m3u, open("lv/live.txt", "w", encoding="utf-8") as f_txt:  
+        f_m3u.write(f"#EXTM3U x-tvg-url={','.join(f'\"{epg_url}\"' for epg_url in config.epg_urls)}\n")  
   
-        with open("lv/live.txt", "w", encoding="utf-8") as f_txt:  
-            for group in config.announcements:  
-                f_txt.write(f"{group['channel']},#genre#\n")  
-                for announcement in group['entries']:  
-                    # 这里我们假设announcement['url']已经是处理过的、有效的URL  
-                    # 如果需要，可以在写入之前进行额外的验证  
-                    f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{announcement['name']}" tvg-logo="{announcement['logo']}" group-title="{group['channel']}",{announcement['name']}\n""")  
-                    f_m3u.write(f"{announcement['url']}\n")  
-                    f_txt.write(f"{announcement['name']},{announcement['url']}\n")  
+        for group in config.announcements:  
+            f_txt.write(f"{group['channel']},#genre#\n")  
+            for announcement in group['entries']:  
+                # 假设announcement['url']已经是处理过的、有效的URL  
+                f_m3u.write(f"#EXTINF:-1 tvg-id=\"1\" tvg-name=\"{announcement['name']}\" tvg-logo=\"{announcement['logo']}\" group-title=\"{group['channel']}\",{announcement['name']}\n")  
+                f_m3u.write(f"{announcement['url']}\n")  
+                f_txt.write(f"{announcement['name']},{announcement['url']}\n")  
   
-            for category, channel_list in template_channels.items():  
-                f_txt.write(f"{category},#genre#\n")  
-                if category in channels:  
-                    for channel_name in channel_list:  
-                        if channel_name in channels[category]:  
-                            # 去重逻辑  
-                            urls = [url for _, url in channels[category][channel_name]]  
-                            unique_urls = list(OrderedDict.fromkeys(urls))  
-                              
-                            # 过滤出带有域名网址的IPv4地址  
-                            filtered_urls = [url for url in unique_urls if is_ipv4_with_domain(url) and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist)]  
-                              
-                            # 写入文件（如果需要排序，可以在这里添加排序逻辑，但根据需求，这里不排序）  
-                            for url in filtered_urls:  
-                                written_urls.add(url)  # 标记为已写入  
-   
+        for category, channel_list in template_channels.items():  
+            f_txt.write(f"{category},#genre#\n")  
+            if category in channels:  
+                for channel_name in channel_list:  
+                    if channel_name in channels[category]:  
+                        urls = [url for _, url in channels[category][channel_name]]  
+                        unique_urls = list(OrderedDict.fromkeys(urls))  
+  
+                        # 过滤出带有域名和IPv4地址的URL，并排除黑名单中的URL  
+                        filtered_urls = [  
+                            url for url in unique_urls   
+                            if is_ipv4_with_domain(url) and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist)  
+                        ]  
+  
+                        for url in filtered_urls:  
+                            f_m3u.write(f"#EXTINF:-1,{url}\n")  # 假设只需要写入URL本身作为流信息  
+                            f_m3u.write(f"{url}\n")  
+                            written_urls.add(url)  # 标记为已写入  
+ 
                             # 保证数字连续
                             index = 1
                             for url in filtered_urls:
