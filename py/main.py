@@ -185,7 +185,7 @@ def updateChannelUrlsM3U(channels, template_channels):
             f_txt.write("\n")
 
 if __name__ == "__main__":
-    template_file = "litedemo.txt"
+    template_file = "demo.txt"
     correction_file = "correction.txt"
     channels, template_channels = filter_source_urls(template_file, correction_file)
     updateChannelUrlsM3U(channels, template_channels)
