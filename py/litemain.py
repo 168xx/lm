@@ -125,25 +125,13 @@ def filter_source_urls(template_file, correction_file):
 
     return matched_channels, template_channels
 
-def is_ipv6(url):  
-    return re.match(r'^http:\/\/\[[0-9a-fA-F:]+\]', url) is not None  
-  
-def is_pure_ipv4(url):  
-    # 检查是否匹配IPv4地址格式（忽略URL的其他部分）  
-    # 假设IPv4地址在URL中是直接跟在协议后面的，并且可能用方括号括起来（尽管不常见）  
-    ipv4_pattern = re.compile(r'(?<=http:\/\/|https:\/\/)(?:\[([0-9]{1,3}(?:\.[0-9]{1,3}){3})\]|([0-9]{1,3}(?:\.[0-9]{1,3}){3}))')  
-    match = ipv4_pattern.search(url)  
-    if match:  
-        # 提取匹配的IPv4地址，看是否整个URL仅包含这个地址  
-        ip_match = match.group(1) or match.group(2)  
-        # 简化处理：如果URL中仅包含这个IPv4地址（或加上端口），则认为它是纯IPv4地址  
-        # 注意：这个检查很粗略，因为它没有处理URL路径、查询参数等  
-        return re.fullmatch(rf'^{re.escape(url.split("://")[0])}://(?:\[{ip_match}\]|{ip_match})(?::\d+)?/?$', url) is not None  
-    return False  
-  
-def has_domain(url):  
-    # 简单的检查：如果URL不包含纯IPv4地址格式，并且包含'.'，则可能包含域名  
-    return not is_pure_ipv4(url) and '.' in url  
+def is_ipv4_with_domain(url):  
+    # 检查是否包含域名部分（非IP地址格式）并且后续可能跟着IPv4地址（但我们不强制验证整个URL的有效性）  
+    # 这里简化处理，只检查是否包含":"之前为字母数字字符（假设为域名部分），之后为IPv4地址格式（可选）  
+    # 注意：这个正则表达式不是完美的URL验证，但它对于我们的简单需求足够了  
+    ipv4_pattern = r'\d{1,3}(\.\d{1,3}){3}'  # 简单的IPv4地址模式  
+    domain_pattern = r'[a-zA-Z0-9-]+(?:\.[a-zA-Z]{2,})+'  # 简单的域名模式  
+    return bool(re.match(rf'^https?:\/\/({domain_pattern})(?:\/|:({ipv4_pattern})(?::\d+)?)?\/?', url))  
   
 def updateChannelUrlsM3U(channels, template_channels):  
     written_urls = set()  
@@ -161,7 +149,8 @@ def updateChannelUrlsM3U(channels, template_channels):
             for group in litecon.announcements:  
                 f_txt.write(f"{group['channel']},#genre#\n")  
                 for announcement in group['entries']:  
-                    # 这里我们仍然写入所有公告的URL，但后续我们会修改对channels的处理  
+                    # 这里我们假设announcement['url']已经是处理过的、有效的URL  
+                    # 如果需要，可以在写入之前进行额外的验证  
                     f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{announcement['name']}" tvg-logo="{announcement['logo']}" group-title="{group['channel']}",{announcement['name']}\n""")  
                     f_m3u.write(f"{announcement['url']}\n")  
                     f_txt.write(f"{announcement['name']},{announcement['url']}\n")  
@@ -172,16 +161,16 @@ def updateChannelUrlsM3U(channels, template_channels):
                     for channel_name in channel_list:  
                         if channel_name in channels[category]:  
                             # 去重逻辑  
-                            unique_urls = list(OrderedDict.fromkeys([url for _, url in channels[category][channel_name]]))  
-                            # 只保留有域名的IPv4地址或IPv6地址（如果配置优先）  
-                            filtered_urls = [  
-                                url for url in unique_urls  
-                                if (has_domain(url) and not is_ipv6(url)) or (litecon.ip_version_priority == "ipv6" and is_ipv6(url))  
-                            ]  
-                            # 确保没有重复写入  
-                            filtered_urls = [url for url in filtered_urls if url not in written_urls and not any(blacklist in url for blacklist in litecon.url_blacklist)]  
-                            written_urls.update(filtered_urls)  # 更新已写入的URL集合  
-
+                            urls = [url for _, url in channels[category][channel_name]]  
+                            unique_urls = list(OrderedDict.fromkeys(urls))  
+                              
+                            # 过滤出带有域名网址的IPv4地址  
+                            filtered_urls = [url for url in unique_urls if is_ipv4_with_domain(url) and url not in written_urls and not any(blacklist in url for blacklist in litecon.url_blacklist)]  
+                              
+                            # 写入文件（如果需要排序，可以在这里添加排序逻辑，但根据需求，这里不排序）  
+                            for url in filtered_urls:  
+                                written_urls.add(url)  # 标记为已写入  
+   
                             # 保证数字连续
                             index = 1
                             for url in filtered_urls:
