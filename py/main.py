@@ -3,7 +3,7 @@ import requests
 import logging
 from collections import OrderedDict
 from datetime import datetime
-import litecon
+import config
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', handlers=[logging.FileHandler("function.log", "w", encoding="utf-8"), logging.StreamHandler()])
 
@@ -110,7 +110,7 @@ def match_channels(template_channels, all_channels):
 def filter_source_urls(template_file, correction_file):
     template_channels = parse_template(template_file)
     corrections = parse_corrections(correction_file)
-    source_urls = litecon.source_urls
+    source_urls = config.source_urls
 
     all_channels = OrderedDict()
     for url in source_urls:
@@ -134,16 +134,16 @@ def updateChannelUrlsM3U(channels, template_channels):
     written_urls = set()  
   
     current_date = datetime.now().strftime("%Y-%m-%d")  
-    for group in litecon.announcements:  
+    for group in config.announcements:  
         for announcement in group['entries']:  
             if announcement['name'] is None:  
                 announcement['name'] = current_date  
   
     with open("lv/live.m3u", "w", encoding="utf-8") as f_m3u:  
-        f_m3u.write(f"""#EXTM3U x-tvg-url={",".join(f'"{epg_url}"' for epg_url in litecon.epg_urls)}\n""")  
+        f_m3u.write(f"""#EXTM3U x-tvg-url={",".join(f'"{epg_url}"' for epg_url in config.epg_urls)}\n""")  
   
         with open("lv/live.txt", "w", encoding="utf-8") as f_txt:  
-            for group in litecon.announcements:  
+            for group in config.announcements:  
                 f_txt.write(f"{group['channel']},#genre#\n")  
                 for announcement in group['entries']:  
                     # 这里我们假设announcement['url']已经是处理过的、有效的URL  
@@ -162,7 +162,7 @@ def updateChannelUrlsM3U(channels, template_channels):
                             unique_urls = list(OrderedDict.fromkeys(urls))  
                               
                             # 过滤出带有域名网址的IPv4地址  
-                            filtered_urls = [url for url in unique_urls if is_ipv4_with_domain(url) and url not in written_urls and not any(blacklist in url for blacklist in litecon.url_blacklist)]  
+                            filtered_urls = [url for url in unique_urls if is_ipv4_with_domain(url) and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist)]  
                               
                             # 写入文件（如果需要排序，可以在这里添加排序逻辑，但根据需求，这里不排序）  
                             for url in filtered_urls:  
