@@ -4,7 +4,7 @@ source_urls = [
     "http://dd.rihou.cc:555/gggg.nzk", #DD BY LEM ON 18/10/2024
     "https://live.zbds.top/tv/iptv4.txt", #ZBDS BY LEM ON 18/10/2024
     "https://gongdian.top/tv/gongdian.txt", #Gongdian ipv4 ON 19/10/2024
-    "http://rihou.cc:567/gggg.nzk", #D ipv4 ON 19/10/2024
+    "https://gitee.com/lu-xiaoming-0168/lu/raw/%E5%B9%BF%E5%B7%9E%E5%8F%B0/%E7%94%B5%E8%A7%86%E7%9B%B4%E6%92%AD.png", #D ipv4 ON 19/10/2024
     "https://raw.githubusercontent.com/redrainl/iptv/main/speedtest/zubo_fofa.txt", #ADDED BY LEM ON 01/08/2024
     "https://raw.githubusercontent.com/pxiptv/live/main/iptv.txt", #ADDED BY LEM ON 08/08/2024
     "http://tv.850930.xyz/kdsb.m3u", #ADDED BY LEM ON 29/07/2024
