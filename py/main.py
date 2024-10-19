@@ -109,52 +109,61 @@ def is_valid_ipv4_with_domain(url):
     parsed_url = urllib.parse.urlparse(url)  
     # 检查是否是http或https协议，且netloc（域名部分）不为空  
     if parsed_url.scheme in ('http', 'https') and parsed_url.netloc:  
-        # 检查是否是纯IPv4地址（如果不是，则认为是有效的，可能包含域名）  
+        # 检查是否是IPv4地址（简化检查，只针对netloc部分）  
         ip_pattern = re.compile(r'^(?:\d{1,3}\.){3}\d{1,3}$')  
-        return not ip_pattern.match(parsed_url.hostname.split(':')[0])  # 考虑到IPv6的[]格式，这里确保只检查IPv4  
+        return not ip_pattern.match(parsed_url.hostname)  # 如果不是纯IP地址，则认为是有效的（包含域名）  
     return False  
   
 def updateChannelUrlsM3U(channels, template_channels):  
     written_urls = set()  
-    current_date = datetime.now().strftime("%Y-%m-%d")  
-      
-    with open("lv/live.m3u", "w", encoding="utf-8") as f_m3u, open("lv/live.txt", "w", encoding="utf-8") as f_txt:  
-        # 写入M3U头部  
-        f_m3u.write(f"#EXTM3U x-tvg-url={','.join(f'\"{epg_url}\"' for epg_url in config.epg_urls)}\n")  
-          
-        # 处理公告  
-        for group in config.announcements:  
-            for announcement in group['entries']:  
-                if announcement['name'] is None:  
-                    announcement['name'] = current_date  
-                if is_valid_ipv4_with_domain(announcement['url']):  
-                    write_m3u_entry(f_m3u, f_txt, announcement, group['channel'])  
-          
-        # 处理模板频道  
-        for category, channel_list in template_channels.items():  
-            f_txt.write(f"{category},#genre#\n")  
-            if category in channels:  
-                for channel_name in channel_list:  
-                    if channel_name in channels[category]:  
-                        valid_urls = [url for url in channels[category][channel_name] if is_valid_ipv4_with_domain(url)]  
-                        for index, url in enumerate(valid_urls, start=1):  
-                            if url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist):  
-                                write_m3u_entry(f_m3u, f_txt, {'url': url, 'name': channel_name}, category, index)  
-                                written_urls.add(url)  
-          
-        f_txt.write("\n")  
   
-def write_m3u_entry(f_m3u, f_txt, announcement, category, index=None):  
-    url_suffix = ""  
-    if index:  
-        url_suffix = f"$涛哥直播•IPV4『线路{index}』"  
-    base_url = announcement['url'].split('$', 1)[0] if '$' in announcement['url'] else announcement['url']  
-    new_url = f"{base_url}{url_suffix}"  
-      
-    f_m3u_line = f"#EXTINF:-1 tvg-id=\"{index if index else '1'}\" tvg-name=\"{announcement['name']}\" tvg-logo=\"https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/{announcement['name'].replace(' ', '_')}.png\" group-title=\"{category}\",{announcement['name']}"  
-    f_m3u.write(f"{f_m3u_line}\n")  
-    f_m3u.write(f"{new_url}\n")  
-    f_txt.write(f"{announcement['name']},{new_url}\n")  
+    current_date = datetime.now().strftime("%Y-%m-%d")  
+    for group in config.announcements:  
+        for announcement in group['entries']:  
+            if announcement['name'] is None:  
+                announcement['name'] = current_date  
+  
+    with open("lv/live.m3u", "w", encoding="utf-8") as f_m3u:  
+        f_m3u.write(f"""#EXTM3U x-tvg-url={",".join(f'"{epg_url}"' for epg_url in config.epg_urls)}\n""")  
+  
+        with open("lv/live.txt", "w", encoding="utf-8") as f_txt:  
+            for group in config.announcements:  
+                f_txt.write(f"{group['channel']},#genre#\n")  
+                for announcement in group['entries']:  
+                    if is_valid_ipv4_with_domain(announcement['url']):  # 只处理包含域名的IPv4地址  
+                        f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{announcement['name']}" tvg-logo="{announcement['logo']}" group-title="{group['channel']}",{announcement['name']}\n""")  
+                        f_m3u.write(f"{announcement['url']}\n")  
+                        f_txt.write(f"{announcement['name']},{announcement['url']}\n")  
+  
+            for category, channel_list in template_channels.items():  
+                f_txt.write(f"{category},#genre#\n")  
+                if category in channels:  
+                    for channel_name in channel_list:  
+                        if channel_name in channels[category]:  
+                            # 过滤和排序只包含域名的IPv4地址  
+                            valid_urls = [url for url in channels[category][channel_name] if is_valid_ipv4_with_domain(url)]  
+                            sorted_urls = sorted(valid_urls, key=lambda url: not is_ip(url) if config.ip_version_priority == "ipv6" else is_ip(url))  # 注意这里实际上不会用到ipv6的排序，因为我们已经过滤了  
+                            filtered_urls = []  
+                            for url in sorted_urls:  
+                                if url and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist):  
+                                    filtered_urls.append(url)  
+                                    written_urls.add(url)  
+  
+                            total_urls = len(filtered_urls)  
+                            for index, url in enumerate(filtered_urls, start=1):  
+                                url_suffix = f"$涛哥直播•IPV4" if total_urls == 1 else f"$涛哥直播•IPV4『线路{index}』"  
+                                if '$' in url:  
+                                    base_url = url.split('$', 1)[0]  
+                                else:  
+                                    base_url = url  
+  
+                                new_url = f"{base_url}{url_suffix}"  
+  
+                                f_m3u.write(f"#EXTINF:-1 tvg-id=\"{index}\" tvg-name=\"{channel_name}\" tvg-logo=\"https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/{channel_name}.png\" group-title=\"{category}\",{channel_name}\n")  
+                                f_m3u.write(new_url + "\n")  
+                                f_txt.write(f"{channel_name},{new_url}\n")  
+  
+            f_txt.write("\n")  
   
 # 假设 config 和 filter_source_urls 函数已经定义并可用  
 if __name__ == "__main__":  
