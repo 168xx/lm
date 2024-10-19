@@ -72,7 +72,7 @@ url_blacklist = [
 
 announcements = [
     {
-        "channel": "🤠涛哥直播",
+        "channel": "涛哥直播",
         "entries": [
             {"name":"影视直播","url":"http://ali.hlspull.yximgs.com/live/asdfg863678266.flv","logo":"https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON1.png"},
             {"name":"CrimeTV LIVE","url":"http://cfss.cc/cdn/hy/11342412.flv","logo":"https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON2.png"},
