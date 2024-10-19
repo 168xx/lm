@@ -3,6 +3,7 @@ import requests
 import logging
 from collections import OrderedDict
 from datetime import datetime
+import urllib.parse
 import config
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', handlers=[logging.FileHandler("function.log", "w", encoding="utf-8"), logging.StreamHandler()])
@@ -24,21 +25,7 @@ def parse_template(template_file):
 
     return template_channels
 
-def parse_corrections(correction_file):
-    corrections = {}
-
-    with open(correction_file, "r", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if line and not line.startswith("#"):
-                parts = line.split(",")
-                unified_name = parts[0].strip()
-                for alias in parts[1:]:
-                    corrections[alias.strip()] = unified_name
-
-    return corrections
-
-def fetch_channels(url, corrections):
+def fetch_channels(url):
     channels = OrderedDict()
 
     try:
@@ -59,7 +46,6 @@ def fetch_channels(url, corrections):
                     if match:
                         current_category = match.group(1).strip()
                         channel_name = match.group(2).strip()
-                        channel_name = corrections.get(channel_name, channel_name)
                         if current_category not in channels:
                             channels[current_category] = []
                 elif line and not line.startswith("#"):
@@ -77,12 +63,9 @@ def fetch_channels(url, corrections):
                     if match:
                         channel_name = match.group(1).strip()
                         channel_url = match.group(2).strip()
-                        channel_name = corrections.get(channel_name, channel_name)
                         channels[current_category].append((channel_name, channel_url))
                     elif line:
-                        channel_name = line.strip()
-                        channel_name = corrections.get(channel_name, channel_name)
-                        channels[current_category].append((channel_name, ''))
+                        channels[current_category].append((line, ''))
         if channels:
             categories = ", ".join(channels.keys())
             logging.info(f"url: {url} 爬取成功✅，包含频道分类: {categories}")
@@ -100,21 +83,17 @@ def match_channels(template_channels, all_channels):
             for online_category, online_channel_list in all_channels.items():
                 for online_channel_name, online_channel_url in online_channel_list:
                     if channel_name == online_channel_name:
-                        if channel_name not in matched_channels[category]:
-                            matched_channels[category][channel_name] = []
-                        if online_channel_url not in [url for _, url in matched_channels[category][channel_name]]:
-                            matched_channels[category][channel_name].append((online_channel_name, online_channel_url))
+                        matched_channels[category].setdefault(channel_name, []).append(online_channel_url)
 
     return matched_channels
 
-def filter_source_urls(template_file, correction_file):
+def filter_source_urls(template_file):
     template_channels = parse_template(template_file)
-    corrections = parse_corrections(correction_file)
     source_urls = config.source_urls
 
     all_channels = OrderedDict()
     for url in source_urls:
-        fetched_channels = fetch_channels(url, corrections)
+        fetched_channels = fetch_channels(url)
         for category, channel_list in fetched_channels.items():
             if category in all_channels:
                 all_channels[category].extend(channel_list)
@@ -125,10 +104,19 @@ def filter_source_urls(template_file, correction_file):
 
     return matched_channels, template_channels
 
-def is_ipv4_with_domain(url):  
-    # 匹配带域名的IPv4地址，例如 http://example.com/stream 或 http://192.168.1.1/stream 但不包括纯IPv4地址  
-    ipv4_pattern = r'^http:\/\/(?:\d{1,3}(?:\.\d{1,3}){3}|(?:[a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,})\/.*'  
-    return re.match(ipv4_pattern, url) and not re.match(r'^http:\/\/\[[0-9a-fA-F:]+\]', url)  # 确保不是IPv6  
+def is_ip(url):  
+    # 检查是否是IPv6地址  
+    return re.match(r'^http:\/\/\[[0-9a-fA-F:]+\]', url) is not None  
+  
+def is_valid_ipv4_with_domain(url):  
+    # 解析URL  
+    parsed_url = urllib.parse.urlparse(url)  
+    # 检查是否是http或https协议，且netloc（域名部分）不为空  
+    if parsed_url.scheme in ('http', 'https') and parsed_url.netloc:  
+        # 检查是否是IPv4地址（简化检查，只针对netloc部分）  
+        ip_pattern = re.compile(r'^(?:\d{1,3}\.){3}\d{1,3}$')  
+        return not ip_pattern.match(parsed_url.hostname)  # 如果不是纯IP地址，则认为是有效的（包含域名）  
+    return False  
   
 def updateChannelUrlsM3U(channels, template_channels):  
     written_urls = set()  
@@ -146,47 +134,43 @@ def updateChannelUrlsM3U(channels, template_channels):
             for group in config.announcements:  
                 f_txt.write(f"{group['channel']},#genre#\n")  
                 for announcement in group['entries']:  
-                    # 假设这里我们只关心带域名的IPv4地址，则跳过不符合条件的URL  
-                    if is_ipv4_with_domain(announcement['url']):  
+                    if is_valid_ipv4_with_domain(announcement['url']):  # 只处理包含域名的IPv4地址  
                         f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{announcement['name']}" tvg-logo="{announcement['logo']}" group-title="{group['channel']}",{announcement['name']}\n""")  
                         f_m3u.write(f"{announcement['url']}\n")  
                         f_txt.write(f"{announcement['name']},{announcement['url']}\n")  
-                        written_urls.add(announcement['url'])  # 添加已写入的URL到集合中以去重  
   
             for category, channel_list in template_channels.items():  
                 f_txt.write(f"{category},#genre#\n")  
                 if category in channels:  
                     for channel_name in channel_list:  
                         if channel_name in channels[category]:  
-                            # 去重逻辑，只保留带域名的IPv4地址  
-                            unique_urls = list(OrderedDict.fromkeys([url for _, url in channels[category][channel_name]]))  
-                            filtered_urls = [url for url in unique_urls if is_ipv4_with_domain(url) and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist)]  
+                            # 过滤和排序只包含域名的IPv4地址  
+                            valid_urls = [url for url in channels[category][channel_name] if is_valid_ipv4_with_domain(url)]  
+                            sorted_urls = sorted(valid_urls, key=lambda url: not is_ip(url) if config.ip_version_priority == "ipv6" else is_ip(url))  # 注意这里实际上不会用到ipv6的排序，因为我们已经过滤了  
+                            filtered_urls = []  
+                            for url in sorted_urls:  
+                                if url and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist):  
+                                    filtered_urls.append(url)  
+                                    written_urls.add(url)  
   
-                            for url in filtered_urls:  
-                                written_urls.add(url)
-
-                            # 保证数字连续
-                            index = 1
-                            for url in filtered_urls:
-                                url_suffix = f"$雷蒙影视•IPV4" if len(filtered_urls) == 1 else f"$雷蒙影视•IPV4『线路{index}』"
-                                if '$' in url:
-                                    base_url = url.split('$', 1)[0]
-                                else:
-                                    base_url = url
-
-                                new_url = f"{base_url}{url_suffix}"
-
-                                if base_url not in written_urls:
-                                    f_m3u.write(f"#EXTINF:-1 tvg-id=\"{index}\" tvg-name=\"{channel_name}\" tvg-logo=\"https://gitee.com/n3rddd/tvlogos/raw/main/logo/{channel_name}.png\" group-title=\"{category}\",{channel_name}\n")
-                                    f_m3u.write(new_url + "\n")
-                                    f_txt.write(f"{channel_name},{new_url}\n")
-                                    written_urls.add(base_url)
-                                    index += 1
-
-            f_txt.write("\n")
-
-if __name__ == "__main__":
-    template_file = "demo.txt"
-    correction_file = "correction.txt"
-    channels, template_channels = filter_source_urls(template_file, correction_file)
+                            total_urls = len(filtered_urls)  
+                            for index, url in enumerate(filtered_urls, start=1):  
+                                url_suffix = f"$涛哥直播•IPV4" if total_urls == 1 else f"$涛哥直播•IPV4『线路{index}』"  
+                                if '$' in url:  
+                                    base_url = url.split('$', 1)[0]  
+                                else:  
+                                    base_url = url  
+  
+                                new_url = f"{base_url}{url_suffix}"  
+  
+                                f_m3u.write(f"#EXTINF:-1 tvg-id=\"{index}\" tvg-name=\"{channel_name}\" tvg-logo=\"https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/{channel_name}.png\" group-title=\"{category}\",{channel_name}\n")  
+                                f_m3u.write(new_url + "\n")  
+                                f_txt.write(f"{channel_name},{new_url}\n")  
+  
+            f_txt.write("\n")  
+  
+# 假设 config 和 filter_source_urls 函数已经定义并可用  
+if __name__ == "__main__":  
+    template_file = "demo.txt"  
+    channels, template_channels = filter_source_urls(template_file)  
     updateChannelUrlsM3U(channels, template_channels)
