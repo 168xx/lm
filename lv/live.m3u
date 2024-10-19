@@ -1,11 +1,11 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml","http://epg.51zmt.top:8000/e.xml","http://epg.aptvapp.com/xml","https://epg.pw/xmltv/epg_CN.xml","https://epg.pw/xmltv/epg_HK.xml","https://epg.pw/xmltv/epg_TW.xml"
-#EXTINF:-1 tvg-id="1" tvg-name="影视直播" tvg-logo="https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON1.png" group-title="🤠涛哥直播",影视直播
+#EXTINF:-1 tvg-id="1" tvg-name="影视直播" tvg-logo="https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON1.png" group-title="涛哥直播",影视直播
 http://ali.hlspull.yximgs.com/live/asdfg863678266.flv
-#EXTINF:-1 tvg-id="1" tvg-name="CrimeTV LIVE" tvg-logo="https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON2.png" group-title="🤠涛哥直播",CrimeTV LIVE
+#EXTINF:-1 tvg-id="1" tvg-name="CrimeTV LIVE" tvg-logo="https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON2.png" group-title="涛哥直播",CrimeTV LIVE
 http://cfss.cc/cdn/hy/11342412.flv
-#EXTINF:-1 tvg-id="1" tvg-name="更新日期" tvg-logo="https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON3.png" group-title="🤠涛哥直播",更新日期
+#EXTINF:-1 tvg-id="1" tvg-name="更新日期" tvg-logo="https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON3.png" group-title="涛哥直播",更新日期
 http://cfss.cc/cdn/hy/11342427.flv
-#EXTINF:-1 tvg-id="1" tvg-name="2024-10-19" tvg-logo="https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON4.png" group-title="🤠涛哥直播",2024-10-19
+#EXTINF:-1 tvg-id="1" tvg-name="2024-10-19" tvg-logo="https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON4.png" group-title="涛哥直播",2024-10-19
 http://cfss.cc/cdn/hy/11352909.flv
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV-01频道" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/CCTV-01频道.png" group-title="央卫频道",CCTV-01频道
 http://beijinglive.online.domybox.com:91/live/CCTV1hd-8M/live.m3u8$涛哥直播•IPV4
