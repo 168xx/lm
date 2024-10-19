@@ -53,9 +53,9 @@ source_urls = [
 url_blacklist = [
     "epg.pw/stream/",
     "ottrrs.hl.chinamobile.com",
-    "stream1.freetv.fun",
     "/rtp/",
     "/udp/",
+    "stream1.freetv.fun",
     "103.40.13.71:12390",
     "2409:8087",
     "[2409:8087:1a01:df::4077]/PLTV/",
