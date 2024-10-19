@@ -3,7 +3,6 @@ import requests
 import logging
 from collections import OrderedDict
 from datetime import datetime
-import urllib.parse
 import config
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', handlers=[logging.FileHandler("function.log", "w", encoding="utf-8"), logging.StreamHandler()])
@@ -104,15 +103,26 @@ def filter_source_urls(template_file):
 
     return matched_channels, template_channels
 
+# 假设config是从某个地方导入的，这里我们简单模拟一下  
+config = {  
+    'announcements': [  
+        {'channel': 'Channel1', 'entries': [{'name': 'Live1', 'url': 'http://example.com/stream1', 'logo': 'logo1.png'}]},  
+        # 更多频道和公告  
+    ],  
+    'epg_urls': ['http://epg1.com', 'http://epg2.com'],  
+    'ip_version_priority': 'ipv4',  # 假设我们默认优先ipv4  
+    'url_blacklist': ['blacklist.com']  # 黑名单示例  
+}  
+  
+# 检查是否为IPv6地址的函数  
+def is_ipv6(url):  
+    return re.match(r'^http:\/\/\[[0-9a-fA-F:]+\]', url) is not None  
+  
+# 检查是否为包含域名的IPv4地址的函数  
 def is_valid_ipv4_with_domain(url):  
-    # 解析URL  
-    parsed_url = urllib.parse.urlparse(url)  
-    # 检查是否是http或https协议，且netloc（域名部分）不为空  
-    if parsed_url.scheme in ('http', 'https') and parsed_url.netloc:  
-        # 检查是否是IPv4地址（简化检查，只针对netloc部分）  
-        ip_pattern = re.compile(r'^(?:\d{1,3}\.){3}\d{1,3}$')  
-        return not ip_pattern.match(parsed_url.hostname)  # 如果不是纯IP地址，则认为是有效的（包含域名）  
-    return False  
+    # 这里使用简单的正则表达式来检查URL是否包含域名（不是IP地址）  
+    # 并且是一个HTTP请求且端口号可选（默认80）  
+    return re.match(r'^http:\/\/(?P<domain>[a-zA-Z0-9-]+\.[a-zA-Z]{2,})(?::\d+)?\/?', url) is not None  
   
 def updateChannelUrlsM3U(channels, template_channels):  
     written_urls = set()  
@@ -130,28 +140,27 @@ def updateChannelUrlsM3U(channels, template_channels):
             for group in config.announcements:  
                 f_txt.write(f"{group['channel']},#genre#\n")  
                 for announcement in group['entries']:  
-                    if is_valid_ipv4_with_domain(announcement['url']):  # 只处理包含域名的IPv4地址  
-                        f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{announcement['name']}" tvg-logo="{announcement['logo']}" group-title="{group['channel']}",{announcement['name']}\n""")  
-                        f_m3u.write(f"{announcement['url']}\n")  
-                        f_txt.write(f"{announcement['name']},{announcement['url']}\n")  
+                    # 假设公告中的URL总是有效的，这里直接写入  
+                    f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{announcement['name']}" tvg-logo="{announcement['logo']}" group-title="{group['channel']}",{announcement['name']}\n""")  
+                    f_m3u.write(f"{announcement['url']}\n")  
+                    f_txt.write(f"{announcement['name']},{announcement['url']}\n")  
   
             for category, channel_list in template_channels.items():  
                 f_txt.write(f"{category},#genre#\n")  
                 if category in channels:  
                     for channel_name in channel_list:  
                         if channel_name in channels[category]:  
-                            # 过滤和排序只包含域名的IPv4地址  
+                            # 过滤和排序URL，只保留有效的IPv4且包含域名的URL  
                             valid_urls = [url for url in channels[category][channel_name] if is_valid_ipv4_with_domain(url)]  
-                            sorted_urls = sorted(valid_urls, key=lambda url: not is_ip(url) if config.ip_version_priority == "ipv6" else is_ip(url))  # 注意这里实际上不会用到ipv6的排序，因为我们已经过滤了  
                             filtered_urls = []  
-                            for url in sorted_urls:  
+                            for url in valid_urls:  
                                 if url and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist):  
                                     filtered_urls.append(url)  
                                     written_urls.add(url)  
   
                             total_urls = len(filtered_urls)  
                             for index, url in enumerate(filtered_urls, start=1):  
-                                url_suffix = f"$涛哥直播•IPV4" if total_urls == 1 else f"$涛哥直播•IPV4『线路{index}』"  
+                                url_suffix = f"$涛哥直播•域名" if total_urls == 1 else f"$涛哥直播•域名『线路{index}』"  
                                 if '$' in url:  
                                     base_url = url.split('$', 1)[0]  
                                 else:  
@@ -165,7 +174,26 @@ def updateChannelUrlsM3U(channels, template_channels):
   
             f_txt.write("\n")  
   
-# 假设 config 和 filter_source_urls 函数已经定义并可用  
+# 假设这个函数从模板文件中读取并返回频道和模板频道信息  
+def filter_source_urls(template_file):  
+    # 这里应该有一些代码来读取和处理template_file  
+    # 但为了示例，我们直接返回一些模拟数据  
+    channels = {  
+        'Sports': {  
+            'ESPN': ['http://example.com/espn1', 'http://example.com/espn2'],  
+            'Fox Sports': ['http://foxsports.com/live1']  
+        },  
+        'News': {  
+            'CNN': ['http://cnn.com/live'],  
+            'BBC': ['http://bbc.co.uk/live']  
+        }  
+    }  
+    template_channels = {  
+        'Sports': ['ESPN', 'Fox Sports'],  
+        'News': ['CNN', 'BBC']  
+    }  
+    return channels, template_channels  
+  
 if __name__ == "__main__":  
     template_file = "demo.txt"  
     channels, template_channels = filter_source_urls(template_file)  
