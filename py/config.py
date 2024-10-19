@@ -52,7 +52,9 @@ source_urls = [
 
 url_blacklist = [
     "epg.pw/stream/",
+    "ottrrs.hl.chinamobile.com",
     "103.40.13.71:12390",
+    "2409:8087",
     "[2409:8087:1a01:df::4077]/PLTV/",
     "8.210.140.75:68",
     "154.12.50.54",
@@ -70,7 +72,7 @@ url_blacklist = [
 
 announcements = [
     {
-        "channel": "🤠电视直播",
+        "channel": "🤠涛哥直播",
         "entries": [
             {"name":"影视直播","url":"http://ali.hlspull.yximgs.com/live/asdfg863678266.flv","logo":"https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON1.png"},
             {"name":"CrimeTV LIVE","url":"http://cfss.cc/cdn/hy/11342412.flv","logo":"https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON2.png"},
