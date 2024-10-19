@@ -103,41 +103,45 @@ def filter_source_urls(template_file):
 
     return matched_channels, template_channels
 
-def is_ipv4_domain(url):   
-    host = urllib.parse.urlparse(url).hostname  
-    if host and not re.match(r'^\d+(\.\d+){3}$', host):  # 排除直接的IPv4地址  
-        try:  
-            parts = host.split('.')  
-            if len(parts) == 4 and all(p.isdigit() and 0 <= int(p) <= 255 for p in parts):    
-                pass  
-            else:  
-                return True  
-        except:  
-            return True  
-    return False  
+import re  
+import datetime  
+# 假设 config 和其他必要的配置已经定义  
   
-# 原始的IPv6检查函数  
 def is_ipv6(url):  
+    # 保留原函数，用于可能的IPv6检测  
     return re.match(r'^http:\/\/\[[0-9a-fA-F:]+\]', url) is not None  
   
-# 更新函数  
+def is_ipv4_domain(url):  
+    # 检查URL是否不是IPv6，并且不包含直接的IPv4地址（仅域名形式）  
+    if is_ipv6(url):  
+        return False  
+    # 简单的检查，确保URL不包含直接的IPv4地址（这里假设路径中不包含IP）  
+    # 这是一个非常简化的检查，实际中可能需要更复杂的逻辑来确定URL是否仅包含域名  
+    ipv4_pattern = re.compile(r'\d{1,3}(\.\d{1,3}){3}')  # 简单的IPv4地址模式  
+    if ipv4_pattern.search(url.split('//', 1)[-1].split('/', 1)[0]):  # 忽略协议部分和路径部分  
+        # 进一步检查是否直接是一个IP地址（这里我们假设不是，因为我们想要域名形式）  
+        # 但由于我们仅通过格式检查，这里简单返回False（因为我们不期望它匹配直接的IPv4）  
+        return False  
+    # 如果URL不包含直接的IPv4或IPv6地址，我们假设它是域名形式（这里是一个简化的假设）  
+    return True  
+  
 def updateChannelUrlsM3U(channels, template_channels):  
     written_urls = set()  
   
-    current_date = datetime.now().strftime("%Y-%m-%d")  
+    current_date = datetime.datetime.now().strftime("%Y-%m-%d")  
     for group in config.announcements:  
         for announcement in group['entries']:  
             if announcement['name'] is None:  
                 announcement['name'] = current_date  
   
     with open("lv/live.m3u", "w", encoding="utf-8") as f_m3u:  
-        f_m3u.write(f"""#EXTM3U x-tvg-url={",".join(f'"{epg_url}"' for epg_url in config.epg_urls)}\n""")  
+        f_m3u.write(f"#EXTM3U x-tvg-url={','.join(f'\"{epg_url}\"' for epg_url in config.epg_urls)}\n")  
   
         with open("lv/live.txt", "w", encoding="utf-8") as f_txt:  
             for group in config.announcements:  
                 f_txt.write(f"{group['channel']},#genre#\n")  
                 for announcement in group['entries']:  
-                    f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{announcement['name']}" tvg-logo="{announcement['logo']}" group-title="{group['channel']}",{announcement['name']}\n""")  
+                    f_m3u.write(f"#EXTINF:-1 tvg-id=\"1\" tvg-name=\"{announcement['name']}\" tvg-logo=\"{announcement['logo']}\" group-title=\"{group['channel']}\",{announcement['name']}\n")  
                     f_m3u.write(f"{announcement['url']}\n")  
                     f_txt.write(f"{announcement['name']},{announcement['url']}\n")  
   
@@ -146,12 +150,16 @@ def updateChannelUrlsM3U(channels, template_channels):
                 if category in channels:  
                     for channel_name in channel_list:  
                         if channel_name in channels[category]:  
-                            # 根据配置决定优先保留IPv4还是IPv6，但在这里我们只保留IPv4域名地址  
-                            sorted_urls = sorted(channels[category][channel_name], key=lambda url: not is_ipv4_domain(url))  
-                            # 过滤掉已经在列表中写过的URL和黑名单中的URL  
-                            filtered_urls = [url for url in sorted_urls if url and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist)]  
+                            # 只保留域名形式的IPv4地址  
+                            filtered_urls = []  
+                            for url in channels[category][channel_name]:  
+                                if url and url not in written_urls and is_ipv4_domain(url) and not any(blacklist in url for blacklist in config.url_blacklist):  
+                                    filtered_urls.append(url)  
+                                    written_urls.add(url)  
+                            # 这里不再需要排序，因为我们已经筛选出了需要的URL  
                             for url in filtered_urls:  
-                                written_urls.add(url)  
+                                # 可以在这里添加处理每个有效URL的逻辑，如果需要的话  
+                                pass
 
                             total_urls = len(filtered_urls)
                             for index, url in enumerate(filtered_urls, start=1):
