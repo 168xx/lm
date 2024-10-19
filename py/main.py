@@ -103,26 +103,24 @@ def filter_source_urls(template_file):
 
     return matched_channels, template_channels
 
+def is_ipv4_domain(url):   
+    host = urllib.parse.urlparse(url).hostname  
+    if host and not re.match(r'^\d+(\.\d+){3}$', host):  # 排除直接的IPv4地址  
+        try:  
+            parts = host.split('.')  
+            if len(parts) == 4 and all(p.isdigit() and 0 <= int(p) <= 255 for p in parts):    
+                pass  
+            else:  
+                return True  
+        except:  
+            return True  
+    return False  
+  
+# 原始的IPv6检查函数  
 def is_ipv6(url):  
     return re.match(r'^http:\/\/\[[0-9a-fA-F:]+\]', url) is not None  
   
-def is_ipv4(url):  
-    # IPv4 regex pattern  
-    ipv4_pattern = re.compile(r'^http:\/\/\d{1,3}(\.\d{1,3}){3}')  
-    return ipv4_pattern.match(url) is not None  
-  
-def is_domain(url):  
-    # Check if URL starts with http:// or https:// and is not an IP address  
-    if not (url.startswith('http://') or url.startswith('https://')):  
-        return False  
-    # Simplistic check to see if it's not an IP address (doesn't start with a number)  
-    if re.match(r'^https?:\/\/[a-zA-Z]', url):  
-        return True  
-    return False  
-  
-def is_ipv4_or_domain(url):  
-    return is_ipv4(url) and not re.match(r'^https?:\/\/\d{1,3}(\.\d{1,3}){3}', url) or is_domain(url)  
-  
+# 更新函数  
 def updateChannelUrlsM3U(channels, template_channels):  
     written_urls = set()  
   
@@ -139,31 +137,21 @@ def updateChannelUrlsM3U(channels, template_channels):
             for group in config.announcements:  
                 f_txt.write(f"{group['channel']},#genre#\n")  
                 for announcement in group['entries']:  
-                    # Here we should check if the URL is a valid domain or IPv4 (excluding direct IPv4)  
-                    if is_ipv4_or_domain(announcement['url']):  
-                        domain_url = re.sub(r'^https?:\/\/\d{1,3}(\.\d{1,3}){3}', '', announcement['url'])  
-                        domain_url = re.sub(r'^https?:\/\/', '', domain_url)  # Just in case there's still a protocol prefix  
-                        f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{announcement['name']}" tvg-logo="{announcement['logo']}" group-title="{group['channel']}",{announcement['name']}\n""")  
-                        f_m3u.write(f"{domain_url}\n")  # Use domain_url instead of announcement['url']  
-                        f_txt.write(f"{announcement['name']},{domain_url}\n")  
+                    f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{announcement['name']}" tvg-logo="{announcement['logo']}" group-title="{group['channel']}",{announcement['name']}\n""")  
+                    f_m3u.write(f"{announcement['url']}\n")  
+                    f_txt.write(f"{announcement['name']},{announcement['url']}\n")  
   
             for category, channel_list in template_channels.items():  
                 f_txt.write(f"{category},#genre#\n")  
                 if category in channels:  
                     for channel_name in channel_list:  
                         if channel_name in channels[category]:  
-                            # Filter URLs based on domain/IPv4 (excluding direct IPv4)  
-                            filtered_urls = [  
-                                url for url in channels[category][channel_name]  
-                                if is_ipv4_or_domain(url) and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist)  
-                            ]  
+                            # 根据配置决定优先保留IPv4还是IPv6，但在这里我们只保留IPv4域名地址  
+                            sorted_urls = sorted(channels[category][channel_name], key=lambda url: not is_ipv4_domain(url))  
+                            # 过滤掉已经在列表中写过的URL和黑名单中的URL  
+                            filtered_urls = [url for url in sorted_urls if url and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist)]  
                             for url in filtered_urls:  
-                                domain_url = re.sub(r'^https?:\/\/\d{1,3}(\.\d{1,3}){3}', '', url)  
-                                domain_url = re.sub(r'^https?:\/\/', '', domain_url)  # Just in case there's still a protocol prefix  
-                                written_urls.add(domain_url)  
-                                # Write the domain URL to the files  
-                                f_m3u.write(f"#EXTINF:-1,Channel Name\n{domain_url}\n")  # You might want to customize "Channel Name"  
-                                f_txt.write(f"Some Name,{domain_url}\n")  # You might want to customize "Some Name"  
+                                written_urls.add(url)  
 
                             total_urls = len(filtered_urls)
                             for index, url in enumerate(filtered_urls, start=1):
