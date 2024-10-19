@@ -115,10 +115,10 @@ def is_domain_ipv4(url):
     if '[' in rest:  # IPv6地址以[开头  
         return False  
     # 简单的检查，看是否有非数字字符（除了.和可能的端口号前的:）  
-    if re.match(r'^([a-zA-Z\-]+\.)+[a-zA-Z]{2,}(:\d+)?(/.*)?$', rest.split('/')[0]):  
+    # if re.match(r'^([a-zA-Z\-]+\.)+[a-zA-Z]{2,}(:\d+)?(/.*)?$', rest.split('/')[0]):  
         return True  
     # 更严格的IPv4检查（可选）  
-    # if re.match(r'^(?:\d{1,3}\.){3}\d{1,3}(:\d+)?$', rest.split('/')[0]):  
+    if re.match(r'^(?:\d{1,3}\.){3}\d{1,3}(:\d+)?$', rest.split('/')[0]):  
     #     return False  # 纯IPv4地址，不包含域名  
     # 但由于我们想要的是包含域名的，所以上面的检查已经足够  
     return False  # 如果上面的简单检查失败，则假定它不是域名IPv4  
