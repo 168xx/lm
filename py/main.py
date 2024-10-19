@@ -115,7 +115,7 @@ def is_domain_ipv4(url):
     if '[' in rest:  # IPv6地址以[开头  
         return False  
     # 简单的检查，看是否有非数字字符（除了.和可能的端口号前的:）  
-    # if re.match(r'^([a-zA-Z\-]+\.)+[a-zA-Z]{2,}(:\d+)?(/.*)?$', rest.split('/')[0]):  
+    if re.match(r'^([a-zA-Z\-]+\.)+[a-zA-Z]{2,}(:\d+)?(/.*)?$', rest.split('/')[0]):  
         return True  
     # 更严格的IPv4检查（可选）  
     if re.match(r'^(?:\d{1,3}\.){3}\d{1,3}(:\d+)?$', rest.split('/')[0]):  
