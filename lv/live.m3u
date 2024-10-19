@@ -5140,9 +5140,9 @@ http://gslbservzqhsw.itv.cmvideo.cn/1.m3u8?channel-id=ystenlive&Contentid=100000
 #EXTINF:-1 tvg-id="9" tvg-name="延边卫视" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/延边卫视.png" group-title="全国卫视",延边卫视
 http://tvbox6.com/tv/bfgd.php?id=117$涛哥『线路9』
 #EXTINF:-1 tvg-id="10" tvg-name="延边卫视" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/延边卫视.png" group-title="全国卫视",延边卫视
-http://live.ybtvyun.com/video/s10016-6f0dfd97912f/index.m3u8?zjild$涛哥『线路10』
+https://live.ybtvyun.com/video/s10006-2f92b9e0b123/index.m3u8$涛哥『线路10』
 #EXTINF:-1 tvg-id="11" tvg-name="延边卫视" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/延边卫视.png" group-title="全国卫视",延边卫视
-https://live.ybtvyun.com/video/s10006-2f92b9e0b123/index.m3u8$涛哥『线路11』
+http://live.ybtvyun.com/video/s10016-6f0dfd97912f/index.m3u8?zjild$涛哥『线路11』
 #EXTINF:-1 tvg-id="1" tvg-name="康巴卫视" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/康巴卫视.png" group-title="全国卫视",康巴卫视
 http://gslbservzqhsw.itv.cmvideo.cn/1.m3u8?channel-id=ystenlive&Contentid=1000000005000266002&livemode=1&stbId=3$涛哥『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="康巴卫视" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/康巴卫视.png" group-title="全国卫视",康巴卫视
@@ -5994,13 +5994,11 @@ http://13457610200.8866.org:2018/live/粤语节目/index.m3u8$涛哥『线路7�
 #EXTINF:-1 tvg-id="8" tvg-name="广东珠江" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/广东珠江.png" group-title="数字电视",广东珠江
 http://13457610200.8866.org:2018/live/有线娱乐HD/index.m3u8$涛哥『线路8』
 #EXTINF:-1 tvg-id="9" tvg-name="广东珠江" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/广东珠江.png" group-title="数字电视",广东珠江
-http://www.zzlag.top:9003/hls/31/index.m3u8$涛哥『线路9』
+http://php.jdshipin.com:8880/chudian.php?id=gdzj$涛哥『线路9』
 #EXTINF:-1 tvg-id="10" tvg-name="广东珠江" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/广东珠江.png" group-title="数字电视",广东珠江
-http://php.jdshipin.com:8880/chudian.php?id=gdzj$涛哥『线路10』
+http://gmxw.7766.org:808/hls/83/index.m3u8$涛哥『线路10』
 #EXTINF:-1 tvg-id="11" tvg-name="广东珠江" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/广东珠江.png" group-title="数字电视",广东珠江
-http://gmxw.7766.org:808/hls/83/index.m3u8$涛哥『线路11』
-#EXTINF:-1 tvg-id="12" tvg-name="广东珠江" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/广东珠江.png" group-title="数字电视",广东珠江
-http://r.jdshipin.com/sE5vO$涛哥『线路12』
+http://r.jdshipin.com/sE5vO$涛哥『线路11』
 #EXTINF:-1 tvg-id="1" tvg-name="百事通直播1" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/百事通直播1.png" group-title="数字电视",百事通直播1
 http://gslbservzqhsw.itv.cmvideo.cn/000000001000/5000000001000001116/index.m3u8?channel-id=bestzb&livemode=1&stbId=10&Contentid=5000000001000001116$涛哥
 #EXTINF:-1 tvg-id="1" tvg-name="睛彩竞技" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/睛彩竞技.png" group-title="数字电视",睛彩竞技
@@ -8856,11 +8854,9 @@ http://tvbox6.com/tv/mgtv.php?id=221$涛哥『线路5』
 #EXTINF:-1 tvg-id="6" tvg-name="湖南电影" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/湖南电影.png" group-title="电影频道",湖南电影
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/Meroser/mgtv/main/m3u8/hn04.m3u8$涛哥『线路6』
 #EXTINF:-1 tvg-id="7" tvg-name="湖南电影" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/湖南电影.png" group-title="电影频道",湖南电影
-http://php.jdshipin.com:8880/iptv.php?id=hndy$涛哥『线路7』
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=hndy$涛哥『线路7』
 #EXTINF:-1 tvg-id="8" tvg-name="湖南电影" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/湖南电影.png" group-title="电影频道",湖南电影
-http://php.jdshipin.com:8880/TVOD/iptv.php?id=hndy$涛哥『线路8』
-#EXTINF:-1 tvg-id="9" tvg-name="湖南电影" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/湖南电影.png" group-title="电影频道",湖南电影
-http://php.jdshipin.com:8880/itv6.php?cid=hnbblive&id=7884242846753128038$涛哥『线路9』
+http://php.jdshipin.com:8880/itv6.php?cid=hnbblive&id=7884242846753128038$涛哥『线路8』
 #EXTINF:-1 tvg-id="1" tvg-name="辽宁影视剧" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/辽宁影视剧.png" group-title="电影频道",辽宁影视剧
 http://tvbox6.com/tv/bfgd.php?id=070$涛哥『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="辽宁影视剧" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/辽宁影视剧.png" group-title="电影频道",辽宁影视剧
@@ -8881,8 +8877,8 @@ https://idclive.hljtv.com:4430/live/hljys_hd.m3u8$涛哥
 http://stream.hrbtv.net/yspd/sd/live.m3u8?zheild$涛哥『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="哈尔滨影视" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/哈尔滨影视.png" group-title="电影频道",哈尔滨影视
 http://stream.hrbtv.net/yspd/sd/live.m3u8$涛哥『线路2』
-#EXTINF:-1 tvg-id="3" tvg-name="哈尔滨影视" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/哈尔滨影视.png" group-title="电影频道",哈尔滨影视
-http://stream.hrbtv.net/yspd/sd/live.m3u8$涛哥『线路3』
+#EXTINF:-1 tvg-id="1" tvg-name="哈尔滨影视频道" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/哈尔滨影视频道.png" group-title="电影频道",哈尔滨影视频道
+http://stream.hrbtv.net/yspd/sd/live.m3u8$涛哥
 #EXTINF:-1 tvg-id="1" tvg-name="甘肃文化影视" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/甘肃文化影视.png" group-title="电影频道",甘肃文化影视
 https://hls.gstv.com.cn/49048r/w1l6d5.m3u8$涛哥
 #EXTINF:-1 tvg-id="1" tvg-name="四川影视文艺" tvg-logo="https://gitee.com/yuanzl77/TVBox-logo/raw/main/png/四川影视文艺.png" group-title="电影频道",四川影视文艺
