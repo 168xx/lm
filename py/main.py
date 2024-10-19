@@ -103,26 +103,14 @@ def filter_source_urls(template_file):
 
     return matched_channels, template_channels
 
-# 假设config是从某个地方导入的，这里我们简单模拟一下  
-config = {  
-    'announcements': [  
-        {'channel': 'Channel1', 'entries': [{'name': 'Live1', 'url': 'http://example.com/stream1', 'logo': 'logo1.png'}]},  
-        # 更多频道和公告  
-    ],  
-    'epg_urls': ['http://epg1.com', 'http://epg2.com'],  
-    'ip_version_priority': 'ipv4',  # 假设我们默认优先ipv4  
-    'url_blacklist': ['blacklist.com']  # 黑名单示例  
-}  
-  
-# 检查是否为IPv6地址的函数  
 def is_ipv6(url):  
+    # 检查URL是否以IPv6地址格式开头  
     return re.match(r'^http:\/\/\[[0-9a-fA-F:]+\]', url) is not None  
   
-# 检查是否为包含域名的IPv4地址的函数  
-def is_valid_ipv4_with_domain(url):  
-    # 这里使用简单的正则表达式来检查URL是否包含域名（不是IP地址）  
-    # 并且是一个HTTP请求且端口号可选（默认80）  
-    return re.match(r'^http:\/\/(?P<domain>[a-zA-Z0-9-]+\.[a-zA-Z]{2,})(?::\d+)?\/?', url) is not None  
+def has_domain(url):  
+    # 简化检查，假设如果URL在'//'之后包含'.'，则它可能包含域名  
+    # 注意：这不是一个完美的检查，但它应该足够用于大多数情况  
+    return bool(re.search(r'//[^/]*\.', url))  
   
 def updateChannelUrlsM3U(channels, template_channels):  
     written_urls = set()  
@@ -140,7 +128,8 @@ def updateChannelUrlsM3U(channels, template_channels):
             for group in config.announcements:  
                 f_txt.write(f"{group['channel']},#genre#\n")  
                 for announcement in group['entries']:  
-                    # 假设公告中的URL总是有效的，这里直接写入  
+                    # 这里我们假设announcements中的URL都是有效的，并且可能包含域名  
+                    # 因此我们直接写入，不进行额外的IPv4/IPv6检查  
                     f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{announcement['name']}" tvg-logo="{announcement['logo']}" group-title="{group['channel']}",{announcement['name']}\n""")  
                     f_m3u.write(f"{announcement['url']}\n")  
                     f_txt.write(f"{announcement['name']},{announcement['url']}\n")  
@@ -150,17 +139,17 @@ def updateChannelUrlsM3U(channels, template_channels):
                 if category in channels:  
                     for channel_name in channel_list:  
                         if channel_name in channels[category]:  
-                            # 过滤和排序URL，只保留有效的IPv4且包含域名的URL  
-                            valid_urls = [url for url in channels[category][channel_name] if is_valid_ipv4_with_domain(url)]  
+                            # 只保留带域名的IPv4地址  
                             filtered_urls = []  
-                            for url in valid_urls:  
-                                if url and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist):  
+                            for url in channels[category][channel_name]:  
+                                if url and not is_ipv6(url) and has_domain(url) and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist):  
                                     filtered_urls.append(url)  
                                     written_urls.add(url)  
   
                             total_urls = len(filtered_urls)  
                             for index, url in enumerate(filtered_urls, start=1):  
-                                url_suffix = f"$涛哥直播•域名" if total_urls == 1 else f"$涛哥直播•域名『线路{index}』"  
+                                # 由于我们只保留带域名的IPv4，所以不需要区分IPv4和IPv6的后缀  
+                                url_suffix = f"$涛哥直播『线路{index}』"  
                                 if '$' in url:  
                                     base_url = url.split('$', 1)[0]  
                                 else:  
@@ -174,27 +163,8 @@ def updateChannelUrlsM3U(channels, template_channels):
   
             f_txt.write("\n")  
   
-# 假设这个函数从模板文件中读取并返回频道和模板频道信息  
-def filter_source_urls(template_file):  
-    # 这里应该有一些代码来读取和处理template_file  
-    # 但为了示例，我们直接返回一些模拟数据  
-    channels = {  
-        'Sports': {  
-            'ESPN': ['http://example.com/espn1', 'http://example.com/espn2'],  
-            'Fox Sports': ['http://foxsports.com/live1']  
-        },  
-        'News': {  
-            'CNN': ['http://cnn.com/live'],  
-            'BBC': ['http://bbc.co.uk/live']  
-        }  
-    }  
-    template_channels = {  
-        'Sports': ['ESPN', 'Fox Sports'],  
-        'News': ['CNN', 'BBC']  
-    }  
-    return channels, template_channels  
-  
 if __name__ == "__main__":  
     template_file = "demo.txt"  
+    # 确保filter_source_urls函数正确地从template_file中读取并返回channels和template_channels  
     channels, template_channels = filter_source_urls(template_file)  
     updateChannelUrlsM3U(channels, template_channels)
