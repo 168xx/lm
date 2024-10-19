@@ -155,7 +155,7 @@ def updateChannelUrlsM3U(channels, template_channels):
   
                             total_urls = len(filtered_urls)  
                             for index, url in enumerate(filtered_urls, start=1):  
-                                url_suffix = f"$涛哥直播•IPV4" if total_urls == 1 else f"$涛哥直播•IPV4『线路{index}』"  
+                                url_suffix = f"$涛哥•IPV4" if total_urls == 1 else f"$涛哥•IPV4『线路{index}』"  
                                 if '$' in url:  
                                     base_url = url.split('$', 1)[0]  
                                 else:  
