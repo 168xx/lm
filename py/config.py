@@ -78,8 +78,8 @@ announcements = [
         "channel": "涛哥直播",
         "entries": [
             {"name":"影视直播","url":"http://ali.hlspull.yximgs.com/live/asdfg863678266.flv","logo":"https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON1.png"},
-            {"name":"CrimeTV LIVE","url":"http://cfss.cc/cdn/hy/11342412.flv","logo":"https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON2.png"},
-            {"name":"更新日期","url":"http://cfss.cc/cdn/hy/11342427.flv","logo":"https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON3.png"},
+            {"name":"仅供学习使用","url":"http://cfss.cc/cdn/hy/11342412.flv","logo":"https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON2.png"},
+            {"name":"💚更新日期","url":"http://cfss.cc/cdn/hy/11342427.flv","logo":"https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON3.png"},
             {"name":None,"url":"http://cfss.cc/cdn/hy/11352909.flv","logo":"https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON4.png"}
         ]
     }
