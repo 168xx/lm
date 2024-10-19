@@ -86,9 +86,13 @@ def match_channels(template_channels, all_channels):
 
     return matched_channels
 
-def is_direct_ipv4(url):  
-    # 检查URL是否以http://开头，后面直接跟着IPv4地址  
-    return re.match(r'^http:\/\/([0-9]{1,3}\.){3}[0-9]{1,3}', url) is not None  
+def is_valid_ipv4_or_domain_url(url):  
+    # 检查是否为有效的 IPv4 地址  
+    ipv4_pattern = re.compile(r'^http://(?:\d{1,3}\.){3}\d{1,3}(?::\d+)?/')  
+    # 检查是否为包含域名的 URL（这里简单检查是否不以 [ 开头，即不是 IPv6 地址）  
+    # 注意：这个检查可能不够严格，因为它不会验证域名的有效性，但可以作为初步筛选  
+    domain_pattern = re.compile(r'^http://(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}(?::\d+)?/')  
+    return ipv4_pattern.match(url) is not None or domain_pattern.match(url) is not None  
   
 def updateChannelUrlsM3U(channels, template_channels):  
     written_urls = set()  
@@ -118,10 +122,17 @@ def updateChannelUrlsM3U(channels, template_channels):
                             sorted_urls = sorted(channels[category][channel_name], key=lambda url: not is_ipv6(url) if config.ip_version_priority == "ipv6" else is_ipv6(url))  
                             filtered_urls = []  
                             for url in sorted_urls:  
-                                # 排除直接的IPv4地址，只保留有域名的（或假设通过DNS解析的）IPv4地址  
-                                if url and not is_direct_ipv4(url) and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist):  
+                                if url and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist) and is_valid_ipv4_or_domain_url(url):  
                                     filtered_urls.append(url)  
                                     written_urls.add(url)  
+  
+                            # 假设这里需要输出过滤后的 URL（例如，用于调试）  
+                            # print(f"Filtered URLs for {channel_name}: {filtered_urls}")  
+  
+                            for url in filtered_urls:  
+                                f_m3u.write(f"#EXTINF:-1 tvg-id=\"1\" tvg-name=\"{channel_name}\" tvg-logo=\"\" group-title=\"{category}\",{channel_name}\n")  
+                                f_m3u.write(f"{url}\n")  
+                                f_txt.write(f"{channel_name},{url}\n")
 
                             total_urls = len(filtered_urls)
                             for index, url in enumerate(filtered_urls, start=1):
