@@ -104,22 +104,24 @@ def filter_source_urls(template_file):
     return matched_channels, template_channels
 
 def is_ipv6(url):  
-    """检查是否是 IPv6 地址"""  
+    # 检查是否是IPv6地址  
     return re.match(r'^http:\/\/\[[0-9a-fA-F:]+\]', url) is not None  
   
-def is_ipv4_with_domain(url):  
-    """检查是否是包含域名的 IPv4 地址"""  
-    # 检查是否包含 IPv4 地址模式并以域名结束  
-    ipv4_pattern = r'^http:\/\/(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})(:\d+)?(\/.*)?$'  
-    match = re.match(ipv4_pattern, url)  
-    if match:  
-        # 检查是否不以数字结尾（简单的方法来判断是否可能是域名）  
-        # 注意：这只是一个粗略的检查，可能不足以覆盖所有情况  
-        # 更复杂的域名验证可能需要额外的库或更复杂的正则表达式  
-        last_char = url[-1] if url[-1].isalnum() else url[-2] if url[-2].isalnum() and url[-1] in ['./', '?', '#'] else None  
-        if last_char and last_char.isalpha():  
-            return True  
-    return False  
+def is_domain_ipv4(url):  
+    # 检查是否是包含域名的URL（非IPv6）  
+    if not url.startswith('http://'):  
+        return False  
+    _, rest = url.split('http://', 1)  
+    if '[' in rest:  # IPv6地址以[开头  
+        return False  
+    # 简单的检查，看是否有非数字字符（除了.和可能的端口号前的:）  
+    if re.match(r'^([a-zA-Z\-]+\.)+[a-zA-Z]{2,}(:\d+)?(/.*)?$', rest.split('/')[0]):  
+        return True  
+    # 更严格的IPv4检查（可选）  
+    # if re.match(r'^(?:\d{1,3}\.){3}\d{1,3}(:\d+)?$', rest.split('/')[0]):  
+    #     return False  # 纯IPv4地址，不包含域名  
+    # 但由于我们想要的是包含域名的，所以上面的检查已经足够  
+    return False  # 如果上面的简单检查失败，则假定它不是域名IPv4  
   
 def updateChannelUrlsM3U(channels, template_channels):  
     written_urls = set()  
@@ -146,11 +148,11 @@ def updateChannelUrlsM3U(channels, template_channels):
                 if category in channels:  
                     for channel_name in channel_list:  
                         if channel_name in channels[category]:  
-                            # 根据配置决定优先级，并筛选 URL  
-                            sorted_urls = sorted(channels[category][channel_name], key=lambda url: not is_ipv6(url) if config.ip_version_priority == "ipv6" else is_ipv6(url))  
+                            # 根据配置和URL类型排序  
+                            sorted_urls = sorted(channels[category][channel_name], key=lambda url: not is_ipv6(url) and is_domain_ipv4(url) if config.ip_version_priority == "ipv6" else not is_domain_ipv4(url) and not is_ipv6(url))  
                             filtered_urls = []  
                             for url in sorted_urls:  
-                                if url and url not in written_urls and is_ipv4_with_domain(url) and not any(blacklist in url for blacklist in config.url_blacklist):  
+                                if url and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist):  
                                     filtered_urls.append(url)  
                                     written_urls.add(url)  
 
