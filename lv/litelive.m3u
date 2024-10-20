@@ -5,18 +5,18 @@ http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225681/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="更新日期" tvg-logo="https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON3.png" group-title="涛哥直播",更新日期
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225661/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="2024-10-20" tvg-logo="https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON4.png" group-title="涛哥直播",2024-10-20
+#EXTINF:-1 tvg-id="1" tvg-name="2024-10-21" tvg-logo="https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON4.png" group-title="涛哥直播",2024-10-21
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225663/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010144/1.m3u8
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226733/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010144/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000001/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000021973/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226153/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000265001/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
-http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002133/index.m3u8
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010144/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000021973/1.m3u8$LR•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
@@ -147,8 +147,6 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/yinhe/88888888/224/32
 http://[2409:8087:5e00:24::1f]:6060/ZTE_CMS/00000001000000060000000000000131/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010011/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010144/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
 http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
@@ -294,8 +292,6 @@ http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226670/index.
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
 http://[2409:8087:74d9:21::6]/270000001128/9900000001/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
-http://[2409:8087:74d9:21::6]:80/270000001128/9900000001/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
 http://[2409:8087:74f0:22::4]:6610/270000001128/9900000501/index.m3u8?channel-id=newtv&livemode=4&Contentid=9900000501
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
 http://[2409:8087:74d9:21::6]/270000001322/69900158041111100000002133/index.m3u8
@@ -303,6 +299,10 @@ http://[2409:8087:74d9:21::6]/270000001322/69900158041111100000002133/index.m3u8
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226559/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
 http://[2409:8087:1a01:df::4060]/TVOD/88888888/224/3221226119/main.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226153/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000265001/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
 http://[2409:8087:1a01:df::4009]/TVOD/88888888/224/3221225816/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
@@ -316,19 +316,17 @@ http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226476/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV1.png" group-title="央视频道",CCTV1
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226733/index.m3u8$涛哥直播•IPV6『线路1』
-#EXTINF:-1 tvg-id="2" tvg-name="CCTV1" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV1.png" group-title="央视频道",CCTV1
-http://[2409:8087:2801:22:100::7d]/wh7f454c46tw3073776522_1064749656/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236222/index.m3u8?icpid=88888888&RTS=1717809603&from=5&ocs=2_2409:8087:2801:22:100::74_80&hms_devid=323&online=1717809603&vqe=3$涛哥直播•IPV6『线路2』
+http://[2409:8087:2801:22:100::7d]/wh7f454c46tw3073776522_1064749656/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236222/index.m3u8?icpid=88888888&RTS=1717809603&from=5&ocs=2_2409:8087:2801:22:100::74_80&hms_devid=323&online=1717809603&vqe=3$涛哥直播•IPV6『线路1』
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010211/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
 http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226676/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000023315/1.m3u8
+http://[2409:8087:74f0:22::4]:6410/270000001128/9900000502/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000012442/1.m3u8
+http://[2409:8087:5e00:24::11]:6060/200000001898/460000089800010211/
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
-http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002135/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010211/index.m3u8
+http://[2409:8087:1a01:df::4059]:80/TVOD/88888888/224/3221226079/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000023315/1.m3u8$LR•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
@@ -418,6 +416,8 @@ http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/yinhe/88888888/8/3221
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
 http://[2409:8087:5e00:24::1f]:6060/ZTE_CMS/00000001000000060000000000000372/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010211/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
 http://[2409:8087:5e01:34::22]:6610/ZTE_CMS/00000001000000060000000000000372/index.m3u8?key=tvbox6_com
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
 http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000372/index.m3u8?IAS
@@ -433,8 +433,6 @@ http://[2409:8087:74d9:21::6]/270000001322/69900158041111100000002135/index.m3u8
 http://[2409:8087:74f0:22::4]:6410/270000001128/9900000502/index.m3u8?
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
 http://[2409:8087:74f0:22::4]:6410/270000001128/9900000502/index.m3u8?channel-id=newtv&livemode=4&Contentid=9900000502
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010211/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001220/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
@@ -490,8 +488,6 @@ http://[2409:8087:1e03:21::34]:6610/cms001/ch00000090990000001220/index.m3u8?IAS
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/2/224/3221225588/2.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
-http://[2409:8087:5e00:24::11]:6060/200000001898/460000089800010211/
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010211/
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000005000031113/1.m3u8
@@ -500,21 +496,27 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/yinhe/88888888/224/32
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225588/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000023315/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000012442/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225588/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="default" group-title="央视频道",CCTV2
 http://[2409:8087:1a01:df::4059]/TVOD/88888888/224/3221226079/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV2" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV2.png" group-title="央视频道",CCTV2
-http://[2409:8087:2801:22:100::62]/wh7f454c46tw3120981737_1855966134/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236393/index.m3u8?icpid=88888888&RTS=1717809650&from=5&ocs=2_2409:8087:2801:22:100::7e_80&hms_devid=314&online=1717809650&vqe=3$涛哥直播•IPV6『线路1』
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002135/index.m3u8$涛哥直播•IPV6『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV2.png" group-title="央视频道",CCTV2
+http://[2409:8087:2801:22:100::62]/wh7f454c46tw3120981737_1855966134/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236393/index.m3u8?icpid=88888888&RTS=1717809650&from=5&ocs=2_2409:8087:2801:22:100::7e_80&hms_devid=314&online=1717809650&vqe=3$涛哥直播•IPV6『线路2』
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV3" tvg-logo="default" group-title="央视频道",CCTV3
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010212/main.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV3" tvg-logo="default" group-title="央视频道",CCTV3
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010212/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV3" tvg-logo="default" group-title="央视频道",CCTV3
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000011218/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV3" tvg-logo="default" group-title="央视频道",CCTV3
 http://[2409:8087:74d9:21::6]:80/270000001128/9900000003/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV3" tvg-logo="default" group-title="央视频道",CCTV3
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010212/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV3" tvg-logo="default" group-title="央视频道",CCTV3
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010212/main.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV3" tvg-logo="default" group-title="央视频道",CCTV3
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010212/1.m3u8
+http://[2409:8087:1a01:df::4041]:80/TVOD/88888888/224/3221225799/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV3" tvg-logo="default" group-title="央视频道",CCTV3
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000011218/1.m3u8$LR•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV3" tvg-logo="default" group-title="央视频道",CCTV3
@@ -602,6 +604,8 @@ http://[2409:8087:5e00:24::1f]:6060/ZTE_CMS/00000001000000060000000000000382/ind
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV3" tvg-logo="default" group-title="央视频道",CCTV3
 http://[2409:8087:1a01:df::4077]:80/PLTV/88888888/224/3221225799/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV3" tvg-logo="default" group-title="央视频道",CCTV3
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010212/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV3" tvg-logo="default" group-title="央视频道",CCTV3
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/1.m3u8?icpid=88888888&from=1&hms_devid=1012&vqe=3
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV3" tvg-logo="default" group-title="央视频道",CCTV3
 http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225799/index.m3u8
@@ -686,6 +690,8 @@ http://[2409:8087:1a01:df::4041]/TVOD/88888888/224/3221225799/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV3" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV3.png" group-title="央视频道",CCTV3
 http://[2409:8087:2801:22:100::3e]/wh7f454c46tw3152345576_-602673138/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236244/index.m3u8?icpid=88888888&RTS=1717809682&from=5&ocs=2_2409:8087:2801:22:100::41_80&hms_devid=1641&online=1717809682&vqe=3$涛哥直播•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV4" tvg-logo="default" group-title="央视频道",CCTV4
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226539/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV4" tvg-logo="default" group-title="央视频道",CCTV4
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010017/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV4" tvg-logo="default" group-title="央视频道",CCTV4
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000265004/1.m3u8
@@ -693,8 +699,6 @@ http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000265004/1.m3u8
 http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226652/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV4" tvg-logo="default" group-title="央视频道",CCTV4
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000031664/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV4" tvg-logo="default" group-title="央视频道",CCTV4
-http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002173/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV4" tvg-logo="default" group-title="央视频道",CCTV4
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010017/index.m3u8$LR•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV4" tvg-logo="default" group-title="央视频道",CCTV4
@@ -852,8 +856,6 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/2/224/3221226428
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV4" tvg-logo="default" group-title="央视频道",CCTV4
 http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226539/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV4" tvg-logo="default" group-title="央视频道",CCTV4
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226539/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV4" tvg-logo="default" group-title="央视频道",CCTV4
 http://[2409:8087:1a01:df::4029]/TVOD/88888888/224/3221226092/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV4" tvg-logo="default" group-title="央视频道",CCTV4
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226428/index.m3u8
@@ -866,15 +868,15 @@ http://[2409:8087:74f0:22::4]:6410/270000001128/9900000503/index.m3u8?channel-id
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV4" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV4.png" group-title="央视频道",CCTV4
 http://[2409:8087:2801:22:100::48]/wh7f454c46tw3193074050_-1824934134/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236442/index.m3u8?icpid=88888888&RTS=1717809722&from=5&ocs=2_2409:8087:2801:22:100::7e_80&hms_devid=1641&online=1717809722&vqe=3$涛哥直播•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="default" group-title="央视频道",CCTV5
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010145/main.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000265005/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="default" group-title="央视频道",CCTV5
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010139/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="default" group-title="央视频道",CCTV5
 http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226146/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="default" group-title="央视频道",CCTV5
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000265005/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="default" group-title="央视频道",CCTV5
-http://[2409:8087:74d9:21::6]:80/270000001128/9900000005/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="default" group-title="央视频道",CCTV5
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000004794/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="default" group-title="央视频道",CCTV5
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226365/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="default" group-title="央视频道",CCTV5
 http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226146/index.m3u8$LR•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="default" group-title="央视频道",CCTV5
@@ -1002,8 +1004,6 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/yinhe/88888888/224/32
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="default" group-title="央视频道",CCTV5
 http://[2409:8087:5e00:24::1f]:6060/ZTE_CMS/00000001000000060000000000000376/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="default" group-title="央视频道",CCTV5
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010139/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="default" group-title="央视频道",CCTV5
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="default" group-title="央视频道",CCTV5
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010145/index.m3u8
@@ -1116,6 +1116,8 @@ http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010139/
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="default" group-title="央视频道",CCTV5
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000265005/
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="default" group-title="央视频道",CCTV5
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010145/main.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="default" group-title="央视频道",CCTV5
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010063/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="default" group-title="央视频道",CCTV5
 http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226365/index.m3u8
@@ -1123,8 +1125,6 @@ http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226365/index.m3u
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010078/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="default" group-title="央视频道",CCTV5
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226469/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="default" group-title="央视频道",CCTV5
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226365/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="default" group-title="央视频道",CCTV5
 http://[2409:8087:74d9:21::6]/270000001128/9900000020/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="default" group-title="央视频道",CCTV5
@@ -1142,17 +1142,19 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/322
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="default" group-title="央视频道",CCTV5
 http://[2409:8087:74d9:21::6]/270000001128/9900000005/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV5.png" group-title="央视频道",CCTV5
-http://[2409:8087:2801:22:100::46]/wh7f454c46tw3324526922_-149553726/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236444/index.m3u8?icpid=88888888&RTS=1717809854&from=5&hms_devid=1638&online=1717809854&vqe=3$涛哥直播•IPV6『线路1』
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000005/index.m3u8$涛哥直播•IPV6『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV5" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV5.png" group-title="央视频道",CCTV5
+http://[2409:8087:2801:22:100::46]/wh7f454c46tw3324526922_-149553726/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236444/index.m3u8?icpid=88888888&RTS=1717809854&from=5&hms_devid=1638&online=1717809854&vqe=3$涛哥直播•IPV6『线路2』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5+" tvg-logo="default" group-title="央视频道",CCTV5+
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010202/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5+" tvg-logo="default" group-title="央视频道",CCTV5+
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000020505/1.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000018504/
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV5+" tvg-logo="default" group-title="央视频道",CCTV5+
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000018504/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5+" tvg-logo="default" group-title="央视频道",CCTV5+
 http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002139/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5+" tvg-logo="default" group-title="央视频道",CCTV5+
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010202/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV5+" tvg-logo="default" group-title="央视频道",CCTV5+
-http://[2409:8087:5e00:24::10]:6060/200000001898/460000089800010202/
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000020505/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5+" tvg-logo="default" group-title="央视频道",CCTV5+
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000018504/1.m3u8$LR•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5+" tvg-logo="default" group-title="央视频道",CCTV5+
@@ -1252,6 +1254,8 @@ http://[2409:8087:1a01:df::4003]/TVOD/88888888/224/3221225507/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5+" tvg-logo="default" group-title="央视频道",CCTV5+
 http://[2409:8087:1a01:df::4077]:80/PLTV/88888888/224/3221225507/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5+" tvg-logo="default" group-title="央视频道",CCTV5+
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010202/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV5+" tvg-logo="default" group-title="央视频道",CCTV5+
 http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225507/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5+" tvg-logo="default" group-title="央视频道",CCTV5+
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225603/index.m3u8
@@ -1318,13 +1322,11 @@ http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/322
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5+" tvg-logo="default" group-title="央视频道",CCTV5+
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/2/224/3221225603/2.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5+" tvg-logo="default" group-title="央视频道",CCTV5+
+http://[2409:8087:5e00:24::10]:6060/200000001898/460000089800010202/
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV5+" tvg-logo="default" group-title="央视频道",CCTV5+
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010202/
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5+" tvg-logo="default" group-title="央视频道",CCTV5+
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000018504/
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV5+" tvg-logo="default" group-title="央视频道",CCTV5+
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225603/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV5+" tvg-logo="default" group-title="央视频道",CCTV5+
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000018504/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5+" tvg-logo="default" group-title="央视频道",CCTV5+
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225603/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5+" tvg-logo="default" group-title="央视频道",CCTV5+
@@ -1336,15 +1338,15 @@ http://[2409:8087:74f0:22::4]:6410/270000001128/9900000506/index.m3u8?channel-id
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV5+" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV5+.png" group-title="央视频道",CCTV5+
 http://[2409:8087:2801:22:100::48]/wh7f454c46tw3359668796_-828118494/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236306/index.m3u8?icpid=88888888&RTS=1717809889&from=5&hms_devid=1641&online=1717809889&vqe=3$涛哥直播•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV6" tvg-logo="default" group-title="央视频道",CCTV6
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000265006/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV6" tvg-logo="default" group-title="央视频道",CCTV6
 http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226148/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV6" tvg-logo="default" group-title="央视频道",CCTV6
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000016466/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV6" tvg-logo="default" group-title="央视频道",CCTV6
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010214/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV6" tvg-logo="default" group-title="央视频道",CCTV6
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000265006/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV6" tvg-logo="default" group-title="央视频道",CCTV6
 http://[2409:8087:74d9:21::6]:80/270000001128/9900000006/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV6" tvg-logo="default" group-title="央视频道",CCTV6
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010214/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV6" tvg-logo="default" group-title="央视频道",CCTV6
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000265006/1.m3u8$LR•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV6" tvg-logo="default" group-title="央视频道",CCTV6
@@ -1432,6 +1434,8 @@ http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV6" tvg-logo="default" group-title="央视频道",CCTV6
 http://[2409:8087:5e00:24::1f]:6060/ZTE_CMS/00000001000000060000000000000379/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV6" tvg-logo="default" group-title="央视频道",CCTV6
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010214/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV6" tvg-logo="default" group-title="央视频道",CCTV6
 http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225814/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV6" tvg-logo="default" group-title="央视频道",CCTV6
 http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226010/index.m3u8
@@ -1506,21 +1510,19 @@ http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226148/index.m3u
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV6" tvg-logo="default" group-title="央视频道",CCTV6
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226010/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV6" tvg-logo="default" group-title="央视频道",CCTV6
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000016466/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV6" tvg-logo="default" group-title="央视频道",CCTV6
 http://[2409:8087:1a01:df::4009]/TVOD/88888888/224/3221225814/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV6" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV6.png" group-title="央视频道",CCTV6
 http://[2409:8087:2801:22:100::74]/wh7f454c46tw3403289436_1022848072/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236294/index.m3u8?icpid=88888888&RTS=1717809933&from=5&hms_devid=325&online=1717809933&vqe=3$涛哥直播•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV7" tvg-logo="default" group-title="央视频道",CCTV7
 http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226432/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV7" tvg-logo="default" group-title="央视频道",CCTV7
-http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002141/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV7" tvg-logo="default" group-title="央视频道",CCTV7
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000265007/1.m3u8
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010215/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV7" tvg-logo="default" group-title="央视频道",CCTV7
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000017218/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV7" tvg-logo="default" group-title="央视频道",CCTV7
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010215/1.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000265007/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV7" tvg-logo="default" group-title="央视频道",CCTV7
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002141/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV7" tvg-logo="default" group-title="央视频道",CCTV7
 http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226432/index.m3u8$LR•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV7" tvg-logo="default" group-title="央视频道",CCTV7
@@ -1624,8 +1626,6 @@ http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV7" tvg-logo="default" group-title="央视频道",CCTV7
 http://[2409:8087:5e00:24::1f]:6060/ZTE_CMS/00000001000000060000000000000380/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV7" tvg-logo="default" group-title="央视频道",CCTV7
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010215/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV7" tvg-logo="default" group-title="央视频道",CCTV7
 http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000380/index.m3u8?IAS
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV7" tvg-logo="default" group-title="央视频道",CCTV7
 http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000380/index.m3u8?IAS
@@ -1635,6 +1635,8 @@ http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/00000001000000060000000000000380/ind
 http://[2409:8087:5e01:34::22]:6610/ZTE_CMS/00000001000000060000000000000380/index.m3u8?IAS
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV7" tvg-logo="default" group-title="央视频道",CCTV7
 http://[2409:8087:5e01:34::22]:6610/ZTE_CMS/00000001000000060000000000000380/index.m3u8?key=tvbox6_com
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV7" tvg-logo="default" group-title="央视频道",CCTV7
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010215/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV7" tvg-logo="default" group-title="央视频道",CCTV7
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225733/1.m3u8?icpid=88888888&from=1&hms_devid=1012&vqe=3
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV7" tvg-logo="default" group-title="央视频道",CCTV7
@@ -1708,11 +1710,11 @@ http://[2409:8087:2801:22:100::5f]/wh7f454c46tw3499711507_480476039/hwltc.tv.cdn
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV8" tvg-logo="default" group-title="央视频道",CCTV8
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000003736/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV8" tvg-logo="default" group-title="央视频道",CCTV8
-http://[2409:8087:74d9:21::6]:80/270000001128/9900000008/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV8" tvg-logo="default" group-title="央视频道",CCTV8
 http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226150/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV8" tvg-logo="default" group-title="央视频道",CCTV8
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010216/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV8" tvg-logo="default" group-title="央视频道",CCTV8
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010216/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV8" tvg-logo="default" group-title="央视频道",CCTV8
 http://[2409:8087:5e00:24::10]:6060/200000001898/460000089800010216/
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV8" tvg-logo="default" group-title="央视频道",CCTV8
@@ -1791,8 +1793,6 @@ http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010216/1.m3u8?
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226008/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV8" tvg-logo="default" group-title="央视频道",CCTV8
 http://[2409:8087:5e00:24::1f]:6060/ZTE_CMS/00000001000000060000000000000371/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV8" tvg-logo="default" group-title="央视频道",CCTV8
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010216/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV8" tvg-logo="default" group-title="央视频道",CCTV8
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221226008/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV8" tvg-logo="default" group-title="央视频道",CCTV8
@@ -1876,6 +1876,8 @@ http://[2409:8087:74d9:21::6]/270000001128/9900000008/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV8" tvg-logo="default" group-title="央视频道",CCTV8
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226008/index.m3u8id=CCTV8HD
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV8" tvg-logo="default" group-title="央视频道",CCTV8
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000008/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV8" tvg-logo="default" group-title="央视频道",CCTV8
 http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226150/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV8" tvg-logo="default" group-title="央视频道",CCTV8
 http://[2409:8087:1a01:df::4051]/TVOD/88888888/224/3221225795/main.m3u8
@@ -1884,7 +1886,7 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/322
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV8" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV8.png" group-title="央视频道",CCTV8
 http://[2409:8087:2801:22:100::77]/wh7f454c46tw3533077704_631162374/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236211/index.m3u8?icpid=88888888&RTS=1717810062&from=5&ocs=2_2409:8087:2801:20:100::50_80&hms_devid=312&online=1717810062&vqe=3$涛哥直播•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV9" tvg-logo="default" group-title="央视频道",CCTV9
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226434/index.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000014583/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV9" tvg-logo="default" group-title="央视频道",CCTV9
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000028286/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV9" tvg-logo="default" group-title="央视频道",CCTV9
@@ -1892,7 +1894,7 @@ http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010052/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV9" tvg-logo="default" group-title="央视频道",CCTV9
 http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002144/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV9" tvg-logo="default" group-title="央视频道",CCTV9
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010217/main.m3u8
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226434/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV9" tvg-logo="default" group-title="央视频道",CCTV9
 http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226434/index.m3u8$LR•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV9" tvg-logo="default" group-title="央视频道",CCTV9
@@ -2068,13 +2070,13 @@ http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010052/
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV9" tvg-logo="default" group-title="央视频道",CCTV9
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225734/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV9" tvg-logo="default" group-title="央视频道",CCTV9
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000014583/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV9" tvg-logo="default" group-title="央视频道",CCTV9
 http://[2409:8087:74d9:21::6]/270000001322/69900158041111100000002144/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV9" tvg-logo="default" group-title="央视频道",CCTV9
 http://[2409:8087:1a01:df::4003]/TVOD/88888888/224/3221225676/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV9" tvg-logo="default" group-title="央视频道",CCTV9
 http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226434/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV9" tvg-logo="default" group-title="央视频道",CCTV9
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010217/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV9" tvg-logo="default" group-title="央视频道",CCTV9
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010217/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV9" tvg-logo="default" group-title="央视频道",CCTV9
@@ -2086,13 +2088,13 @@ http://[2409:8087:2801:22:100::3d]/wh7f454c46tw3564675919_-556789007/hwltc.tv.cd
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV10" tvg-logo="default" group-title="央视频道",CCTV10
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000012827/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV10" tvg-logo="default" group-title="央视频道",CCTV10
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000023734/1.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000010000016738/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV10" tvg-logo="default" group-title="央视频道",CCTV10
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000026367/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV10" tvg-logo="default" group-title="央视频道",CCTV10
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010203/index.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000023734/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV10" tvg-logo="default" group-title="央视频道",CCTV10
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226164/index.m3u8
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002146/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV10" tvg-logo="default" group-title="央视频道",CCTV10
 http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226164/index.m3u8$LR•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV10" tvg-logo="default" group-title="央视频道",CCTV10
@@ -2198,6 +2200,8 @@ http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/yinhe/88888888/224/32
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV10" tvg-logo="default" group-title="央视频道",CCTV10
 http://[2409:8087:5e00:24::1f]:6060/ZTE_CMS/00000001000000060000000000000375/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV10" tvg-logo="default" group-title="央视频道",CCTV10
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010203/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV10" tvg-logo="default" group-title="央视频道",CCTV10
 http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225730/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV10" tvg-logo="default" group-title="央视频道",CCTV10
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/00000001000000060000000000000375/index.m3u8?IAS
@@ -2272,11 +2276,9 @@ http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000023734/
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV10" tvg-logo="default" group-title="央视频道",CCTV10
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225730/1.m3u8?icpid=88888888&from=1&hms_devid=1012&vqe=3
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV10" tvg-logo="default" group-title="央视频道",CCTV10
-http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000010000016738/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV10" tvg-logo="default" group-title="央视频道",CCTV10
 http://[2409:8087:74F1:0021::0008]:80/270000001322/69900158041111100000002146/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV10" tvg-logo="default" group-title="央视频道",CCTV10
-http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002146/index.m3u8
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226164/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV10" tvg-logo="default" group-title="央视频道",CCTV10
 http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226164/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV10" tvg-logo="default" group-title="央视频道",CCTV10
@@ -2286,13 +2288,13 @@ http://[2409:8087:2801:22:100::60]/wh7f454c46tw3588201656_-1677451648/hwltc.tv.c
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV11" tvg-logo="default" group-title="央视频道",CCTV11
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031106/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV11" tvg-logo="default" group-title="央视频道",CCTV11
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000019789/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV11" tvg-logo="default" group-title="央视频道",CCTV11
 http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226541/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV11" tvg-logo="default" group-title="央视频道",CCTV11
 http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002177/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV11" tvg-logo="default" group-title="央视频道",CCTV11
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000019789/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV11" tvg-logo="default" group-title="央视频道",CCTV11
-http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031106/
+http://[2409:8087:1a01:df::4037]:80/TVOD/88888888/224/3221226123/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV11" tvg-logo="default" group-title="央视频道",CCTV11
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000019789/1.m3u8$LR•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV11" tvg-logo="default" group-title="央视频道",CCTV11
@@ -2434,6 +2436,8 @@ http://[2409:8087:2001:20:2800:0:df6e:eb22]/ott.mobaibox.com/PLTV/4/224/32212282
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV11" tvg-logo="default" group-title="央视频道",CCTV11
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/2/224/3221225597/2.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV11" tvg-logo="default" group-title="央视频道",CCTV11
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031106/
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV11" tvg-logo="default" group-title="央视频道",CCTV11
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226565/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV11" tvg-logo="default" group-title="央视频道",CCTV11
 http://[2409:8087:74d9:21::6]/270000001322/69900158041111100000002177/index.m3u8
@@ -2446,15 +2450,15 @@ http://[2409:8087:1a01:df::4037]/TVOD/88888888/224/3221226123/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV11" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV11.png" group-title="央视频道",CCTV11
 http://[2409:8087:2801:22:100::5d]/wh7f454c46tw3616768975_1704285983/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236216/index.m3u8?icpid=88888888&RTS=1717810146&from=5&ocs=2_2409:8087:2801:22:100::3b_80&hms_devid=312&online=1717810146&vqe=3$涛哥直播•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV12" tvg-logo="default" group-title="央视频道",CCTV12
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010205/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV12" tvg-logo="default" group-title="央视频道",CCTV12
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226436/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV12" tvg-logo="default" group-title="央视频道",CCTV12
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000032494/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV12" tvg-logo="default" group-title="央视频道",CCTV12
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000001640/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV12" tvg-logo="default" group-title="央视频道",CCTV12
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031107/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV12" tvg-logo="default" group-title="央视频道",CCTV12
-http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002147/index.m3u8
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226436/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV12" tvg-logo="default" group-title="央视频道",CCTV12
+http://[2409:8087:74f1:21::8]:80/270000001322/69900158041111100000002147/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV12" tvg-logo="default" group-title="央视频道",CCTV12
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000032494/1.m3u8$LR•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV12" tvg-logo="default" group-title="央视频道",CCTV12
@@ -2566,6 +2570,8 @@ http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/yinhe/88888888/224/32
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV12" tvg-logo="default" group-title="央视频道",CCTV12
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221226568/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV12" tvg-logo="default" group-title="央视频道",CCTV12
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010205/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV12" tvg-logo="default" group-title="央视频道",CCTV12
 http://[2409:8087:5e00:24::1f]:6060/ZTE_CMS/00000001000000060000000000000377/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV12" tvg-logo="default" group-title="央视频道",CCTV12
 http://[2409:8087:74F1:0021::0008]:80/270000001322/69900158041111100000002147/index.m3u8
@@ -2636,11 +2642,11 @@ http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031107/
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV12" tvg-logo="default" group-title="央视频道",CCTV12
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000032494/
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV12" tvg-logo="default" group-title="央视频道",CCTV12
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000001640/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV12" tvg-logo="default" group-title="央视频道",CCTV12
 http://[2409:8087:74f0:22::4]:6410/270000001128/9900000509/index.m3u8?channel-id=newtv&livemode=4&Contentid=9900000509
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV12" tvg-logo="default" group-title="央视频道",CCTV12
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225731/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV12" tvg-logo="default" group-title="央视频道",CCTV12
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002147/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV12" tvg-logo="default" group-title="央视频道",CCTV12
 http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226436/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV12" tvg-logo="default" group-title="央视频道",CCTV12
@@ -2654,13 +2660,13 @@ http://[2409:8087:2801:22:100::46]/wh7f454c46tw3644616930_-1425276969/hwltc.tv.c
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV13" tvg-logo="default" group-title="央视频道",CCTV13
 http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226438/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV13" tvg-logo="default" group-title="央视频道",CCTV13
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031108/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV13" tvg-logo="default" group-title="央视频道",CCTV13
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010093/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV13" tvg-logo="default" group-title="央视频道",CCTV13
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000021303/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV13" tvg-logo="default" group-title="央视频道",CCTV13
-http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031108/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV13" tvg-logo="default" group-title="央视频道",CCTV13
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010093/1.m3u8
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002179/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV13" tvg-logo="default" group-title="央视频道",CCTV13
 http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226438/index.m3u8$LR•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV13" tvg-logo="default" group-title="央视频道",CCTV13
@@ -2764,6 +2770,8 @@ http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/00000001000000060000000000000516/ind
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV13" tvg-logo="default" group-title="央视频道",CCTV13
 http://[2409:8087:5e01:34::22]:6610/ZTE_CMS/00000001000000060000000000000516/index.m3u8?key=tvbox6_com
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV13" tvg-logo="default" group-title="央视频道",CCTV13
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010093/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV13" tvg-logo="default" group-title="央视频道",CCTV13
 http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225812/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV13" tvg-logo="default" group-title="央视频道",CCTV13
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226537/index.m3u8
@@ -2820,8 +2828,6 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/322
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV13" tvg-logo="default" group-title="央视频道",CCTV13
 http://[2409:8087:1a01:df::4027]/TVOD/88888888/224/3221226125/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV13" tvg-logo="default" group-title="央视频道",CCTV13
-http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002179/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV13" tvg-logo="default" group-title="央视频道",CCTV13
 http://[2409:8087:74d9:21::6]/270000001322/69900158041111100000002179/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV13" tvg-logo="default" group-title="央视频道",CCTV13
 http://[2409:8087:1a01:df::4009]/TVOD/88888888/224/3221226077/main.m3u8
@@ -2832,11 +2838,11 @@ http://[2409:8087:2801:22:100::5f]/wh7f454c46tw3678339897_1131487458/hwltc.tv.cd
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV14" tvg-logo="default" group-title="央视频道",CCTV14
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000006673/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV14" tvg-logo="default" group-title="央视频道",CCTV14
-http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000006673/
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010207/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV14" tvg-logo="default" group-title="央视频道",CCTV14
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000008170/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV14" tvg-logo="default" group-title="央视频道",CCTV14
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000010000023358/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV14" tvg-logo="default" group-title="央视频道",CCTV14
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226166/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV14" tvg-logo="default" group-title="央视频道",CCTV14
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000021349/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV14" tvg-logo="default" group-title="央视频道",CCTV14
@@ -2944,8 +2950,6 @@ http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/yinhe/88888888/224/32
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV14" tvg-logo="default" group-title="央视频道",CCTV14
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221226591/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV14" tvg-logo="default" group-title="央视频道",CCTV14
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010207/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV14" tvg-logo="default" group-title="央视频道",CCTV14
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225732/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV14" tvg-logo="default" group-title="央视频道",CCTV14
 http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000378/index.m3u8?IAS
@@ -3016,15 +3020,17 @@ http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000008170/
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV14" tvg-logo="default" group-title="央视频道",CCTV14
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010207/
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV14" tvg-logo="default" group-title="央视频道",CCTV14
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000006673/
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV14" tvg-logo="default" group-title="央视频道",CCTV14
 http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226166/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV14" tvg-logo="default" group-title="央视频道",CCTV14
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226591/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV14" tvg-logo="default" group-title="央视频道",CCTV14
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226166/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV14" tvg-logo="default" group-title="央视频道",CCTV14
 http://[2409:8087:74d9:21::6]/270000001322/69900158041111100000002148/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV14" tvg-logo="default" group-title="央视频道",CCTV14
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225732/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV14" tvg-logo="default" group-title="央视频道",CCTV14
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000008170/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV14" tvg-logo="default" group-title="央视频道",CCTV14
 http://[2409:8087:74f0:22::4]:6410/270000001128/9900000511/index.m3u8?channel-id=newtv&livemode=4&Contentid=9900000511
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV14" tvg-logo="default" group-title="央视频道",CCTV14
@@ -3032,15 +3038,15 @@ http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002148/index.m
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV14" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV14.png" group-title="央视频道",CCTV14
 http://[2409:8087:2801:22:100::73]/wh7f454c46tw3721006907_-1495891580/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236317/index.m3u8?icpid=88888888&RTS=1717810250&from=5&ocs=2_2409:8087:2801:22:100::3f_80&hms_devid=324&online=1717810250&vqe=3$涛哥直播•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV15" tvg-logo="default" group-title="央视频道",CCTV15
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010094/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV15" tvg-logo="default" group-title="央视频道",CCTV15
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031109/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV15" tvg-logo="default" group-title="央视频道",CCTV15
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000008163/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV15" tvg-logo="default" group-title="央视频道",CCTV15
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010094/1.m3u8
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226616/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV15" tvg-logo="default" group-title="央视频道",CCTV15
 http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002181/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV15" tvg-logo="default" group-title="央视频道",CCTV15
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226616/index.m3u8
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010094/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV15" tvg-logo="default" group-title="央视频道",CCTV15
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000008163/1.m3u8$LR•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV15" tvg-logo="default" group-title="央视频道",CCTV15
@@ -3124,8 +3130,6 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/yinhe/88888888/224/32
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV15" tvg-logo="default" group-title="央视频道",CCTV15
 http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225601/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV15" tvg-logo="default" group-title="央视频道",CCTV15
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010094/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV15" tvg-logo="default" group-title="央视频道",CCTV15
 http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000501/index.m3u8?IAS
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV15" tvg-logo="default" group-title="央视频道",CCTV15
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/00000001000000060000000000000501/index.m3u8?IAS
@@ -3186,6 +3190,8 @@ http://[2409:8087:1a01:df::4033]/TVOD/88888888/224/3221226127/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV15" tvg-logo="default" group-title="央视频道",CCTV15
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226476/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV15" tvg-logo="default" group-title="央视频道",CCTV15
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000008163/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV15" tvg-logo="default" group-title="央视频道",CCTV15
 http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226616/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV15" tvg-logo="default" group-title="央视频道",CCTV15
 http://[2409:8087:74d9:21::6]/270000001322/69900158041111100000002181/index.m3u8
@@ -3196,11 +3202,11 @@ http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226413/index.
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV16" tvg-logo="default" group-title="央视频道",CCTV16
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000006000233002/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV16" tvg-logo="default" group-title="央视频道",CCTV16
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010142/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV16" tvg-logo="default" group-title="央视频道",CCTV16
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010142/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV16" tvg-logo="default" group-title="央视频道",CCTV16
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010142/1.m3u8
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010142/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV16" tvg-logo="default" group-title="央视频道",CCTV16
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000006000233001/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV16" tvg-logo="default" group-title="央视频道",CCTV16
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010142/index.m3u8$LR•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV16" tvg-logo="default" group-title="央视频道",CCTV16
@@ -3288,6 +3294,8 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/yinhe/88888888/224/32
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV16" tvg-logo="default" group-title="央视频道",CCTV16
 http://[2409:8087:1a01:df::4077]:80/PLTV/88888888/224/3221225893/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV16" tvg-logo="default" group-title="央视频道",CCTV16
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010142/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV16" tvg-logo="default" group-title="央视频道",CCTV16
 http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225893/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV16" tvg-logo="default" group-title="央视频道",CCTV16
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226100/index.m3u8
@@ -3348,8 +3356,6 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/322
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV16" tvg-logo="default" group-title="央视频道",CCTV16
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226100/1.m3u8?icpid=88888888&from=1&hms_devid=1012&vqe=3
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV16" tvg-logo="default" group-title="央视频道",CCTV16
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000006000233001/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV16" tvg-logo="default" group-title="央视频道",CCTV16
 http://[2409:8087:74d9:21::6]/270000001128/9900000016/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV16" tvg-logo="default" group-title="央视频道",CCTV16
 http://[2409:8087:1a01:df::4009]/TVOD/88888888/224/3221225893/main.m3u8
@@ -3358,15 +3364,15 @@ http://[2409:8087:74f0:22::4]:6410/270000001128/9900000016/index.m3u8?channel-id
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV16" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/CCTV16.png" group-title="央视频道",CCTV16
 http://[2409:8087:2801:22:100::6f]/wh7f454c46tw3782520035_-70439993/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236181/index.m3u8?icpid=88888888&RTS=1717810312&from=5&ocs=2_2409:8087:2801:22:100::5d_80&hms_devid=309&online=1717810312&vqe=3$涛哥直播•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV17" tvg-logo="default" group-title="央视频道",CCTV17
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000006000268004/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV17" tvg-logo="default" group-title="央视频道",CCTV17
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010210/
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010210/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV17" tvg-logo="default" group-title="央视频道",CCTV17
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000056836/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV17" tvg-logo="default" group-title="央视频道",CCTV17
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010210/index.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000006000268004/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV17" tvg-logo="default" group-title="央视频道",CCTV17
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010210/1.m3u8
+http://[2409:8087:5e00:24::11]:6060/200000001898/460000089800010210/
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV17" tvg-logo="default" group-title="央视频道",CCTV17
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010210/
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV17" tvg-logo="default" group-title="央视频道",CCTV17
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010210/index.m3u8$LR•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV17" tvg-logo="default" group-title="央视频道",CCTV17
@@ -3466,6 +3472,8 @@ http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000494/ind
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV17" tvg-logo="default" group-title="央视频道",CCTV17
 http://[2409:8087:5e01:34::22]:6610/ZTE_CMS/00000001000000060000000000000494/index.m3u8?key=tvbox6_com
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV17" tvg-logo="default" group-title="央视频道",CCTV17
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010210/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV17" tvg-logo="default" group-title="央视频道",CCTV17
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/1.m3u8?icpid=88888888&from=1&hms_devid=1012&vqe=3
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV17" tvg-logo="default" group-title="央视频道",CCTV17
 http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225708/index.m3u8
@@ -3521,8 +3529,6 @@ http://[2409:8087:2001:20:2800:0:df6e:eb22]/ott.mobaibox.com/PLTV/4/224/32212284
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/2/224/3221225765/2.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV17" tvg-logo="default" group-title="央视频道",CCTV17
 http://[2409:8087:5e00:24::10]:6060/200000001898/460000089800010210/
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV17" tvg-logo="default" group-title="央视频道",CCTV17
-http://[2409:8087:5e00:24::11]:6060/200000001898/460000089800010210/
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV17" tvg-logo="default" group-title="央视频道",CCTV17
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000006000268004/
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV17" tvg-logo="default" group-title="央视频道",CCTV17
@@ -3632,11 +3638,15 @@ http://[2001:250:5800:1005::155]:80/liverespath/bca6167afdef7fc773405c38e695b342
 #EXTINF:-1 tvg-id="1" tvg-name="CHC影迷电影" tvg-logo="default" group-title="CN央视",CHC影迷电影
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380764b172c9/index.m3u8?m3u8_level=2
 #EXTINF:-1 tvg-id="1" tvg-name="CHC动作电影" tvg-logo="default" group-title="CN央视",CHC动作电影
-http://[2409:8087:74d9:21::6]:80/270000001128/9900000106/index.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000004000018653/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CHC动作电影" tvg-logo="default" group-title="CN央视",CHC动作电影
 http://[2001:250:5800:1005::155]:80/liverespath/e0096742f0c5be4c5225cf3c7ab1077177bec05f/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CHC动作电影" tvg-logo="default" group-title="CN央视",CHC动作电影
 http://[2409:8087:1a01:df::4021]:80/TVOD/88888888/224/3221225555/main.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CHC动作电影" tvg-logo="default" group-title="CN央视",CHC动作电影
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000106/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CHC动作电影" tvg-logo="default" group-title="CN央视",CHC动作电影
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010003/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CHC动作电影" tvg-logo="default" group-title="CN央视",CHC动作电影
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CHC动作电影" tvg-logo="default" group-title="CN央视",CHC动作电影
@@ -3644,13 +3654,9 @@ http://[2409:8087:5e00:24::1e]:6060/000000001000/8103864434730665389/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CHC动作电影" tvg-logo="default" group-title="CN央视",CHC动作电影
 http://[2409:8087:74d9:21::6]/270000001128/9900000106/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CHC动作电影" tvg-logo="default" group-title="CN央视",CHC动作电影
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010003/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CHC动作电影" tvg-logo="default" group-title="CN央视",CHC动作电影
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CHC动作电影" tvg-logo="default" group-title="CN央视",CHC动作电影
 http://[2409:8087:1a01:df::4021]/TVOD/88888888/224/3221225555/main.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CHC动作电影" tvg-logo="default" group-title="CN央视",CHC动作电影
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000004000018653/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CHC动作电影" tvg-logo="default" group-title="CN央视",CHC动作电影
 http://[2001:250:5800:1005::155]:80/liverespath/e0096742f0c5be4c5225cf3c7ab1077177bec05f/index.m3u8$LR•94•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="CHC动作电影" tvg-logo="default" group-title="CN央视",CHC动作电影
@@ -3714,15 +3720,15 @@ http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/322122
 #EXTINF:-1 tvg-id="1" tvg-name="CHC家庭影院" tvg-logo="default" group-title="CN央视",CHC家庭影院
 http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226462/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="安徽卫视" tvg-logo="default" group-title="卫视频道",安徽卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000023002/1.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000020780/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="安徽卫视" tvg-logo="default" group-title="卫视频道",安徽卫视
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226205/index.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000023002/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="安徽卫视" tvg-logo="default" group-title="卫视频道",安徽卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000030159/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="安徽卫视" tvg-logo="default" group-title="卫视频道",安徽卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000020780/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="安徽卫视" tvg-logo="default" group-title="卫视频道",安徽卫视
 http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002200/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="安徽卫视" tvg-logo="default" group-title="卫视频道",安徽卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226205/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="安徽卫视" tvg-logo="default" group-title="卫视频道",安徽卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226391/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="安徽卫视" tvg-logo="default" group-title="卫视频道",安徽卫视
@@ -4036,13 +4042,13 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/2/224/3221226391
 #EXTINF:-1 tvg-id="1" tvg-name="安徽卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/安徽卫视.png" group-title="卫视频道",安徽卫视
 http://[2409:8087:2801:22:100::68]/wh7f454c46tw432189656_-465765051/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236177/index.m3u8?icpid=88888888&RTS=1717811256&from=5&ocs=2_2409:8087:2801:22:100::1a_80&hms_devid=313&online=1717811256&vqe=3$涛哥直播•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="北京卫视" tvg-logo="default" group-title="卫视频道",北京卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226161/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="北京卫视" tvg-logo="default" group-title="卫视频道",北京卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010143/99.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="北京卫视" tvg-logo="default" group-title="卫视频道",北京卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000031556/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="北京卫视" tvg-logo="default" group-title="卫视频道",北京卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000021288/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="北京卫视" tvg-logo="default" group-title="卫视频道",北京卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010143/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="北京卫视" tvg-logo="default" group-title="卫视频道",北京卫视
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226161/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="北京卫视" tvg-logo="default" group-title="卫视频道",北京卫视
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010143/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="北京卫视" tvg-logo="default" group-title="卫视频道",北京卫视
@@ -4268,9 +4274,9 @@ http://[2409:8087:1a01:df::4020]/TVOD/88888888/224/3221225678/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="北京卫视" tvg-logo="default" group-title="卫视频道",北京卫视
 http://[2409:8087:1a01:df::4020]:80/TVOD/88888888/224/3221225678/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="北京卫视" tvg-logo="default" group-title="卫视频道",北京卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010143/1.m3u8?
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010143/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="北京卫视" tvg-logo="default" group-title="卫视频道",北京卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010143/99.m3u8
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010143/1.m3u8?
 #EXTINF:-1 tvg-id="1" tvg-name="北京卫视" tvg-logo="default" group-title="卫视频道",北京卫视
 http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226161/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="北京卫视" tvg-logo="default" group-title="卫视频道",北京卫视
@@ -4478,13 +4484,13 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/2/224/3221226439
 #EXTINF:-1 tvg-id="1" tvg-name="兵团卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/兵团卫视.png" group-title="卫视频道",兵团卫视
 http://[2409:8087:2801:20:100::51]/wh7f454c46tw1075638963_-1652382279/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236191/index.m3u8?icpid=88888888&RTS=1717811900&from=5&hms_devid=372&online=1717811900&vqe=3$涛哥直播•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="东方卫视" tvg-logo="default" group-title="卫视频道",东方卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000005866/1.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000010000032246/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="东方卫视" tvg-logo="default" group-title="卫视频道",东方卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000030202/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="东方卫视" tvg-logo="default" group-title="卫视频道",东方卫视
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226155/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="东方卫视" tvg-logo="default" group-title="卫视频道",东方卫视
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010054/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="东方卫视" tvg-logo="default" group-title="卫视频道",东方卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000005866/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="东方卫视" tvg-logo="default" group-title="卫视频道",东方卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000014098/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="东方卫视" tvg-logo="default" group-title="卫视频道",东方卫视
@@ -4736,8 +4742,6 @@ http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226155/index.m3u
 #EXTINF:-1 tvg-id="1" tvg-name="东方卫视" tvg-logo="default" group-title="卫视频道",东方卫视
 http://[2409:8087:1a01:df::4033]/TVOD/88888888/224/3221225942/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="东方卫视" tvg-logo="default" group-title="卫视频道",东方卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000010000032246/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="东方卫视" tvg-logo="default" group-title="卫视频道",东方卫视
 http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002207/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="东方卫视" tvg-logo="default" group-title="卫视频道",东方卫视
 http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226735/index.m3u8
@@ -4880,9 +4884,9 @@ http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000009263/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="东南卫视" tvg-logo="default" group-title="卫视频道",东南卫视
 http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226182/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="东南卫视" tvg-logo="default" group-title="卫视频道",东南卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010096/1.m3u8
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010096/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="东南卫视" tvg-logo="default" group-title="卫视频道",东南卫视
-http://[2409:8087:74f0:22::4]:6610/270000001128/9900000519/index.m3u8
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010096/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="东南卫视" tvg-logo="default" group-title="卫视频道",东南卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226341/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="东南卫视" tvg-logo="default" group-title="卫视频道",东南卫视
@@ -5062,8 +5066,6 @@ http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221226038/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="东南卫视" tvg-logo="default" group-title="卫视频道",东南卫视
 http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225950/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="东南卫视" tvg-logo="default" group-title="卫视频道",东南卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010096/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="东南卫视" tvg-logo="default" group-title="卫视频道",东南卫视
 http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226182/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="东南卫视" tvg-logo="default" group-title="卫视频道",东南卫视
 http://[2409:8087:1a01:df::4035]/TVOD/88888888/224/3221225950/main.m3u8
@@ -5160,11 +5162,11 @@ http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000017827/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="甘肃卫视" tvg-logo="default" group-title="卫视频道",甘肃卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031121/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="甘肃卫视" tvg-logo="default" group-title="卫视频道",甘肃卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226759/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="甘肃卫视" tvg-logo="default" group-title="卫视频道",甘肃卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002160/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="甘肃卫视" tvg-logo="default" group-title="卫视频道",甘肃卫视
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010098/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="甘肃卫视" tvg-logo="default" group-title="卫视频道",甘肃卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010098/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="甘肃卫视" tvg-logo="default" group-title="卫视频道",甘肃卫视
-http://[2409:8087:74f0:22::5]:6410/270000001128/9900000023/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="甘肃卫视" tvg-logo="default" group-title="卫视频道",甘肃卫视
 http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225633/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="甘肃卫视" tvg-logo="default" group-title="卫视频道",甘肃卫视
@@ -5278,13 +5280,13 @@ http://[2409:8087:74f0:22::4]:6410/270000001128/9900000023/index.m3u8?channel-id
 #EXTINF:-1 tvg-id="1" tvg-name="甘肃卫视" tvg-logo="default" group-title="卫视频道",甘肃卫视
 http://[2409:8087:74d9:21::6]/270000001322/69900158041111100000002160/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="甘肃卫视" tvg-logo="default" group-title="卫视频道",甘肃卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010098/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="甘肃卫视" tvg-logo="default" group-title="卫视频道",甘肃卫视
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010098/1.m3u8?
 #EXTINF:-1 tvg-id="1" tvg-name="甘肃卫视" tvg-logo="default" group-title="卫视频道",甘肃卫视
 http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226759/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="甘肃卫视" tvg-logo="default" group-title="卫视频道",甘肃卫视
 http://[2409:8087:74d9:21::6]/270000001128/9900000023/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="甘肃卫视" tvg-logo="default" group-title="卫视频道",甘肃卫视
-http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002160/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="甘肃卫视" tvg-logo="default" group-title="卫视频道",甘肃卫视
 http://[2409:8087:74d9:21::6]:80/270000001128/9900000023/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="甘肃卫视" tvg-logo="default" group-title="卫视频道",甘肃卫视
@@ -5336,19 +5338,17 @@ http://[2409:8087:2001:20:2800:0:df6e:eb1a]:80/wh7f454c46tw1400573680_1979013462
 #EXTINF:-1 tvg-id="1" tvg-name="甘肃卫视" tvg-logo="default" group-title="卫视频道",甘肃卫视
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/2/224/3221225633/2.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="甘肃卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/甘肃卫视.png" group-title="卫视频道",甘肃卫视
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226759/index.m3u8$涛哥直播•IPV6『线路1』
-#EXTINF:-1 tvg-id="2" tvg-name="甘肃卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/甘肃卫视.png" group-title="卫视频道",甘肃卫视
-http://[2409:8087:2801:22:100::42]/wh7f454c46tw776519881_426790369/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236201/index.m3u8?icpid=88888888&RTS=1717811601&from=5&hms_devid=1643&online=1717811601&vqe=3$涛哥直播•IPV6『线路2』
-#EXTINF:-1 tvg-id="1" tvg-name="广东卫视" tvg-logo="default" group-title="卫视频道",广东卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000014176/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="广东卫视" tvg-logo="default" group-title="卫视频道",广东卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000028357/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="广东卫视" tvg-logo="default" group-title="卫视频道",广东卫视
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226180/index.m3u8
+http://[2409:8087:2801:22:100::42]/wh7f454c46tw776519881_426790369/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236201/index.m3u8?icpid=88888888&RTS=1717811601&from=5&hms_devid=1643&online=1717811601&vqe=3$涛哥直播•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="广东卫视" tvg-logo="default" group-title="卫视频道",广东卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000014694/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="广东卫视" tvg-logo="default" group-title="卫视频道",广东卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000014176/
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000028357/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="广东卫视" tvg-logo="default" group-title="卫视频道",广东卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000014176/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="广东卫视" tvg-logo="default" group-title="卫视频道",广东卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226180/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="广东卫视" tvg-logo="default" group-title="卫视频道",广东卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002203/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="广东卫视" tvg-logo="default" group-title="卫视频道",广东卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226248/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="广东卫视" tvg-logo="default" group-title="卫视频道",广东卫视
@@ -5730,23 +5730,23 @@ http://[2409:8087:2001:20:2800:0:df6e:eb17]:80/wh7f454c46tw1930705409_1175138860
 #EXTINF:-1 tvg-id="1" tvg-name="广东卫视" tvg-logo="default" group-title="卫视频道",广东卫视
 http://[2409:8087:2001:20:2800:0:df6e:eb22]:80/wh7f454c46tw201699374_1286689762/ott.mobaibox.com/PLTV/3/224/3221228312/index.m3u8?icpid=3&RTS=1674380317&from=40&popid=40&hms_devid=2291&prioritypopid=40&vqe=3
 #EXTINF:-1 tvg-id="1" tvg-name="广东卫视" tvg-logo="default" group-title="卫视频道",广东卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000014176/
+#EXTINF:-1 tvg-id="1" tvg-name="广东卫视" tvg-logo="default" group-title="卫视频道",广东卫视
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010221/
 #EXTINF:-1 tvg-id="1" tvg-name="广东卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/广东卫视.png" group-title="卫视频道",广东卫视
 http://[2409:8087:74f1:21::8]:80/000000001000PLTV/88888888/224/3221226180/index.m3u8$涛哥直播•IPV6『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="广东卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/广东卫视.png" group-title="卫视频道",广东卫视
-http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002203/index.m3u8$涛哥直播•IPV6『线路2』
-#EXTINF:-1 tvg-id="3" tvg-name="广东卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/广东卫视.png" group-title="卫视频道",广东卫视
-http://[2409:8087:2801:22:100::48]/wh7f454c46tw673860866_1500281518/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236262/index.m3u8?icpid=88888888&RTS=1717811498&from=5&ocs=2_2409:8087:2801:22:100::80_80&hms_devid=1641&online=1717811498&vqe=3$涛哥直播•IPV6『线路3』
-#EXTINF:-1 tvg-id="1" tvg-name="广西卫视" tvg-logo="default" group-title="卫视频道",广西卫视
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226452/index.m3u8
+http://[2409:8087:2801:22:100::48]/wh7f454c46tw673860866_1500281518/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236262/index.m3u8?icpid=88888888&RTS=1717811498&from=5&ocs=2_2409:8087:2801:22:100::80_80&hms_devid=1641&online=1717811498&vqe=3$涛哥直播•IPV6『线路2』
 #EXTINF:-1 tvg-id="1" tvg-name="广西卫视" tvg-logo="default" group-title="卫视频道",广西卫视
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010099/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="广西卫视" tvg-logo="default" group-title="卫视频道",广西卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226452/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="广西卫视" tvg-logo="default" group-title="卫视频道",广西卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031118/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="广西卫视" tvg-logo="default" group-title="卫视频道",广西卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010099/main.m3u8
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000034/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="广西卫视" tvg-logo="default" group-title="卫视频道",广西卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010099/1.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000019837/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="广西卫视" tvg-logo="default" group-title="卫视频道",广西卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226549/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="广西卫视" tvg-logo="default" group-title="卫视频道",广西卫视
@@ -5882,15 +5882,17 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/yinhe/88888888/224/32
 #EXTINF:-1 tvg-id="1" tvg-name="广西卫视" tvg-logo="default" group-title="卫视频道",广西卫视
 http://[2409:8087:74f0:22::7]:6410/270000001128/9900000034/index.m3u8?channel-id=newtv&livemode=4&Contentid=9900000034
 #EXTINF:-1 tvg-id="1" tvg-name="广西卫视" tvg-logo="default" group-title="卫视频道",广西卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010099/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="广西卫视" tvg-logo="default" group-title="卫视频道",广西卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226380/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="广西卫视" tvg-logo="default" group-title="卫视频道",广西卫视
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226549/index.m3u8#http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226380/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="广西卫视" tvg-logo="default" group-title="卫视频道",广西卫视
 http://[2409:8087:74f0:22::7]:6410/270000001128/9900000034/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="广西卫视" tvg-logo="default" group-title="卫视频道",广西卫视
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226549/index.m3u8?
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010099/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="广西卫视" tvg-logo="default" group-title="卫视频道",广西卫视
-http://[2409:8087:74d9:21::6]:80/270000001128/9900000034/index.m3u8
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226549/index.m3u8?
 #EXTINF:-1 tvg-id="1" tvg-name="广西卫视" tvg-logo="default" group-title="卫视频道",广西卫视
 http://[2409:8087:1a01:df::4047]/TVOD/88888888/224/3221226091/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="广西卫视" tvg-logo="default" group-title="卫视频道",广西卫视
@@ -5901,8 +5903,6 @@ http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010099/1.m3u8?
 http://[2409:8087:74d9:21::6]/270000001128/9900000034/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="广西卫视" tvg-logo="default" group-title="卫视频道",广西卫视
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226549/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="广西卫视" tvg-logo="default" group-title="卫视频道",广西卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000019837/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="广西卫视" tvg-logo="default" group-title="卫视频道",广西卫视
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001224/index.m3u8?love=freedom#http://[2409:8087:2001:20:2800:0:df6e:eb1a]:80/wh7f454c46tw1546067216_-1703904154/ott.mobaibox.com/PLTV/3/224/3221228183/index.m3u8?icpid=3&RTS=1674385956&from=40&popid=40&hms_devid=2116&prioritypopid=40&vqe=3#http://[2409:8087:2001:20:2800:0:df6e:eb05]/wh7f454c46tw2325655923_1638953995/ott.mobaibox.com/PLTV/3/224/3221228183/index.m3u8?icpid=3&RTS=1669700926&from=40&popid=40&hms_devid=2041&prioritypopid=40&vqe=3#https://live.v1.mk/api/bestv.php?id=gxwshd8m/8000000
 #EXTINF:-1 tvg-id="1" tvg-name="广西卫视" tvg-logo="default" group-title="卫视频道",广西卫视
@@ -5962,9 +5962,9 @@ http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226547/index.
 #EXTINF:-1 tvg-id="1" tvg-name="贵州卫视" tvg-logo="default" group-title="卫视频道",贵州卫视
 http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002231/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="贵州卫视" tvg-logo="default" group-title="卫视频道",贵州卫视
-http://[2409:8087:74d9:21::6]:80/270000001128/9900000036/index.m3u8
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010100/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="贵州卫视" tvg-logo="default" group-title="卫视频道",贵州卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010100/index.m3u8
+http://[2409:8087:1a01:df::4030]:80/TVOD/88888888/224/3221225974/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="贵州卫视" tvg-logo="default" group-title="卫视频道",贵州卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226474/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="贵州卫视" tvg-logo="default" group-title="卫视频道",贵州卫视
@@ -6158,8 +6158,6 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/322
 #EXTINF:-1 tvg-id="1" tvg-name="贵州卫视" tvg-logo="default" group-title="卫视频道",贵州卫视
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010100/1.m3u8?
 #EXTINF:-1 tvg-id="1" tvg-name="贵州卫视" tvg-logo="default" group-title="卫视频道",贵州卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010100/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="贵州卫视" tvg-logo="default" group-title="卫视频道",贵州卫视
 http://[2409:8087:1a01:df::4030]/TVOD/88888888/224/3221225974/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="贵州卫视" tvg-logo="default" group-title="卫视频道",贵州卫视
 http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226547/index.m3u8
@@ -6167,6 +6165,10 @@ http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226547/index.m3u
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8?
 #EXTINF:-1 tvg-id="1" tvg-name="贵州卫视" tvg-logo="default" group-title="卫视频道",贵州卫视
 http://[2409:8087:74d9:21::6]/270000001128/9900000036/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="贵州卫视" tvg-logo="default" group-title="卫视频道",贵州卫视
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000036/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="贵州卫视" tvg-logo="default" group-title="卫视频道",贵州卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010100/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="贵州卫视" tvg-logo="default" group-title="卫视频道",贵州卫视
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226383/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="贵州卫视" tvg-logo="default" group-title="卫视频道",贵州卫视
@@ -6250,15 +6252,15 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/2/224/3221225626
 #EXTINF:-1 tvg-id="1" tvg-name="贵州卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/贵州卫视.png" group-title="卫视频道",贵州卫视
 http://[2409:8087:2801:22:100::7a]/wh7f454c46tw901531657_-1550720295/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236236/index.m3u8?icpid=88888888&RTS=1717811726&from=5&ocs=2_2409:8087:2801:20:100::46_80&hms_devid=329&online=1717811726&vqe=3$涛哥直播•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="海南卫视" tvg-logo="default" group-title="卫视频道",海南卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000006211/1.m3u8
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226450/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="海南卫视" tvg-logo="default" group-title="卫视频道",海南卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000006211/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="海南卫视" tvg-logo="default" group-title="卫视频道",海南卫视
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226450/index.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000006211/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="海南卫视" tvg-logo="default" group-title="卫视频道",海南卫视
 http://[2409:8087:74d9:21::6]:80/270000001128/9900000037/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="海南卫视" tvg-logo="default" group-title="卫视频道",海南卫视
-http://[2409:8087:1a01:df::4025]:80/TVOD/88888888/224/3221225978/main.m3u8
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010083/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="海南卫视" tvg-logo="default" group-title="卫视频道",海南卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226465/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="海南卫视" tvg-logo="default" group-title="卫视频道",海南卫视
@@ -6518,23 +6520,21 @@ http://[2409:8087:2001:20:2800:0:df6e:eb08]:80/wh7f454c46tw1550082591_594632294/
 #EXTINF:-1 tvg-id="1" tvg-name="海南卫视" tvg-logo="default" group-title="卫视频道",海南卫视
 http://[2409:8087:2001:20:2800:0:df6e:eb05]:80/wh7f454c46tw1760762625_423271938/ott.mobaibox.com/PLTV/3/224/3221228101/index.m3u8?icpid=3&RTS=1674386171&from=40&popid=40&hms_devid=2041&prioritypopid=40&vqe=3
 #EXTINF:-1 tvg-id="1" tvg-name="海南卫视" tvg-logo="default" group-title="卫视频道",海南卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010083/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="海南卫视" tvg-logo="default" group-title="卫视频道",海南卫视
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/2/224/3221225639/2.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="海南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/海南卫视.png" group-title="卫视频道",海南卫视
 http://[2409:8087:74f0:22::7]:6410/270000001128/9900000037/index.m3u8$涛哥直播•IPV6『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="海南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/海南卫视.png" group-title="卫视频道",海南卫视
 http://[2409:8087:2801:22:100::1b]/wh7f454c46tw749217990_-1011970999/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236232/index.m3u8?icpid=88888888&RTS=1717811573&from=5&hms_devid=1639&online=1717811573&vqe=3$涛哥直播•IPV6『线路2』
 #EXTINF:-1 tvg-id="1" tvg-name="河北卫视" tvg-logo="default" group-title="卫视频道",河北卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000006000040016/1.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000017118/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="河北卫视" tvg-logo="default" group-title="卫视频道",河北卫视
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226442/index.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000006000040016/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="河北卫视" tvg-logo="default" group-title="卫视频道",河北卫视
 http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002229/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="河北卫视" tvg-logo="default" group-title="卫视频道",河北卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000017118/1.m3u8
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226442/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="河北卫视" tvg-logo="default" group-title="卫视频道",河北卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010101/1.m3u8
+http://[2409:8087:1a01:df::4035]:80/TVOD/88888888/224/3221225961/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="河北卫视" tvg-logo="default" group-title="卫视频道",河北卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226406/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="河北卫视" tvg-logo="default" group-title="卫视频道",河北卫视
@@ -6788,6 +6788,8 @@ http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000487/ind
 #EXTINF:-1 tvg-id="1" tvg-name="河北卫视" tvg-logo="default" group-title="卫视频道",河北卫视
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN100000002BESTVSMGSMG9/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUaxEcGF7BsTm3tBZ5QM10A3THYCGyx0KiW2nghgGHiPYyNBht0ohR2xRP7wFZyAPWYATALvCqK4y6nrLdX80fn4
 #EXTINF:-1 tvg-id="1" tvg-name="河北卫视" tvg-logo="default" group-title="卫视频道",河北卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010101/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="河北卫视" tvg-logo="default" group-title="卫视频道",河北卫视
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN100000002BESTVSMGSMG9/index.m3u8?m3u8_level=2
 #EXTINF:-1 tvg-id="1" tvg-name="河北卫视" tvg-logo="default" group-title="卫视频道",河北卫视
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/00000001000000060000000000000487/index.m3u8?key=tvbox6_com
@@ -6820,17 +6822,15 @@ http://[2409:8087:2001:20:2800:0:df6e:eb07]:80/wh7f454c46tw1567506605_718632069/
 #EXTINF:-1 tvg-id="1" tvg-name="河北卫视" tvg-logo="default" group-title="卫视频道",河北卫视
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/2/224/3221226406/2.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="河北卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/河北卫视.png" group-title="卫视频道",河北卫视
-http://[2409:8087:1a01:df::4035]:80/TVOD/88888888/224/3221225961/main.m3u8$涛哥直播•IPV6『线路1』
-#EXTINF:-1 tvg-id="2" tvg-name="河北卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/河北卫视.png" group-title="卫视频道",河北卫视
-http://[2409:8087:2801:22:100::72]/wh7f454c46tw315725170_1190988799/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236242/index.m3u8?icpid=88888888&RTS=1717811140&from=5&ocs=2_2409:8087:2801:22:100::74_80&hms_devid=316&online=1717811140&vqe=3$涛哥直播•IPV6『线路2』
+http://[2409:8087:2801:22:100::72]/wh7f454c46tw315725170_1190988799/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236242/index.m3u8?icpid=88888888&RTS=1717811140&from=5&ocs=2_2409:8087:2801:22:100::74_80&hms_devid=316&online=1717811140&vqe=3$涛哥直播•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="河南卫视" tvg-logo="default" group-title="卫视频道",河南卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031119/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="河南卫视" tvg-logo="default" group-title="卫视频道",河南卫视
-http://[2409:8087:74d9:21::6]:80/270000001128/9900000027/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="河南卫视" tvg-logo="default" group-title="卫视频道",河南卫视
 http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226614/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="河南卫视" tvg-logo="default" group-title="卫视频道",河南卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010071/1.m3u8
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000027/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="河南卫视" tvg-logo="default" group-title="卫视频道",河南卫视
+http://[2409:8087:74f0:22::7]:6410/270000001128/9900000027/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="河南卫视" tvg-logo="default" group-title="卫视频道",河南卫视
 http://[2409:8087:1a01:df::4030]:80/TVOD/88888888/224/3221225988/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="河南卫视" tvg-logo="default" group-title="卫视频道",河南卫视
@@ -7064,19 +7064,21 @@ http://[2409:8087:2001:20:2800:0:df6e:eb17]:80/wh7f454c46tw2373527465_-419963710
 #EXTINF:-1 tvg-id="1" tvg-name="河南卫视" tvg-logo="default" group-title="卫视频道",河南卫视
 http://[2409:8087:2001:20:2800:0:df6e:eb17]:80/wh7f454c46tw2373527465_419963710/ott.mobaibox.com/PLTV/3/224/3221228221/index.m3u8?icpid=3&RTS=1674386783&from=40&popid=40&hms_devid=2114&prioritypopid=40&vqe=3
 #EXTINF:-1 tvg-id="1" tvg-name="河南卫视" tvg-logo="default" group-title="卫视频道",河南卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010071/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="河南卫视" tvg-logo="default" group-title="卫视频道",河南卫视
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/2/224/3221226480/2.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="河南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/河南卫视.png" group-title="卫视频道",河南卫视
 http://[2409:8087:2801:20:100::40]/wh7f454c46tw466641367_-964597049/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236218/index.m3u8?icpid=88888888&RTS=1717811291&from=5&hms_devid=1648&online=1717811291&vqe=3$涛哥直播•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="湖北卫视" tvg-logo="default" group-title="卫视频道",湖北卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000024621/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="湖北卫视" tvg-logo="default" group-title="卫视频道",湖北卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000014954/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="湖北卫视" tvg-logo="default" group-title="卫视频道",湖北卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000010355/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="湖北卫视" tvg-logo="default" group-title="卫视频道",湖北卫视
 http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226159/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="湖北卫视" tvg-logo="default" group-title="卫视频道",湖北卫视
-http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002204/index.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000024621/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="湖北卫视" tvg-logo="default" group-title="卫视频道",湖北卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010223/1.m3u8
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002204/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="湖北卫视" tvg-logo="default" group-title="卫视频道",湖北卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226477/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="湖北卫视" tvg-logo="default" group-title="卫视频道",湖北卫视
@@ -7274,6 +7276,8 @@ http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225975/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="湖北卫视" tvg-logo="default" group-title="卫视频道",湖北卫视
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226477/index.m3u8?
 #EXTINF:-1 tvg-id="1" tvg-name="湖北卫视" tvg-logo="default" group-title="卫视频道",湖北卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010223/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="湖北卫视" tvg-logo="default" group-title="卫视频道",湖北卫视
 http://[2409:8087:1a01:df::4030]/TVOD/88888888/224/3221225975/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="湖北卫视" tvg-logo="default" group-title="卫视频道",湖北卫视
 http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226159/index.m3u8
@@ -7291,8 +7295,6 @@ http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010057/1.m3u8?
 http://[2409:8087:1a01:df::4007]/TVOD/88888888/224/3221225569/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="湖北卫视" tvg-logo="default" group-title="卫视频道",湖北卫视
 http://[2409:8087:74d9:21::6]/270000001322/69900158041111100000002204/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="湖北卫视" tvg-logo="default" group-title="卫视频道",湖北卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000010355/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="湖北卫视" tvg-logo="default" group-title="卫视频道",湖北卫视
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001027/index.m3u8?love=freedom#http://[2409:8087:2001:20:2800:0:df6e:eb0b]:80/wh7f454c46tw1550585934_-401703996/ott.mobaibox.com/PLTV/3/224/3221227377/index.m3u8?icpid=3&RTS=1674385960&from=40&popid=40&hms_devid=2038&prioritypopid=40&vqe=3#http://[2409:8087:2001:20:2800:0:df6e:eb11]/wh7f454c46tw3059146177_-1525708880/ott.mobaibox.com/PLTV/3/224/3221227479/index.m3u8?icpid=3&RTS=1668597853&from=40&popid=40&hms_devid=2110&prioritypopid=40&vqe=3#http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225975/index.m3u8#http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221226015/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="湖北卫视" tvg-logo="default" group-title="卫视频道",湖北卫视
@@ -7422,13 +7424,13 @@ http://[2409:8087:2801:22:100::7d]/wh7f454c46tw489256578_215429786/hwltc.tv.cdn.
 #EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="default" group-title="卫视频道",湖南卫视
 http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226193/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="default" group-title="卫视频道",湖南卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000006692/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="default" group-title="卫视频道",湖南卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000010000030452/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="default" group-title="卫视频道",湖南卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000009115/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="default" group-title="卫视频道",湖南卫视
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010058/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="default" group-title="卫视频道",湖南卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010224/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="default" group-title="卫视频道",湖南卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000032695/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="default" group-title="卫视频道",湖南卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226656/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="default" group-title="卫视频道",湖南卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226307/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="default" group-title="卫视频道",湖南卫视
@@ -7642,7 +7644,7 @@ http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010224/
 #EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="default" group-title="卫视频道",湖南卫视
 http://[2409:8087:5e00:24::11]:6060/200000001898/460000089800010224/
 #EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="default" group-title="卫视频道",湖南卫视
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226656/index.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000006692/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="default" group-title="卫视频道",湖南卫视
 http://[2409:8087:1a01:df::4009]/TVOD/88888888/224/3221225506/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="default" group-title="卫视频道",湖南卫视
@@ -7652,9 +7654,7 @@ http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010058/1.m3u8?
 #EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="default" group-title="卫视频道",湖南卫视
 http://[2409:8087:1a01:df::4055]/TVOD/88888888/224/3221225977/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="default" group-title="卫视频道",湖南卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010224/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="default" group-title="卫视频道",湖南卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000032695/1.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000009115/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="default" group-title="卫视频道",湖南卫视
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226307/index.m3u8?
 #EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="default" group-title="卫视频道",湖南卫视
@@ -7671,6 +7671,8 @@ http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010058/
 http://[2409:8087:74d9:21::6]/270000001322/69900158041111100000002143/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="default" group-title="卫视频道",湖南卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/460000100000000089/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="default" group-title="卫视频道",湖南卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000010000030452/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="default" group-title="卫视频道",湖南卫视
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001026/index.m3u8?
 #EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="default" group-title="卫视频道",湖南卫视
@@ -7808,15 +7810,15 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/2/224/3221225610
 #EXTINF:-1 tvg-id="1" tvg-name="湖南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/湖南卫视.png" group-title="卫视频道",湖南卫视
 http://[2409:8087:2801:22:100::3a]/wh7f454c46tw250485425_-772655827/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236225/index.m3u8?icpid=88888888&RTS=1717811075&from=5&ocs=2_2409:8087:2801:22:100::70_80&hms_devid=1644&online=1717811075&vqe=3$涛哥直播•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="吉林卫视" tvg-logo="default" group-title="卫视频道",吉林卫视
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226440/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="吉林卫视" tvg-logo="default" group-title="卫视频道",吉林卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031117/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="吉林卫视" tvg-logo="default" group-title="卫视频道",吉林卫视
-http://[2409:8087:74f1:21::8]:80/270000001128/9900000030/index.m3u8
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226440/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="吉林卫视" tvg-logo="default" group-title="卫视频道",吉林卫视
 http://[2409:8087:74d9:21::6]:80/270000001128/9900000030/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="吉林卫视" tvg-logo="default" group-title="卫视频道",吉林卫视
 http://[2409:8087:74f0:22::5]:6410/270000001128/9900000030/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="吉林卫视" tvg-logo="default" group-title="卫视频道",吉林卫视
+http://[2409:8087:1a01:df::4051]:80/TVOD/88888888/224/3221225981/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="吉林卫视" tvg-logo="default" group-title="卫视频道",吉林卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226397/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="吉林卫视" tvg-logo="default" group-title="卫视频道",吉林卫视
@@ -7996,11 +7998,11 @@ http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 #EXTINF:-1 tvg-id="1" tvg-name="吉林卫视" tvg-logo="default" group-title="卫视频道",吉林卫视
 http://[2409:8087:74F1:0021::0008]/270000001128/9900000030/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="吉林卫视" tvg-logo="default" group-title="卫视频道",吉林卫视
-http://[2409:8087:1a01:df::4051]:80/TVOD/88888888/224/3221225981/main.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="吉林卫视" tvg-logo="default" group-title="卫视频道",吉林卫视
 http://[2409:8087:74d9:21::6]/270000001128/9900000030/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="吉林卫视" tvg-logo="default" group-title="卫视频道",吉林卫视
 http://[2409:8087:1a01:df::4051]/TVOD/88888888/224/3221225981/main.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="吉林卫视" tvg-logo="default" group-title="卫视频道",吉林卫视
+http://[2409:8087:74f1:21::8]:80/270000001128/9900000030/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="吉林卫视" tvg-logo="default" group-title="卫视频道",吉林卫视
 http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226440/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="吉林卫视" tvg-logo="default" group-title="卫视频道",吉林卫视
@@ -8072,15 +8074,15 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/2/224/3221226397
 #EXTINF:-1 tvg-id="1" tvg-name="吉林卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/吉林卫视.png" group-title="卫视频道",吉林卫视
 http://[2409:8087:2801:20:100::4d]/wh7f454c46tw583022601_-773652480/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236268/index.m3u8?icpid=88888888&RTS=1717811407&from=5&hms_devid=375&online=1717811407&vqe=3$涛哥直播•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="江苏卫视" tvg-logo="default" group-title="卫视频道",江苏卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000019351/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="江苏卫视" tvg-logo="default" group-title="卫视频道",江苏卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000010000018509/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="江苏卫视" tvg-logo="default" group-title="卫视频道",江苏卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010225/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="江苏卫视" tvg-logo="default" group-title="卫视频道",江苏卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000001828/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="江苏卫视" tvg-logo="default" group-title="卫视频道",江苏卫视
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226157/index.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000019351/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="江苏卫视" tvg-logo="default" group-title="卫视频道",江苏卫视
-http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002137/index.m3u8
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226157/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="江苏卫视" tvg-logo="default" group-title="卫视频道",江苏卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226310/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="江苏卫视" tvg-logo="default" group-title="卫视频道",江苏卫视
@@ -8322,8 +8324,6 @@ http://[2409:8087:1a01:df::4007]/TVOD/88888888/224/3221225503/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="江苏卫视" tvg-logo="default" group-title="卫视频道",江苏卫视
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226310/index.m3u8?
 #EXTINF:-1 tvg-id="1" tvg-name="江苏卫视" tvg-logo="default" group-title="卫视频道",江苏卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010225/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="江苏卫视" tvg-logo="default" group-title="卫视频道",江苏卫视
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001033/index.m3u8?love=freedom#http://[2409:8087:2001:20:2800:0:df6e:eb03]:80/wh7f454c46tw1750089310_187485273/ott.mobaibox.com/PLTV/3/224/3221227402/index.m3u8?icpid=3&RTS=1674386160&from=40&popid=40&hms_devid=2039&prioritypopid=40&vqe=3#http://[2409:8087:2001:20:2800:0:df6e:eb12]/wh7f454c46tw2983110475_-1591539074/ott.mobaibox.com/PLTV/3/224/3221228097/index.m3u8?icpid=3&RTS=1668597777&from=40&popid=40&hms_devid=2112&prioritypopid=40&vqe=3#http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225938/index.m3u8#http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225929/index.m3u8#http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226310/index.m3u8#https://live.v1.mk/api/bestv.php?id=jswshd8m/8000000
 #EXTINF:-1 tvg-id="1" tvg-name="江苏卫视" tvg-logo="default" group-title="卫视频道",江苏卫视
 http://[2409:8087:2001:20:2800:0:df6e:eb12]/wh7f454c46tw2983110475_-1591539074/ott.mobaibox.com/PLTV/3/224/3221228097/index.m3u8?icpid=3&RTS=1668597777&from=40&popid=40&hms_devid=2112&prioritypopid=40&vqe=3
@@ -8482,13 +8482,13 @@ http://[2409:8087:2801:22:100::70]/wh7f454c46tw345007028_-611228602/hwltc.tv.cdn
 #EXTINF:-1 tvg-id="1" tvg-name="江西卫视" tvg-logo="default" group-title="卫视频道",江西卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000011210/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="江西卫视" tvg-logo="default" group-title="卫视频道",江西卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000013731/1.m3u8
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226207/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="江西卫视" tvg-logo="default" group-title="卫视频道",江西卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000006000268001/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="江西卫视" tvg-logo="default" group-title="卫视频道",江西卫视
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226207/index.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000013731/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="江西卫视" tvg-logo="default" group-title="卫视频道",江西卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010060/1.m3u8
+http://[2409:8087:74f0:22::4]:6610/270000001128/9900000525/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="江西卫视" tvg-logo="default" group-title="卫视频道",江西卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226344/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="江西卫视" tvg-logo="default" group-title="卫视频道",江西卫视
@@ -8664,6 +8664,8 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/322
 #EXTINF:-1 tvg-id="1" tvg-name="江西卫视" tvg-logo="default" group-title="卫视频道",江西卫视
 http://[2409:8087:1a01:df::4027]/TVOD/88888888/224/3221225935/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="江西卫视" tvg-logo="default" group-title="卫视频道",江西卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010060/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="江西卫视" tvg-logo="default" group-title="卫视频道",江西卫视
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226504/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="江西卫视" tvg-logo="default" group-title="卫视频道",江西卫视
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010060/1.m3u8?
@@ -8824,13 +8826,13 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/2/224/3221225660
 #EXTINF:-1 tvg-id="1" tvg-name="康巴卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/康巴卫视.png" group-title="卫视频道",康巴卫视
 http://[2409:8087:2801:22:100::45]/wh7f454c46tw1269819384_-1961375632/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236185/index.m3u8?icpid=88888888&RTS=1717812094&from=5&hms_devid=1640&online=1717812094&vqe=3$涛哥直播•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="辽宁卫视" tvg-logo="default" group-title="卫视频道",辽宁卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000011671/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="辽宁卫视" tvg-logo="default" group-title="卫视频道",辽宁卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000024033/1.m3u8
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226209/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="辽宁卫视" tvg-logo="default" group-title="卫视频道",辽宁卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000001945/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="辽宁卫视" tvg-logo="default" group-title="卫视频道",辽宁卫视
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226209/index.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000024033/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="辽宁卫视" tvg-logo="default" group-title="卫视频道",辽宁卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000011671/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="辽宁卫视" tvg-logo="default" group-title="卫视频道",辽宁卫视
 http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002201/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="辽宁卫视" tvg-logo="default" group-title="卫视频道",辽宁卫视
@@ -9210,9 +9212,9 @@ http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000013359/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="青海卫视" tvg-logo="default" group-title="卫视频道",青海卫视
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010111/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="青海卫视" tvg-logo="default" group-title="卫视频道",青海卫视
-http://[2409:8087:74f0:22::4]:6410/270000001128/9900000042/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="青海卫视" tvg-logo="default" group-title="卫视频道",青海卫视
 http://[2409:8087:74d9:21::6]:80/270000001128/9900000042/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="青海卫视" tvg-logo="default" group-title="卫视频道",青海卫视
+http://[2409:8087:74f0:22::4]:6410/270000001128/9900000042/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="青海卫视" tvg-logo="default" group-title="卫视频道",青海卫视
 http://[2409:8087:1a0b:df::4002]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225628/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="青海卫视" tvg-logo="default" group-title="卫视频道",青海卫视
@@ -9470,11 +9472,11 @@ http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226162/index.
 #EXTINF:-1 tvg-id="1" tvg-name="山东卫视" tvg-logo="default" group-title="卫视频道",山东卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000020424/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="山东卫视" tvg-logo="default" group-title="卫视频道",山东卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/7347081113971056899/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="山东卫视" tvg-logo="default" group-title="卫视频道",山东卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000016568/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="山东卫视" tvg-logo="default" group-title="卫视频道",山东卫视
-http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002202/index.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000012807/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="山东卫视" tvg-logo="default" group-title="卫视频道",山东卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/7347081113971056899/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="山东卫视" tvg-logo="default" group-title="卫视频道",山东卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226456/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="山东卫视" tvg-logo="default" group-title="卫视频道",山东卫视
@@ -9678,8 +9680,6 @@ http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226162/index.m3u
 #EXTINF:-1 tvg-id="1" tvg-name="山东卫视" tvg-logo="default" group-title="卫视频道",山东卫视
 http://[2409:8087:74d9:21::6]/270000001322/69900158041111100000002202/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="山东卫视" tvg-logo="default" group-title="卫视频道",山东卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000012807/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="山东卫视" tvg-logo="default" group-title="卫视频道",山东卫视
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226456/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="山东卫视" tvg-logo="default" group-title="卫视频道",山东卫视
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001028/index.m3u8?love=freedom#http://[2409:8087:2001:20:2800:0:df6e:eb0b]:80/wh7f454c46tw1748964273_488226892/ott.mobaibox.com/PLTV/3/224/3221227310/index.m3u8?icpid=3&RTS=1674386159&from=40&popid=40&hms_devid=2038&prioritypopid=40&vqe=3#http://[2409:8087:2001:20:2800:0:df6e:eb10]/wh7f454c46tw2848465480_1677095697/ott.mobaibox.com/PLTV/3/224/3221227517/index.m3u8?icpid=3&RTS=1668597642&from=40&popid=40&hms_devid=2110&prioritypopid=40&vqe=3#http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225952/index.m3u8#http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226456/index.m3u8#https://live.v1.mk/api/bestv.php?id=sdws8m/8000000
@@ -9864,8 +9864,6 @@ http://[2409:8087:5e01:34::38]:6610/ZTE_CMS/00000001000000060000000000000318/ind
 #EXTINF:-1 tvg-id="1" tvg-name="陕西卫视" tvg-logo="default" group-title="卫视频道",陕西卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000007495/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="陕西卫视" tvg-logo="default" group-title="卫视频道",陕西卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010113/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="陕西卫视" tvg-logo="default" group-title="卫视频道",陕西卫视
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226457/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="陕西卫视" tvg-logo="default" group-title="卫视频道",陕西卫视
 http://[2409:8087:5e01:34::38]:6610/ZTE_CMS/00000001000000060000000000000313/index.m3u8?$海南移动V6
@@ -9877,6 +9875,8 @@ http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/322
 http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225989/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="陕西卫视" tvg-logo="default" group-title="卫视频道",陕西卫视
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226457/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="陕西卫视" tvg-logo="default" group-title="卫视频道",陕西卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010113/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="陕西卫视" tvg-logo="default" group-title="卫视频道",陕西卫视
 http://[2409:8087:1a0b:df::4002]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225625/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="陕西卫视" tvg-logo="default" group-title="卫视频道",陕西卫视
@@ -9902,15 +9902,15 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/2/224/3221225625
 #EXTINF:-1 tvg-id="1" tvg-name="陕西卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/陕西卫视.png" group-title="卫视频道",陕西卫视
 http://[2409:8087:5e01:34::38]:6610/ZTE_CMS/00000001000000060000000000000313/index.m3u8?$涛哥直播•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="深圳卫视" tvg-logo="default" group-title="卫视频道",深圳卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000011645/1.m3u8
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010068/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="深圳卫视" tvg-logo="default" group-title="卫视频道",深圳卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000007410/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="深圳卫视" tvg-logo="default" group-title="卫视频道",深圳卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010068/1.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000011645/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="深圳卫视" tvg-logo="default" group-title="卫视频道",深圳卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010068/index.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000009227/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="深圳卫视" tvg-logo="default" group-title="卫视频道",深圳卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010068/
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002140/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="深圳卫视" tvg-logo="default" group-title="卫视频道",深圳卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226313/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="深圳卫视" tvg-logo="default" group-title="卫视频道",深圳卫视
@@ -10086,15 +10086,13 @@ http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225943/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="深圳卫视" tvg-logo="default" group-title="卫视频道",深圳卫视
 http://[2409:8087:2801:20:100::50]/wh7f454c46tw189359618_-626406875/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236251/index.m3u8?icpid=88888888&RTS=1717811014&from=5&hms_devid=374&online=1717811014&vqe=3
 #EXTINF:-1 tvg-id="1" tvg-name="深圳卫视" tvg-logo="default" group-title="卫视频道",深圳卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000009227/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="深圳卫视" tvg-logo="default" group-title="卫视频道",深圳卫视
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226313/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="深圳卫视" tvg-logo="default" group-title="卫视频道",深圳卫视
 http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226199/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="深圳卫视" tvg-logo="default" group-title="卫视频道",深圳卫视
-http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226510/index.m3u8
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010068/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="深圳卫视" tvg-logo="default" group-title="卫视频道",深圳卫视
-http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002140/index.m3u8
+http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226510/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="深圳卫视" tvg-logo="default" group-title="卫视频道",深圳卫视
 http://[2409:8087:1a01:df::4035]/TVOD/88888888/224/3221225943/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="深圳卫视" tvg-logo="default" group-title="卫视频道",深圳卫视
@@ -10189,18 +10187,20 @@ http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000176/ind
 http://[2409:8087:5e01:34::38]:6610/ZTE_CMS/00000001000000060000000000000176/index.m3u8?
 #EXTINF:-1 tvg-id="1" tvg-name="深圳卫视" tvg-logo="default" group-title="卫视频道",深圳卫视
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/2/224/3221225739/2.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="深圳卫视" tvg-logo="default" group-title="卫视频道",深圳卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010068/
 #EXTINF:-1 tvg-id="1" tvg-name="深圳卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/深圳卫视.png" group-title="卫视频道",深圳卫视
 http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226199/index.m3u8$涛哥直播•IPV6『线路1』
+#EXTINF:-1 tvg-id="1" tvg-name="四川卫视" tvg-logo="default" group-title="卫视频道",四川卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000006119/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="四川卫视" tvg-logo="default" group-title="卫视频道",四川卫视
 http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226454/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="四川卫视" tvg-logo="default" group-title="卫视频道",四川卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000016825/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="四川卫视" tvg-logo="default" group-title="卫视频道",四川卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000006119/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="四川卫视" tvg-logo="default" group-title="卫视频道",四川卫视
 http://[2409:8087:74d9:21::6]:80/270000001128/9900000025/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="四川卫视" tvg-logo="default" group-title="卫视频道",四川卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010115/1.m3u8
+http://[2409:8087:74f1:21::8]:80/000000001000/PLTV/88888888/224/3221226454/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="四川卫视" tvg-logo="default" group-title="卫视频道",四川卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226338/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="四川卫视" tvg-logo="default" group-title="卫视频道",四川卫视
@@ -10370,6 +10370,8 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/322
 #EXTINF:-1 tvg-id="1" tvg-name="四川卫视" tvg-logo="default" group-title="卫视频道",四川卫视
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010115/1.m3u8?
 #EXTINF:-1 tvg-id="1" tvg-name="四川卫视" tvg-logo="default" group-title="卫视频道",四川卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010115/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="四川卫视" tvg-logo="default" group-title="卫视频道",四川卫视
 http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226454/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="四川卫视" tvg-logo="default" group-title="卫视频道",四川卫视
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001130/index.m3u8?love=freedom#http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225970/index.m3u8#http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226338/index.m3u8#https://live.v1.mk/api/bestv.php?id=scwshd/8000000
@@ -10424,15 +10426,15 @@ http://[2409:8087:2801:22:100::79]/wh7f454c46tw636977605_-1734631873/hwltc.tv.cd
 #EXTINF:-1 tvg-id="2" tvg-name="四川卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/四川卫视.png" group-title="卫视频道",四川卫视
 http://[2409:8087:5e01:34::38]:6610/ZTE_CMS/00000001000000060000000000000330/index.m3u8?$涛哥直播•IPV6『线路2』
 #EXTINF:-1 tvg-id="1" tvg-name="天津卫视" tvg-logo="default" group-title="卫视频道",天津卫视
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226191/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="天津卫视" tvg-logo="default" group-title="卫视频道",天津卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000000831/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="天津卫视" tvg-logo="default" group-title="卫视频道",天津卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000006827/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="天津卫视" tvg-logo="default" group-title="卫视频道",天津卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000003475/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="天津卫视" tvg-logo="default" group-title="卫视频道",天津卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000001000030788/1.m3u8
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226191/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="天津卫视" tvg-logo="default" group-title="卫视频道",天津卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000006827/1.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000001000030788/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="天津卫视" tvg-logo="default" group-title="卫视频道",天津卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226459/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="天津卫视" tvg-logo="default" group-title="卫视频道",天津卫视
@@ -10872,10 +10874,6 @@ http://[2409:8087:5e01:34::38]:6610/ZTE_CMS/00000001000000060000000000000317/ind
 #EXTINF:-1 tvg-id="1" tvg-name="新疆卫视" tvg-logo="default" group-title="卫视频道",新疆卫视
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010116/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="新疆卫视" tvg-logo="default" group-title="卫视频道",新疆卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010116/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="新疆卫视" tvg-logo="default" group-title="卫视频道",新疆卫视
-http://[2409:8087:74f1:21::8]:80/270000001322/69900158041111100000002238/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="新疆卫视" tvg-logo="default" group-title="卫视频道",新疆卫视
 http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225635/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="新疆卫视" tvg-logo="default" group-title="卫视频道",新疆卫视
 http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225635/index.m3u8$LR•93•IPV6『线路1』
@@ -10941,6 +10939,8 @@ http://[2409:8087:5e01:34::38]:6610/ZTE_CMS/00000001000000060000000000000316/ind
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225635/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="新疆卫视" tvg-logo="default" group-title="卫视频道",新疆卫视
 http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225635/index.m3u8#http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225635/index.m3u8#http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226460/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="新疆卫视" tvg-logo="default" group-title="卫视频道",新疆卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010116/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="新疆卫视" tvg-logo="default" group-title="卫视频道",新疆卫视
 http://[2409:8087:74F1:0021::0008]:80/270000001322/69900158041111100000002238/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="新疆卫视" tvg-logo="default" group-title="卫视频道",新疆卫视
@@ -11030,7 +11030,7 @@ http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031120/
 #EXTINF:-1 tvg-id="1" tvg-name="云南卫视" tvg-logo="default" group-title="卫视频道",云南卫视
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010119/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="云南卫视" tvg-logo="default" group-title="卫视频道",云南卫视
-http://[2409:8087:74f0:22::7]:6410/270000001128/9900000035/index.m3u8
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000035/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="云南卫视" tvg-logo="default" group-title="卫视频道",云南卫视
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010119/1.m3u8$LR•136•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="云南卫视" tvg-logo="default" group-title="卫视频道",云南卫视
@@ -11130,7 +11130,7 @@ http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/322
 #EXTINF:-1 tvg-id="1" tvg-name="云南卫视" tvg-logo="default" group-title="卫视频道",云南卫视
 http://[2409:8087:5e01:34::22]:6610/ZTE_CMS/00000001000000060000000000000305/index.m3u8?IAS
 #EXTINF:-1 tvg-id="1" tvg-name="云南卫视" tvg-logo="default" group-title="卫视频道",云南卫视
-http://[2409:8087:74d9:21::6]:80/270000001128/9900000035/index.m3u8
+http://[2409:8087:74f0:22::7]:6410/270000001128/9900000035/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="云南卫视" tvg-logo="default" group-title="卫视频道",云南卫视
 http://[2409:8087:2001:20:2800:0:df6e:eb05]:80/ott.mobaibox.com/PLTV/4/224/3221225591/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="云南卫视" tvg-logo="default" group-title="卫视频道",云南卫视
@@ -11202,15 +11202,15 @@ http://[2409:8087:2801:22:100::41]/wh7f454c46tw865868828_298976728/hwltc.tv.cdn.
 #EXTINF:-1 tvg-id="2" tvg-name="云南卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/云南卫视.png" group-title="卫视频道",云南卫视
 http://[2409:8087:5e01:34::38]:6610/ZTE_CMS/00000001000000060000000000000305/index.m3u8?$涛哥直播•IPV6『线路2』
 #EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="default" group-title="卫视频道",浙江卫视
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226144/index.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000014260/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="default" group-title="卫视频道",浙江卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000007275/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="default" group-title="卫视频道",浙江卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010070/1.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000010000017320/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="default" group-title="卫视频道",浙江卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010070/index.m3u8
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226144/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="default" group-title="卫视频道",浙江卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000009806/1.m3u8
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002206/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="default" group-title="卫视频道",浙江卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226339/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="default" group-title="卫视频道",浙江卫视
@@ -11424,17 +11424,19 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/322
 #EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="default" group-title="卫视频道",浙江卫视
 http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225959/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="default" group-title="卫视频道",浙江卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010070/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="default" group-title="卫视频道",浙江卫视
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226342/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="default" group-title="卫视频道",浙江卫视
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226339/index.m3u8?
 #EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="default" group-title="卫视频道",浙江卫视
-http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002206/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="default" group-title="卫视频道",浙江卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000014260/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="default" group-title="卫视频道",浙江卫视
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010070/1.m3u8?
 #EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="default" group-title="卫视频道",浙江卫视
 http://[2409:8087:1a01:df::4043]/TVOD/88888888/224/3221225959/main.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="default" group-title="卫视频道",浙江卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000009806/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="default" group-title="卫视频道",浙江卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010070/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="default" group-title="卫视频道",浙江卫视
 http://[2409:8087:1a01:df::4001]/TVOD/88888888/224/3221225514/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="default" group-title="卫视频道",浙江卫视
@@ -11445,8 +11447,6 @@ http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226144/index.m3u
 http://[2409:8087:1a01:df::4043]:80/TVOD/88888888/224/3221225959/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="default" group-title="卫视频道",浙江卫视
 http://[2409:8087:74d9:21::6]/270000001322/69900158041111100000002206/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="default" group-title="卫视频道",浙江卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000010000017320/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="default" group-title="卫视频道",浙江卫视
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001023/index.m3u8?love=freedom#http://[2409:8087:2001:20:2800:0:df6e:eb02]:80/wh7f454c46tw205505165_733643305/ott.mobaibox.com/PLTV/3/224/3221227393/index.m3u8?icpid=3&RTS=1674380320&from=40&popid=40&hms_devid=2039&prioritypopid=40&vqe=3#http://[2409:8087:2001:20:2800:0:df6e:eb11]/wh7f454c46tw1197826796_-265147758/ott.mobaibox.com/PLTV/3/224/3221227491/index.m3u8?icpid=3&RTS=1669699798&from=40&popid=40&hms_devid=2110&prioritypopid=40&vqe=3#http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226339/index.m3u8#http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225959/index.m3u8#https://live.v1.mk/api/bestv.php?id=zjwshd8m/8000000
 #EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="default" group-title="卫视频道",浙江卫视
@@ -11592,13 +11592,13 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/2/224/3221225612
 #EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/浙江卫视.png" group-title="卫视频道",浙江卫视
 http://[2409:8087:2801:22:100::37]/wh7f454c46tw220326352_-39381451/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236171/index.m3u8?icpid=88888888&RTS=1717811045&from=5&hms_devid=1647&online=1717811045&vqe=3$涛哥直播•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="重庆卫视" tvg-logo="default" group-title="卫视频道",重庆卫视
-http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226551/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="重庆卫视" tvg-logo="default" group-title="卫视频道",重庆卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000018937/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="重庆卫视" tvg-logo="default" group-title="卫视频道",重庆卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000025797/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="重庆卫视" tvg-logo="default" group-title="卫视频道",重庆卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226551/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="重庆卫视" tvg-logo="default" group-title="卫视频道",重庆卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000001096/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="重庆卫视" tvg-logo="default" group-title="卫视频道",重庆卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000018937/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="重庆卫视" tvg-logo="default" group-title="卫视频道",重庆卫视
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010218/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="重庆卫视" tvg-logo="default" group-title="卫视频道",重庆卫视
@@ -11894,11 +11894,11 @@ http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226142/index.
 #EXTINF:-1 tvg-id="1" tvg-name="黑龙江卫视" tvg-logo="default" group-title="卫视频道",黑龙江卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000004000025203/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="黑龙江卫视" tvg-logo="default" group-title="卫视频道",黑龙江卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000009082/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="黑龙江卫视" tvg-logo="default" group-title="卫视频道",黑龙江卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000001925/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="黑龙江卫视" tvg-logo="default" group-title="卫视频道",黑龙江卫视
 http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002142/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="黑龙江卫视" tvg-logo="default" group-title="卫视频道",黑龙江卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000009082/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="黑龙江卫视" tvg-logo="default" group-title="卫视频道",黑龙江卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226327/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="黑龙江卫视" tvg-logo="default" group-title="卫视频道",黑龙江卫视
@@ -12270,6 +12270,8 @@ http://[2409:8087:2001:20:2800:0:df6e:eb03]:80/wh7f454c46tw516023873_290665544/o
 #EXTINF:-1 tvg-id="1" tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/n3rddd/tvlogos/raw/main/logo/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
 http://[2409:8087:2801:22:100::74]/wh7f454c46tw523735924_-140900976/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236226/index.m3u8?icpid=88888888&RTS=1717811348&from=5&hms_devid=325&online=1717811348&vqe=3$涛哥直播•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="内蒙古卫视" tvg-logo="default" group-title="卫视频道",内蒙古卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010109/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="内蒙古卫视" tvg-logo="default" group-title="卫视频道",内蒙古卫视
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010109/1.m3u8$LR•80•IPV6『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="内蒙古卫视" tvg-logo="default" group-title="卫视频道",内蒙古卫视
 http://[2409:8087:1a0b:df::4017]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225634/index.m3u8$LR•80•IPV6『线路2』
@@ -12299,8 +12301,6 @@ http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221225846/index.m3u
 http://[2409:8087:2001:20:2800:0:df6e:eb19]:80/wh7f454c46tw2228825807_1324573507/ott.mobaibox.com/PLTV/3/224/3221227557/index.m3u8$LR•IPV6『线路11』
 #EXTINF:-1 tvg-id="1" tvg-name="内蒙古卫视" tvg-logo="default" group-title="卫视频道",内蒙古卫视
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226389/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="内蒙古卫视" tvg-logo="default" group-title="卫视频道",内蒙古卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010109/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="内蒙古卫视" tvg-logo="default" group-title="卫视频道",内蒙古卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225634/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="内蒙古卫视" tvg-logo="default" group-title="卫视频道",内蒙古卫视
@@ -12358,9 +12358,9 @@ http://[2409:8087:1a0b:df::4007]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 #EXTINF:-1 tvg-id="1" tvg-name="安多卫视" tvg-logo="default" group-title="卫视频道",安多卫视
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/2/224/3221225659/2.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="大湾区卫视" tvg-logo="default" group-title="卫视频道",大湾区卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000011619/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="大湾区卫视" tvg-logo="default" group-title="卫视频道",大湾区卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000004000011655/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="大湾区卫视" tvg-logo="default" group-title="卫视频道",大湾区卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000011619/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="大湾区卫视" tvg-logo="default" group-title="卫视频道",大湾区卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000011619/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="大湾区卫视" tvg-logo="default" group-title="卫视频道",大湾区卫视
@@ -13034,15 +13034,15 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/322
 #EXTINF:-1 tvg-id="1" tvg-name="哒啵赛事" tvg-logo="default" group-title="数字频道",哒啵赛事
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010125/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="黑莓电影" tvg-logo="default" group-title="数字频道",黑莓电影
-http://[2409:8087:5e00:24::1e]:6060/000000001000/8785669936177902664/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="黑莓电影" tvg-logo="default" group-title="数字频道",黑莓电影
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000004000019624/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="黑莓电影" tvg-logo="default" group-title="数字频道",黑莓电影
-http://[2409:8087:74d9:21::6]:80/270000001128/9900000095/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="黑莓电影" tvg-logo="default" group-title="数字频道",黑莓电影
 http://[2409:8087:1a01:df::4001]:80/TVOD/88888888/224/3221225681/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="黑莓电影" tvg-logo="default" group-title="数字频道",黑莓电影
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010073/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="黑莓电影" tvg-logo="default" group-title="数字频道",黑莓电影
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000095/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="黑莓电影" tvg-logo="default" group-title="数字频道",黑莓电影
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000004000019624/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="黑莓电影" tvg-logo="default" group-title="数字频道",黑莓电影
+http://[2409:8087:5e00:24::1e]:6060/000000001000/8785669936177902664/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="黑莓电影" tvg-logo="default" group-title="数字频道",黑莓电影
 http://[2409:8087:1a01:df::4001]/TVOD/88888888/224/3221225681/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="黑莓电影" tvg-logo="default" group-title="数字频道",黑莓电影
@@ -13154,8 +13154,6 @@ http://[2409:8087:1a01:df::7005]/TVOD/88888888/224/3221225899/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="睛彩篮球" tvg-logo="default" group-title="数字频道",睛彩篮球
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226147/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="睛彩篮球" tvg-logo="default" group-title="数字频道",睛彩篮球
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000006000270002/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="睛彩篮球" tvg-logo="default" group-title="数字频道",睛彩篮球
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000006000270006/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="睛彩篮球" tvg-logo="default" group-title="数字频道",睛彩篮球
 http://[2409:8087:1a01:df::4055]:80/TVOD/88888888/224/3221225901/main.m3u8
@@ -13163,6 +13161,8 @@ http://[2409:8087:1a01:df::4055]:80/TVOD/88888888/224/3221225901/main.m3u8
 http://[2409:8087:1a01:df::7005]:80/TVOD/88888888/224/3221225895/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="睛彩篮球" tvg-logo="default" group-title="数字频道",睛彩篮球
 http://[2409:8087:1a01:df::7005]:80/TVOD/88888888/224/3221226027/main.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="睛彩篮球" tvg-logo="default" group-title="数字频道",睛彩篮球
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000006000270002/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="睛彩篮球" tvg-logo="default" group-title="数字频道",睛彩篮球
 http://[2409:8087:1a01:df::4055]/TVOD/88888888/224/3221225901/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="睛彩篮球" tvg-logo="default" group-title="数字频道",睛彩篮球
@@ -13208,15 +13208,13 @@ http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000009204/1.m3u8$LR�
 #EXTINF:-1 tvg-id="1" tvg-name="超级体育" tvg-logo="default" group-title="数字频道",超级体育
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="超级体育" tvg-logo="default" group-title="数字频道",超级体育
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000009204/1.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000004000007755/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="超级体育" tvg-logo="default" group-title="数字频道",超级体育
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000009601/
 #EXTINF:-1 tvg-id="1" tvg-name="超级体育" tvg-logo="default" group-title="数字频道",超级体育
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000009204/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="超级体育" tvg-logo="default" group-title="数字频道",超级体育
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000009601/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="超级体育" tvg-logo="default" group-title="数字频道",超级体育
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000004000007755/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="超级体育" tvg-logo="default" group-title="数字频道",超级体育
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010063/
 #EXTINF:-1 tvg-id="1" tvg-name="超级体育" tvg-logo="default" group-title="数字频道",超级体育
 http://[2409:8087:1a01:df::4013]/TVOD/88888888/224/3221225635/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="超级体育" tvg-logo="default" group-title="数字频道",超级体育
@@ -13225,16 +13223,18 @@ http://[2409:8087:1a0a:df::4016]/wh7f454c46tw2798497282_1170252542/ottrrs.hl.chi
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="超级体育" tvg-logo="default" group-title="数字频道",超级体育
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225622/2/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="超级电影" tvg-logo="default" group-title="数字频道",超级电影
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000012884/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="超级体育" tvg-logo="default" group-title="数字频道",超级体育
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010063/
 #EXTINF:-1 tvg-id="1" tvg-name="超级电影" tvg-logo="default" group-title="数字频道",超级电影
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010064/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="超级电影" tvg-logo="default" group-title="数字频道",超级电影
 http://[2409:8087:1a01:df::4021]:80/TVOD/88888888/224/3221225644/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="超级电影" tvg-logo="default" group-title="数字频道",超级电影
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000004000002120/1.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="超级电影" tvg-logo="default" group-title="数字频道",超级电影
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000003000012426/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="超级电影" tvg-logo="default" group-title="数字频道",超级电影
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000004000002120/1.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000012884/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="超级电影" tvg-logo="default" group-title="数字频道",超级电影
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000003000012426/
 #EXTINF:-1 tvg-id="1" tvg-name="超级电影" tvg-logo="default" group-title="数字频道",超级电影
@@ -13422,13 +13422,13 @@ http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 #EXTINF:-1 tvg-id="1" tvg-name="精品体育" tvg-logo="default" group-title="数字频道",精品体育
 http://[2409:8087:1a0b:df::4004]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225674/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="精品体育" tvg-logo="default" group-title="数字频道",精品体育
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000004000014634/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="精品体育" tvg-logo="default" group-title="数字频道",精品体育
 http://[2409:8087:5e00:24::1e]:6060/000000001000/6460382139625130259/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="精品体育" tvg-logo="default" group-title="数字频道",精品体育
-http://[2409:8087:74d9:21::6]:80/270000001128/9900000102/index.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000004000014634/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="精品体育" tvg-logo="default" group-title="数字频道",精品体育
 http://[2409:8087:1a01:df::4005]:80/TVOD/88888888/224/3221225526/main.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="精品体育" tvg-logo="default" group-title="数字频道",精品体育
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000102/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="精品体育" tvg-logo="default" group-title="数字频道",精品体育
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225674/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="精品体育" tvg-logo="default" group-title="数字频道",精品体育
@@ -13626,15 +13626,17 @@ http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000004000023658/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="超级综艺" tvg-logo="default" group-title="数字频道",超级综艺
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000006000268002/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="超级综艺" tvg-logo="default" group-title="数字频道",超级综艺
-http://[2409:8087:1a01:df::4003]:80/TVOD/88888888/224/3221225642/main.m3u8
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000019/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="超级综艺" tvg-logo="default" group-title="数字频道",超级综艺
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010062/1.m3u8
+http://[2409:8087:1a01:df::4003]:80/TVOD/88888888/224/3221225642/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="超级综艺" tvg-logo="default" group-title="数字频道",超级综艺
 http://[2409:8087:1a01:df::4003]/TVOD/88888888/224/3221225642/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="超级综艺" tvg-logo="default" group-title="数字频道",超级综艺
 http://[2409:8087:1a01:df::4003]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225714/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="超级综艺" tvg-logo="default" group-title="数字频道",超级综艺
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225714/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="超级综艺" tvg-logo="default" group-title="数字频道",超级综艺
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010062/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="超级综艺" tvg-logo="default" group-title="数字频道",超级综艺
 http://[2409:8087:74d9:21::6]/270000001128/9900000019/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="超级综艺" tvg-logo="default" group-title="数字频道",超级综艺
@@ -13668,11 +13670,11 @@ http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000004000026167/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="金牌综艺" tvg-logo="default" group-title="数字频道",金牌综艺
 http://[2409:8087:5e00:24::1e]:6060/000000001000/6399725674632152632/1.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="金牌综艺" tvg-logo="default" group-title="数字频道",金牌综艺
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000112/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="金牌综艺" tvg-logo="default" group-title="数字频道",金牌综艺
 http://[2409:8087:1a01:df::4001]:80/TVOD/88888888/224/3221225525/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="金牌综艺" tvg-logo="default" group-title="数字频道",金牌综艺
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010086/1.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="金牌综艺" tvg-logo="default" group-title="数字频道",金牌综艺
-http://[2409:8087:74d9:21::6]:80/270000001128/9900000112/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="金牌综艺" tvg-logo="default" group-title="数字频道",金牌综艺
 http://[2409:8087:1a01:df::4001]/TVOD/88888888/224/3221225525/main.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="金牌综艺" tvg-logo="default" group-title="数字频道",金牌综艺
