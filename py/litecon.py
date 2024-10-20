@@ -19,6 +19,7 @@ source_urls = [
     "https://raw.githubusercontent.com/wwb521/live/main/tv.m3u", #ADDED BY LEM ON 28/09/2024
     "https://gitea.moe/Fathers/EkfkgH/raw/branch/main/yyfug.txt", #ADDED BY LEM ON 16/10/2024
     "http://120.79.4.185/new/mdlive.txt",
+    "https://live.zhoujie218.top/tv/iptv6.txt",
     "https://tv.youdu.fan:666/live/",
     "http://ww.weidonglong.com/dsj.txt",
     "http://xhztv.top/zbc.txt",
