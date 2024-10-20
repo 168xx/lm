@@ -146,7 +146,7 @@ def updateChannelUrlsM3U(channels, template_channels):
                         if channel_name in channels[category]:  
                             # 过滤和排序只包含域名的IPv4地址  
                             valid_urls = [url for url in channels[category][channel_name] if is_valid_ipv4_with_domain(url)]  
-                            sorted_urls = sorted(valid_urls, key=lambda url: not is_ip(url) if config.ip_version_priority == "ipv6" else is_ip(url))  # 注意这里实际上不会用到ipv6的排序，因为我们已经过滤了  
+                            sorted_urls = sorted(valid_urls, key=lambda url: not is_ip(url) if config.ip_version_priority == "ipv6" else is_ip(url))  
                             filtered_urls = []  
                             for url in sorted_urls:  
                                 if url and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist):  
@@ -155,7 +155,7 @@ def updateChannelUrlsM3U(channels, template_channels):
   
                             total_urls = len(filtered_urls)  
                             for index, url in enumerate(filtered_urls, start=1):  
-                                url_suffix = f"$涛哥" if total_urls == 1 else f"$涛哥『线路{index}』"  
+                                url_suffix = f"$TG•IPV4" if total_urls == 1 else f"$TG•IPV4『线路{index}』"  
                                 if '$' in url:  
                                     base_url = url.split('$', 1)[0]  
                                 else:  

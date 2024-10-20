@@ -7,6 +7,8 @@ source_urls = [
     "https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.m3u", #ADDED BY LEM ON 15/10/2024
     "https://4key.cn/FP", #ADDED BY LEM ON 16/10/2024
     "https://raw.githubusercontent.com/Wirili/IPTV/refs/heads/main/live.m3u", #ADDED BY LEM ON 16/10/2024
+    "http://99.weidonglong.com/99.txt", #IPV6 ON 20/10/2024
+    "https://raw.githubusercontent.com/yuanzl77/IPTV/refs/heads/main/live.txt", #IPV6 ON 20/10/2024
     "https://raw.githubusercontent.com/pxiptv/live/main/iptv.txt", #ADDED BY LEM ON 08/08/2024
     "https://raw.githubusercontent.com/kakaxi-1/IPTV/refs/heads/main/ipv6.m3u",
     "http://tv.850930.xyz/kdsb.m3u", #ADDED BY LEM ON 29/07/2024

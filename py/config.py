@@ -4,24 +4,27 @@ source_urls = [
     "http://dd.rihou.cc:555/gggg.nzk", #DD BY LEM ON 18/10/2024
     "https://live.zbds.top/tv/iptv4.txt", #ZBDS BY LEM ON 18/10/2024
     "https://gongdian.top/tv/gongdian.txt", #Gongdian ipv4 ON 19/10/2024
+    "https://tv.iill.top/m3u/Gather", #BY GT ON 20/10/2024
+    "http://l.gmbbk.com/upload/32413241.txt", #20/10/2024
+    "https://gitee.com/jin-xueling/lingl/raw/master/hu.txt", #BY GT ON 20/10/2024
+    "http://itv.22m.top/ITVBox/tv/tvonline.txt", #20/10/2024
+    "http://zb.xmzb.xyz/大视界3.txt", #20/10/2024
+    "https://4key.cn/FP", #20/10/2024
+    "https://gitee.com/wjdjxjxj/tv/raw/master/qa.txt", #20/10/2024
+    "http://www.iptv6.icu:5212/f/mPLia/mytv.txt", #MJ TV 20/10/2024
     "https://gitee.com/lu-xiaoming-0168/lu/raw/%E5%B9%BF%E5%B7%9E%E5%8F%B0/%E7%94%B5%E8%A7%86%E7%9B%B4%E6%92%AD.png", #D ipv4 ON 19/10/2024
     "https://raw.githubusercontent.com/redrainl/iptv/main/speedtest/zubo_fofa.txt", #ADDED BY LEM ON 01/08/2024
     "https://raw.githubusercontent.com/pxiptv/live/main/iptv.txt", #ADDED BY LEM ON 08/08/2024
-    "http://tv.850930.xyz/kdsb.m3u", #ADDED BY LEM ON 29/07/2024
     "http://tv.850930.xyz/kdsb2.m3u", #ADDED BY LEM ON 31/07/2024
     "http://tv.850930.xyz/kdsb.txt", #ADDED BY LEM ON 28/09/2024
     "http://tv.850930.xyz/gather.m3u", #ADDED BY LEM ON 29/07/2024
-    "https://gitcode.net/ygbh66/test/-/raw/master/oh.txt", #ADDED BY LEM ON 10/09/2024
     "https://raw.githubusercontent.com/wwb521/live/main/tv.m3u", #ADDED BY LEM ON 28/09/2024
-    "https://raw.githubusercontent.com/kakaxi-1/IPTV/main/iptv.txt", #ADDED BY LEM ON 27/09/2024
     "https://raw.githubusercontent.com/hus888yu/app/main/yt.txt", #ADDED BY LEM ON 06/10/2024
     "https://raw.githubusercontent.com/hus888yu/app/main/nb.txt", #ADDED BY LEM ON 27/09/2024
     "https://raw.githubusercontent.com/hus888yu/app/main/ub.txt", #ADDED BY LEM ON 10/09/2024
     "https://raw.githubusercontent.com/hus888yu/app/main/p3p.php", #ADDED BY LEM ON 10/09/2024
-    "https://www.stream-link.org/stream-link.m3u", #ADDED BY LEM ON 31/08/2024
-    "http://175.178.251.183:6689/channel.txt",
     "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-    "https://raw.githubusercontent.com/yuanzl77/IPTV/main/直播/央视频道.txt",
+    "https://raw.githubusercontent.com/yuanzl77/IPTV/refs/heads/main/live.txt",
     "http://120.79.4.185/new/mdlive.txt",
     "https://raw.githubusercontent.com/Fairy8o/IPTV/main/PDX-V4.txt",
     "https://raw.githubusercontent.com/Fairy8o/IPTV/main/PDX-V6.txt",
