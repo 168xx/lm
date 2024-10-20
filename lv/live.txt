@@ -1556,8 +1556,6 @@ CCTV4K,https://vip.taoiptv.cn/source/jsyd.php?id=G_CCTV-4K-HD.m3u8&sign=06zcwd$T
 CCTV8K,https://tv.cry33.com/ys4k.php?id=8k$TG•IPV4『线路1』
 CCTV8K,http://mdxgh.tpddns.cn:88/mdxgh/cctv8k$TG•IPV4『线路2』
 CCTV8K,https://tv.cry33.com/ys4k.php?id=8k25$TG•IPV4『线路3』
-CCTV-11戏曲,http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226240/1.m3u8$TG•IPV4
-CCTV-15音乐,http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225785/1.m3u8$TG•IPV4
 CCTV-1,http://tvbox6.com/tv/zb/bjcucc.php?id=1$TG•IPV4『线路1』
 CCTV-1,http://tvbox6.com/tv/zb/cqcucc.php?id=123$TG•IPV4『线路2』
 CCTV-2,http://tvbox6.com/tv/zb/bjcucc.php?id=2$TG•IPV4『线路1』
@@ -1595,25 +1593,6 @@ CCTV-15,http://tvbox6.com/tv/zb/cqcucc.php?id=15$TG•IPV4『线路2』
 CCTV-16,http://tvbox6.com/tv/zb/bjcucc.php?id=17$TG•IPV4
 CCTV-17,http://tvbox6.com/tv/zb/bjcucc.php?id=18$TG•IPV4『线路1』
 CCTV-17,http://tvbox6.com/tv/zb/cqcucc.php?id=135$TG•IPV4『线路2』
-CCTV 1 综合,https://tv.iill.top/migu/cctv1$TG•IPV4
-CCTV 2 财经,https://tv.iill.top/migu/cctv2$TG•IPV4
-CCTV 3 综艺,https://tv.iill.top/migu/cctv3$TG•IPV4
-CCTV 4 中文国际,https://tv.iill.top/migu/cctv4$TG•IPV4
-CCTV 4 中文国际·美洲,https://tv.iill.top/migu/cctv4m$TG•IPV4
-CCTV 4 中文国际·欧洲,https://tv.iill.top/migu/cctv4o$TG•IPV4
-CCTV 5 体育,https://tv.iill.top/migu/cctv5$TG•IPV4
-CCTV 5+ 体育赛事,https://tv.iill.top/migu/cctv5p$TG•IPV4
-CCTV 6 电影,https://tv.iill.top/migu/cctv6$TG•IPV4
-CCTV 7 国防军事,https://tv.iill.top/migu/cctv7$TG•IPV4
-CCTV 8 电视剧,https://tv.iill.top/migu/cctv8$TG•IPV4
-CCTV 9 纪录,https://tv.iill.top/migu/cctv9$TG•IPV4
-CCTV 10 科教,https://tv.iill.top/migu/cctv10$TG•IPV4
-CCTV 11 戏曲,https://tv.iill.top/migu/cctv11$TG•IPV4
-CCTV 12 社会与法,https://tv.iill.top/migu/cctv12$TG•IPV4
-CCTV 13 新闻,https://tv.iill.top/migu/cctv13$TG•IPV4
-CCTV 14 少儿,https://tv.iill.top/migu/cctv14$TG•IPV4
-CCTV 15 音乐,https://tv.iill.top/migu/cctv15$TG•IPV4
-CCTV 17 农村农业,https://tv.iill.top/migu/cctv17$TG•IPV4
 CETV1,https://vip.taoiptv.cn/source/itv.php?id=中国教育电视台1.m3u8&sign=z6sj8k$TG•IPV4『线路1』
 CETV1,http://beijinglive.online.domybox.com:91/live/CETV1hd-8M/live.m3u8$TG•IPV4『线路2』
 CETV1,http://tvbox6.com/tv/cetv1.m3u8$TG•IPV4『线路3』
@@ -5286,6 +5265,7 @@ EYE戏剧,http://extraott.com:80/live/7921751389/6097373662/5532.m3u8$TG•IPV4
 梁家辉,http://diyp.zxxoo.work/huya/11342429$TG•IPV4『线路2』
 梁家辉,https://cfss.cc/cdn/hy/11342429.flv$TG•IPV4『线路3』
 梁家辉,http://cfss.cc/cdn/hy/11342429.flv$TG•IPV4『线路4』
+吴京,http://cfss.cc/cdn/hy/11602041.flv$TG•IPV4
 王晶,http://diyp.zxxoo.work/huya/11602058$TG•IPV4『线路1』
 王晶,http://cfss.cc/cdn/hy/11602058.m3u8$TG•IPV4『线路2』
 王晶,http://cfss.cc/cdn/hy/11602058.flv$TG•IPV4『线路3』
@@ -5329,8 +5309,7 @@ EYE戏剧,http://extraott.com:80/live/7921751389/6097373662/5532.m3u8$TG•IPV4
 沈腾,http://cfss.cc/cdn/hy/11601968.m3u8$TG•IPV4『线路1』
 沈腾,http://cfss.cc/cdn/hy/11601968.flv$TG•IPV4『线路2』
 沈腾,https://www.goodiptv.club/huya/11601968$TG•IPV4『线路3』
-古天乐,https://www.goodiptv.club/huya/11602041$TG•IPV4『线路1』
-古天乐,http://cfss.cc/cdn/hy/11602041.flv$TG•IPV4『线路2』
+古天乐,https://www.goodiptv.club/huya/11602041$TG•IPV4
 洪金宝,http://204bae1.123nat.com:35455/yy/1354924839$TG•IPV4『线路1』
 洪金宝,http://204bae1.123nat.com:35455/yy/1382851602$TG•IPV4『线路2』
 洪金宝,https://cfss.cc/cdn/hy/11279251.flv$TG•IPV4『线路3』
@@ -5384,13 +5363,12 @@ EYE戏剧,http://extraott.com:80/live/7921751389/6097373662/5532.m3u8$TG•IPV4
 豆瓣高分,http://maomao.kandiantv.cn/douyu1.php?id=8770422$TG•IPV4『线路1』
 豆瓣高分,http://epg.112114.xyz/douyu/8770422$TG•IPV4『线路2』
 豆瓣高分,https://live.metshop.top/douyu/8770422$TG•IPV4『线路3』
-电视📺剧,#genre#
+电视剧,#genre#
 甄嬛传,http://zby.xjqxz.top/live8/live.m3u8$TG•IPV4『线路1』
 甄嬛传,http://tvbox6.com/tv/zhenhuanzhuan.m3u8$TG•IPV4『线路2』
 甄嬛传,http://tvbox6.cn/tv/zhenhuanzhuan.m3u8$TG•IPV4『线路3』
 斗罗大陆,http://cfss.cc/cdn/hy/11352906.flv$TG•IPV4『线路1』
 斗罗大陆,https://www.goodiptv.club/huya/11352906$TG•IPV4『线路2』
-小马的直播间,https://www.goodiptv.club/huya/23749096$TG•IPV4
 孙悟空,https://www.goodiptv.club/huya/23735126$TG•IPV4
 张卫健版西游记,https://www.goodiptv.club/huya/23728660$TG•IPV4
 楚汉骄雄,http://cfss.cc/cdn/hy/23740156.flv$TG•IPV4『线路1』
@@ -6325,85 +6303,6 @@ CCTV6电影频道,http://tvbox6.cn/tv/cctv6.m3u8#http://tvbox6.cn/tv/cctv6-1.m3u
 AMC电影,http://litv.zapi.us.kg/?id=4gtv-4gtv017$TG•IPV4『线路1』
 AMC电影,http://tw.ts138.top/4g/?id=4gtv-4gtv017$TG•IPV4『线路2』
 BesTV,http://tvbox6.com/tv/zb/bjcucc.php?id=68$TG•IPV4
-iHOT爱悬疑,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱悬疑.m3u8&sign=z6sj8k$TG•IPV4『线路1』
-iHOT爱悬疑,http://gslbserv.itv.cmvideo.cn/6000000006000050630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000050630&livemode=1&stbId=3$TG•IPV4『线路2』
-iHOT爱悬疑,http://gslbserv.itv.cmvideo.cn/2000000004000000036/1.m3u8?channel-id=hnbblive&Contentid=2000000004000000036&livemode=1&stbId=3$TG•IPV4『线路3』
-iHOT爱悬疑,http://cn.samzhao.cloud:3001/itv/wasusyt/6000000006000050630$TG•IPV4『线路4』
-iHOT爱悬疑,http://php.jdshipin.com:8880/itv6s.php?cid=wasusyt&id=6000000006000050630$TG•IPV4『线路5』
-iHOT爱悬疑,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱悬疑.m3u8&sign=ugxuj7$TG•IPV4『线路6』
-iHOT爱悬疑,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱悬疑.m3u8&sign=06zcwd$TG•IPV4『线路7』
-iHOT爱悬疑,http://php.jdshipin.com:8880/itv6.php?cid=hnbblive&id=2000000004000000036$TG•IPV4『线路8』
-iHOT爱谍战,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱谍战.m3u8&sign=z6sj8k$TG•IPV4『线路1』
-iHOT爱谍战,http://gslbserv.itv.cmvideo.cn/6000000006000070630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000070630&livemode=1&stbId=3$TG•IPV4『线路2』
-iHOT爱谍战,http://gslbserv.itv.cmvideo.cn/2000000004000000038/1.m3u8?channel-id=hnbblive&Contentid=2000000004000000038&livemode=1&stbId=3$TG•IPV4『线路3』
-iHOT爱谍战,http://cn.samzhao.cloud:3001/itv/wasusyt/6000000006000070630$TG•IPV4『线路4』
-iHOT爱谍战,http://php.jdshipin.com:8880/itv6s.php?cid=wasusyt&id=6000000006000070630$TG•IPV4『线路5』
-iHOT爱谍战,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱谍战.m3u8&sign=ugxuj7$TG•IPV4『线路6』
-iHOT爱谍战,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱谍战.m3u8&sign=06zcwd$TG•IPV4『线路7』
-iHOT爱谍战,http://php.jdshipin.com:8880/itv6.php?cid=hnbblive&id=2000000004000000038$TG•IPV4『线路8』
-iHOT爱动漫,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱动漫.m3u8&sign=z6sj8k$TG•IPV4『线路1』
-iHOT爱动漫,http://gslbserv.itv.cmvideo.cn/6000000006000280630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000280630&livemode=1&stbId=3$TG•IPV4『线路2』
-iHOT爱动漫,http://gslbserv.itv.cmvideo.cn/2000000004000000059/1.m3u8?channel-id=hnbblive&Contentid=2000000004000000059&livemode=1&stbId=3$TG•IPV4『线路3』
-iHOT爱动漫,http://cn.samzhao.cloud:3001/itv/wasusyt/6000000006000280630$TG•IPV4『线路4』
-iHOT爱动漫,http://php.jdshipin.com:8880/itv6s.php?cid=wasusyt&id=6000000006000280630$TG•IPV4『线路5』
-iHOT爱动漫,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱动漫.m3u8&sign=06zcwd$TG•IPV4『线路6』
-iHOT爱动漫,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱动漫.m3u8&sign=ugxuj7$TG•IPV4『线路7』
-iHOT爱动漫,http://php.jdshipin.com:8880/itv6.php?cid=hnbblive&id=2000000004000000059$TG•IPV4『线路8』
-iHOT爱科幻,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱科幻.m3u8&sign=z6sj8k$TG•IPV4『线路1』
-iHOT爱科幻,http://gslbserv.itv.cmvideo.cn/6000000006000020630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000020630&livemode=1&stbId=3$TG•IPV4『线路2』
-iHOT爱科幻,http://gslbserv.itv.cmvideo.cn/2000000004000000033/1.m3u8?channel-id=hnbblive&Contentid=2000000004000000033&livemode=1&stbId=3$TG•IPV4『线路3』
-iHOT爱科幻,http://cn.samzhao.cloud:3001/itv/wasusyt/6000000006000020630$TG•IPV4『线路4』
-iHOT爱科幻,http://php.jdshipin.com:8880/itv6s.php?cid=wasusyt&id=6000000006000020630$TG•IPV4『线路5』
-iHOT爱科幻,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱科幻.m3u8&sign=06zcwd$TG•IPV4『线路6』
-iHOT爱科幻,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱科幻.m3u8&sign=ugxuj7$TG•IPV4『线路7』
-iHOT爱科幻,http://php.jdshipin.com:8880/itv6.php?cid=hnbblive&id=2000000004000000033$TG•IPV4『线路8』
-iHOT爱奇谈,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱奇谈.m3u8&sign=z6sj8k$TG•IPV4『线路1』
-iHOT爱奇谈,http://gslbserv.itv.cmvideo.cn/6000000006000270630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000270630&livemode=1&stbId=3$TG•IPV4『线路2』
-iHOT爱奇谈,http://gslbserv.itv.cmvideo.cn/2000000004000000058/1.m3u8?channel-id=hnbblive&Contentid=2000000004000000058&livemode=1&stbId=3$TG•IPV4『线路3』
-iHOT爱奇谈,http://cn.samzhao.cloud:3001/itv/wasusyt/6000000006000270630$TG•IPV4『线路4』
-iHOT爱奇谈,http://php.jdshipin.com:8880/itv6s.php?cid=wasusyt&id=6000000006000270630$TG•IPV4『线路5』
-iHOT爱奇谈,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱奇谈.m3u8&sign=ugxuj7$TG•IPV4『线路6』
-iHOT爱奇谈,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱奇谈.m3u8&sign=06zcwd$TG•IPV4『线路7』
-iHOT爱奇谈,http://php.jdshipin.com:8880/itv6.php?cid=hnbblive&id=2000000004000000058$TG•IPV4『线路8』
-iHOT爱喜剧,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱喜剧.m3u8&sign=z6sj8k$TG•IPV4『线路1』
-iHOT爱喜剧,http://gslbserv.itv.cmvideo.cn/6000000006000010630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000010630&livemode=1&stbId=3$TG•IPV4『线路2』
-iHOT爱喜剧,http://gslbserv.itv.cmvideo.cn/2000000004000000032/1.m3u8?channel-id=hnbblive&Contentid=2000000004000000032&livemode=1&stbId=3$TG•IPV4『线路3』
-iHOT爱喜剧,http://cn.samzhao.cloud:3001/itv/wasusyt/6000000006000010630$TG•IPV4『线路4』
-iHOT爱喜剧,http://php.jdshipin.com:8880/itv6s.php?cid=wasusyt&id=6000000006000010630$TG•IPV4『线路5』
-iHOT爱喜剧,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱喜剧.m3u8&sign=ugxuj7$TG•IPV4『线路6』
-iHOT爱喜剧,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱喜剧.m3u8&sign=06zcwd$TG•IPV4『线路7』
-iHOT爱喜剧,http://php.jdshipin.com:8880/itv6.php?cid=hnbblive&id=2000000004000000032$TG•IPV4『线路8』
-iHOT爱幼教,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱幼教.m3u8&sign=z6sj8k$TG•IPV4『线路1』
-iHOT爱幼教,http://gslbserv.itv.cmvideo.cn/6000000006000180630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000180630&livemode=1&stbId=3$TG•IPV4『线路2』
-iHOT爱幼教,http://gslbserv.itv.cmvideo.cn/2000000004000000049/1.m3u8?channel-id=hnbblive&Contentid=2000000004000000049&livemode=1&stbId=3$TG•IPV4『线路3』
-iHOT爱幼教,http://cn.samzhao.cloud:3001/itv/wasusyt/6000000006000180630$TG•IPV4『线路4』
-iHOT爱幼教,http://php.jdshipin.com:8880/itv6s.php?cid=wasusyt&id=6000000006000180630$TG•IPV4『线路5』
-iHOT爱幼教,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱幼教.m3u8&sign=06zcwd$TG•IPV4『线路6』
-iHOT爱幼教,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱幼教.m3u8&sign=ugxuj7$TG•IPV4『线路7』
-iHOT爱幼教,http://php.jdshipin.com:8880/itv6.php?cid=hnbblive&id=2000000004000000049$TG•IPV4『线路8』
-iHOT爱院线,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱院线.m3u8&sign=z6sj8k$TG•IPV4『线路1』
-iHOT爱院线,http://gslbserv.itv.cmvideo.cn/6000000006000030630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000030630&livemode=1&stbId=3$TG•IPV4『线路2』
-iHOT爱院线,http://gslbserv.itv.cmvideo.cn/2000000004000000034/1.m3u8?channel-id=hnbblive&Contentid=2000000004000000034&livemode=1&stbId=3$TG•IPV4『线路3』
-iHOT爱院线,http://cn.samzhao.cloud:3001/itv/wasusyt/6000000006000030630$TG•IPV4『线路4』
-iHOT爱院线,http://php.jdshipin.com:8880/itv6s.php?cid=wasusyt&id=6000000006000030630$TG•IPV4『线路5』
-iHOT爱院线,http://php.jdshipin.com:8880/itv6.php?cid=hnbblive&id=2000000004000000034$TG•IPV4『线路6』
-iHOT爱院线,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱院线.m3u8&sign=06zcwd$TG•IPV4『线路7』
-iHOT爱赛车,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱赛车.m3u8&sign=z6sj8k$TG•IPV4『线路1』
-iHOT爱赛车,http://gslbserv.itv.cmvideo.cn/6000000006000240630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000240630&livemode=1&stbId=3$TG•IPV4『线路2』
-iHOT爱赛车,http://gslbserv.itv.cmvideo.cn/2000000004000000055/1.m3u8?channel-id=hnbblive&Contentid=2000000004000000055&livemode=1&stbId=3$TG•IPV4『线路3』
-iHOT爱赛车,http://cn.samzhao.cloud:3001/itv/wasusyt/6000000006000240630$TG•IPV4『线路4』
-iHOT爱赛车,http://php.jdshipin.com:8880/itv6s.php?cid=wasusyt&id=6000000006000240630$TG•IPV4『线路5』
-iHOT爱赛车,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱赛车.m3u8&sign=ugxuj7$TG•IPV4『线路6』
-iHOT爱赛车,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱赛车.m3u8&sign=06zcwd$TG•IPV4『线路7』
-iHOT爱赛车,http://php.jdshipin.com:8880/itv6.php?cid=hnbblive&id=2000000004000000055$TG•IPV4『线路8』
-iHOT爱玩具,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱玩具.m3u8&sign=z6sj8k$TG•IPV4『线路1』
-iHOT爱玩具,http://gslbserv.itv.cmvideo.cn/6000000006000220630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000220630&livemode=1&stbId=3$TG•IPV4『线路2』
-iHOT爱玩具,http://gslbserv.itv.cmvideo.cn/2000000004000000053/1.m3u8?channel-id=hnbblive&Contentid=2000000004000000053&livemode=1&stbId=3$TG•IPV4『线路3』
-iHOT爱玩具,http://cn.samzhao.cloud:3001/itv/wasusyt/6000000006000220630$TG•IPV4『线路4』
-iHOT爱玩具,http://php.jdshipin.com:8880/itv6s.php?cid=wasusyt&id=6000000006000220630$TG•IPV4『线路5』
-iHOT爱玩具,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱玩具.m3u8&sign=06zcwd$TG•IPV4『线路6』
-iHOT爱玩具,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱玩具.m3u8&sign=ugxuj7$TG•IPV4『线路7』
-iHOT爱玩具,http://php.jdshipin.com:8880/itv6.php?cid=hnbblive&id=2000000004000000053$TG•IPV4『线路8』
 韩国电影1,https://stream.ads.ottera.tv/playlist.m3u8?network_id=595$TG•IPV4『线路1』
 韩国电影1,https://stream.ads.ottera.tv/playlist.m3u8?network_id=742$TG•IPV4『线路2』
 韩国电影2,https://stream.ads.ottera.tv/playlist.m3u8?network_id=743$TG•IPV4
@@ -6649,6 +6548,85 @@ NewTV哒啵电竞,http://cn.samzhao.cloud:3001/itv/ystenlive/1000000006000032327
 NewTV哒啵赛事,https://vip.taoiptv.cn/source/itv.php?id=NewTV哒啵赛事.m3u8&sign=z6sj8k$TG•IPV4『线路1』
 NewTV哒啵赛事,http://cn.samzhao.cloud:3001/itv/ystenlive/1000000001000003775$TG•IPV4『线路2』
 iHOT频道,#genre#
+iHOT爱悬疑,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱悬疑.m3u8&sign=z6sj8k$TG•IPV4『线路1』
+iHOT爱悬疑,http://gslbserv.itv.cmvideo.cn/6000000006000050630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000050630&livemode=1&stbId=3$TG•IPV4『线路2』
+iHOT爱悬疑,http://gslbserv.itv.cmvideo.cn/2000000004000000036/1.m3u8?channel-id=hnbblive&Contentid=2000000004000000036&livemode=1&stbId=3$TG•IPV4『线路3』
+iHOT爱悬疑,http://cn.samzhao.cloud:3001/itv/wasusyt/6000000006000050630$TG•IPV4『线路4』
+iHOT爱悬疑,http://php.jdshipin.com:8880/itv6s.php?cid=wasusyt&id=6000000006000050630$TG•IPV4『线路5』
+iHOT爱悬疑,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱悬疑.m3u8&sign=ugxuj7$TG•IPV4『线路6』
+iHOT爱悬疑,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱悬疑.m3u8&sign=06zcwd$TG•IPV4『线路7』
+iHOT爱悬疑,http://php.jdshipin.com:8880/itv6.php?cid=hnbblive&id=2000000004000000036$TG•IPV4『线路8』
+iHOT爱谍战,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱谍战.m3u8&sign=z6sj8k$TG•IPV4『线路1』
+iHOT爱谍战,http://gslbserv.itv.cmvideo.cn/6000000006000070630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000070630&livemode=1&stbId=3$TG•IPV4『线路2』
+iHOT爱谍战,http://gslbserv.itv.cmvideo.cn/2000000004000000038/1.m3u8?channel-id=hnbblive&Contentid=2000000004000000038&livemode=1&stbId=3$TG•IPV4『线路3』
+iHOT爱谍战,http://cn.samzhao.cloud:3001/itv/wasusyt/6000000006000070630$TG•IPV4『线路4』
+iHOT爱谍战,http://php.jdshipin.com:8880/itv6s.php?cid=wasusyt&id=6000000006000070630$TG•IPV4『线路5』
+iHOT爱谍战,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱谍战.m3u8&sign=ugxuj7$TG•IPV4『线路6』
+iHOT爱谍战,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱谍战.m3u8&sign=06zcwd$TG•IPV4『线路7』
+iHOT爱谍战,http://php.jdshipin.com:8880/itv6.php?cid=hnbblive&id=2000000004000000038$TG•IPV4『线路8』
+iHOT爱动漫,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱动漫.m3u8&sign=z6sj8k$TG•IPV4『线路1』
+iHOT爱动漫,http://gslbserv.itv.cmvideo.cn/6000000006000280630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000280630&livemode=1&stbId=3$TG•IPV4『线路2』
+iHOT爱动漫,http://gslbserv.itv.cmvideo.cn/2000000004000000059/1.m3u8?channel-id=hnbblive&Contentid=2000000004000000059&livemode=1&stbId=3$TG•IPV4『线路3』
+iHOT爱动漫,http://cn.samzhao.cloud:3001/itv/wasusyt/6000000006000280630$TG•IPV4『线路4』
+iHOT爱动漫,http://php.jdshipin.com:8880/itv6s.php?cid=wasusyt&id=6000000006000280630$TG•IPV4『线路5』
+iHOT爱动漫,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱动漫.m3u8&sign=06zcwd$TG•IPV4『线路6』
+iHOT爱动漫,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱动漫.m3u8&sign=ugxuj7$TG•IPV4『线路7』
+iHOT爱动漫,http://php.jdshipin.com:8880/itv6.php?cid=hnbblive&id=2000000004000000059$TG•IPV4『线路8』
+iHOT爱科幻,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱科幻.m3u8&sign=z6sj8k$TG•IPV4『线路1』
+iHOT爱科幻,http://gslbserv.itv.cmvideo.cn/6000000006000020630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000020630&livemode=1&stbId=3$TG•IPV4『线路2』
+iHOT爱科幻,http://gslbserv.itv.cmvideo.cn/2000000004000000033/1.m3u8?channel-id=hnbblive&Contentid=2000000004000000033&livemode=1&stbId=3$TG•IPV4『线路3』
+iHOT爱科幻,http://cn.samzhao.cloud:3001/itv/wasusyt/6000000006000020630$TG•IPV4『线路4』
+iHOT爱科幻,http://php.jdshipin.com:8880/itv6s.php?cid=wasusyt&id=6000000006000020630$TG•IPV4『线路5』
+iHOT爱科幻,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱科幻.m3u8&sign=06zcwd$TG•IPV4『线路6』
+iHOT爱科幻,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱科幻.m3u8&sign=ugxuj7$TG•IPV4『线路7』
+iHOT爱科幻,http://php.jdshipin.com:8880/itv6.php?cid=hnbblive&id=2000000004000000033$TG•IPV4『线路8』
+iHOT爱奇谈,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱奇谈.m3u8&sign=z6sj8k$TG•IPV4『线路1』
+iHOT爱奇谈,http://gslbserv.itv.cmvideo.cn/6000000006000270630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000270630&livemode=1&stbId=3$TG•IPV4『线路2』
+iHOT爱奇谈,http://gslbserv.itv.cmvideo.cn/2000000004000000058/1.m3u8?channel-id=hnbblive&Contentid=2000000004000000058&livemode=1&stbId=3$TG•IPV4『线路3』
+iHOT爱奇谈,http://cn.samzhao.cloud:3001/itv/wasusyt/6000000006000270630$TG•IPV4『线路4』
+iHOT爱奇谈,http://php.jdshipin.com:8880/itv6s.php?cid=wasusyt&id=6000000006000270630$TG•IPV4『线路5』
+iHOT爱奇谈,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱奇谈.m3u8&sign=ugxuj7$TG•IPV4『线路6』
+iHOT爱奇谈,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱奇谈.m3u8&sign=06zcwd$TG•IPV4『线路7』
+iHOT爱奇谈,http://php.jdshipin.com:8880/itv6.php?cid=hnbblive&id=2000000004000000058$TG•IPV4『线路8』
+iHOT爱喜剧,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱喜剧.m3u8&sign=z6sj8k$TG•IPV4『线路1』
+iHOT爱喜剧,http://gslbserv.itv.cmvideo.cn/6000000006000010630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000010630&livemode=1&stbId=3$TG•IPV4『线路2』
+iHOT爱喜剧,http://gslbserv.itv.cmvideo.cn/2000000004000000032/1.m3u8?channel-id=hnbblive&Contentid=2000000004000000032&livemode=1&stbId=3$TG•IPV4『线路3』
+iHOT爱喜剧,http://cn.samzhao.cloud:3001/itv/wasusyt/6000000006000010630$TG•IPV4『线路4』
+iHOT爱喜剧,http://php.jdshipin.com:8880/itv6s.php?cid=wasusyt&id=6000000006000010630$TG•IPV4『线路5』
+iHOT爱喜剧,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱喜剧.m3u8&sign=ugxuj7$TG•IPV4『线路6』
+iHOT爱喜剧,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱喜剧.m3u8&sign=06zcwd$TG•IPV4『线路7』
+iHOT爱喜剧,http://php.jdshipin.com:8880/itv6.php?cid=hnbblive&id=2000000004000000032$TG•IPV4『线路8』
+iHOT爱幼教,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱幼教.m3u8&sign=z6sj8k$TG•IPV4『线路1』
+iHOT爱幼教,http://gslbserv.itv.cmvideo.cn/6000000006000180630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000180630&livemode=1&stbId=3$TG•IPV4『线路2』
+iHOT爱幼教,http://gslbserv.itv.cmvideo.cn/2000000004000000049/1.m3u8?channel-id=hnbblive&Contentid=2000000004000000049&livemode=1&stbId=3$TG•IPV4『线路3』
+iHOT爱幼教,http://cn.samzhao.cloud:3001/itv/wasusyt/6000000006000180630$TG•IPV4『线路4』
+iHOT爱幼教,http://php.jdshipin.com:8880/itv6s.php?cid=wasusyt&id=6000000006000180630$TG•IPV4『线路5』
+iHOT爱幼教,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱幼教.m3u8&sign=06zcwd$TG•IPV4『线路6』
+iHOT爱幼教,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱幼教.m3u8&sign=ugxuj7$TG•IPV4『线路7』
+iHOT爱幼教,http://php.jdshipin.com:8880/itv6.php?cid=hnbblive&id=2000000004000000049$TG•IPV4『线路8』
+iHOT爱院线,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱院线.m3u8&sign=z6sj8k$TG•IPV4『线路1』
+iHOT爱院线,http://gslbserv.itv.cmvideo.cn/6000000006000030630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000030630&livemode=1&stbId=3$TG•IPV4『线路2』
+iHOT爱院线,http://gslbserv.itv.cmvideo.cn/2000000004000000034/1.m3u8?channel-id=hnbblive&Contentid=2000000004000000034&livemode=1&stbId=3$TG•IPV4『线路3』
+iHOT爱院线,http://cn.samzhao.cloud:3001/itv/wasusyt/6000000006000030630$TG•IPV4『线路4』
+iHOT爱院线,http://php.jdshipin.com:8880/itv6s.php?cid=wasusyt&id=6000000006000030630$TG•IPV4『线路5』
+iHOT爱院线,http://php.jdshipin.com:8880/itv6.php?cid=hnbblive&id=2000000004000000034$TG•IPV4『线路6』
+iHOT爱院线,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱院线.m3u8&sign=06zcwd$TG•IPV4『线路7』
+iHOT爱赛车,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱赛车.m3u8&sign=z6sj8k$TG•IPV4『线路1』
+iHOT爱赛车,http://gslbserv.itv.cmvideo.cn/6000000006000240630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000240630&livemode=1&stbId=3$TG•IPV4『线路2』
+iHOT爱赛车,http://gslbserv.itv.cmvideo.cn/2000000004000000055/1.m3u8?channel-id=hnbblive&Contentid=2000000004000000055&livemode=1&stbId=3$TG•IPV4『线路3』
+iHOT爱赛车,http://cn.samzhao.cloud:3001/itv/wasusyt/6000000006000240630$TG•IPV4『线路4』
+iHOT爱赛车,http://php.jdshipin.com:8880/itv6s.php?cid=wasusyt&id=6000000006000240630$TG•IPV4『线路5』
+iHOT爱赛车,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱赛车.m3u8&sign=ugxuj7$TG•IPV4『线路6』
+iHOT爱赛车,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱赛车.m3u8&sign=06zcwd$TG•IPV4『线路7』
+iHOT爱赛车,http://php.jdshipin.com:8880/itv6.php?cid=hnbblive&id=2000000004000000055$TG•IPV4『线路8』
+iHOT爱玩具,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱玩具.m3u8&sign=z6sj8k$TG•IPV4『线路1』
+iHOT爱玩具,http://gslbserv.itv.cmvideo.cn/6000000006000220630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000220630&livemode=1&stbId=3$TG•IPV4『线路2』
+iHOT爱玩具,http://gslbserv.itv.cmvideo.cn/2000000004000000053/1.m3u8?channel-id=hnbblive&Contentid=2000000004000000053&livemode=1&stbId=3$TG•IPV4『线路3』
+iHOT爱玩具,http://cn.samzhao.cloud:3001/itv/wasusyt/6000000006000220630$TG•IPV4『线路4』
+iHOT爱玩具,http://php.jdshipin.com:8880/itv6s.php?cid=wasusyt&id=6000000006000220630$TG•IPV4『线路5』
+iHOT爱玩具,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱玩具.m3u8&sign=06zcwd$TG•IPV4『线路6』
+iHOT爱玩具,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱玩具.m3u8&sign=ugxuj7$TG•IPV4『线路7』
+iHOT爱玩具,http://php.jdshipin.com:8880/itv6.php?cid=hnbblive&id=2000000004000000053$TG•IPV4『线路8』
 iHOT爱电竞,https://vip.taoiptv.cn/source/itv.php?id=iHOT爱电竞.m3u8&sign=z6sj8k$TG•IPV4『线路1』
 iHOT爱电竞,http://gslbserv.itv.cmvideo.cn/6000000006000230630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000230630&livemode=1&stbId=3$TG•IPV4『线路2』
 iHOT爱电竞,http://gslbserv.itv.cmvideo.cn/2000000004000000054/1.m3u8?channel-id=hnbblive&Contentid=2000000004000000054&livemode=1&stbId=3$TG•IPV4『线路3』
