@@ -4,7 +4,7 @@ http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 #EXTINF:-1 tvg-id="1" tvg-name="轩蓓影视" tvg-logo="https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON2.png" group-title="涛哥直播",轩蓓影视
 http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225681/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="更新日期" tvg-logo="https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON3.png" group-title="涛哥直播",更新日期
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225661/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="2024-10-20" tvg-logo="https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON4.png" group-title="涛哥直播",2024-10-20
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225663/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="default" group-title="央视频道",CCTV1
@@ -13286,6 +13286,8 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/322
 #EXTINF:-1 tvg-id="1" tvg-name="东北热剧" tvg-logo="default" group-title="数字频道",东北热剧
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8$LR•4•IPV6『线路3』
 #EXTINF:-1 tvg-id="1" tvg-name="东北热剧" tvg-logo="default" group-title="数字频道",东北热剧
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="东北热剧" tvg-logo="default" group-title="数字频道",东北热剧
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010021/1.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1 tvg-id="1" tvg-name="东北热剧" tvg-logo="default" group-title="数字频道",东北热剧
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010021/1.m3u8
@@ -13741,8 +13743,6 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/322
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225681/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="NewTV 农业致富「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 农业致富「IPV6」
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225683/index.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="NewTV 动作电影「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 动作电影「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225661/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="NewTV 家庭剧场「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 家庭剧场「IPV6」
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225677/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="NewTV 惊悚悬疑「IPV6」" tvg-logo="default" group-title="电影频道",NewTV 惊悚悬疑「IPV6」
