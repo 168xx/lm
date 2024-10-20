@@ -12,6 +12,7 @@ source_urls = [
     "https://4key.cn/FP", #20/10/2024
     "https://gitee.com/wjdjxjxj/tv/raw/master/qa.txt", #20/10/2024
     "http://www.iptv6.icu:5212/f/mPLia/mytv.txt", #MJ TV 20/10/2024
+    "https://mpimg.cn/down.php/4b3861c5c4c217b1caab684e02c56e91.txt&6", #DSD TV 20/10/2024
     "https://gitee.com/lu-xiaoming-0168/lu/raw/%E5%B9%BF%E5%B7%9E%E5%8F%B0/%E7%94%B5%E8%A7%86%E7%9B%B4%E6%92%AD.png", #D ipv4 ON 19/10/2024
     "https://raw.githubusercontent.com/redrainl/iptv/main/speedtest/zubo_fofa.txt", #ADDED BY LEM ON 01/08/2024
     "https://raw.githubusercontent.com/pxiptv/live/main/iptv.txt", #ADDED BY LEM ON 08/08/2024
