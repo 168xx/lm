@@ -1,6 +1,7 @@
 ip_version_priority = "ipv6"
 
 source_urls = [
+   "https://7672.kstore.space/ipv6.m3u", #IPV6 BY MT ON 21/10/2024
    "https://live.zbds.top/tv/iptv6.txt", #ADDED BY LEM ON 15/10/2024
     "https://live.fanmingming.com/tv/m3u/ipv6.m3u", #ADDED BY LEM ON 08/10/2024
     "http://ww.zouming.com/ipv6.txt", #ADDED BY LEM ON 31/07/2024
@@ -22,6 +23,7 @@ source_urls = [
     "https://live.zhoujie218.top/tv/iptv6.txt",
     "https://tv.youdu.fan:666/live/",
     "http://ww.weidonglong.com/dsj.txt",
+   "http://tv.weidonglong.com/v6.txt", #IPV6 BY MT ON 21/10/2024
     "http://xhztv.top/zbc.txt",
     "https://www.gitlink.org.cn/api/SiberiaApp/MyBlog/raw/test.txt?ref=master",
     "https://raw.githubusercontent.com/qingwen07/awesome-iptv/main/tvbox_live_all.txt",

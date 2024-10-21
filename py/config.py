@@ -1,6 +1,7 @@
 ip_version_priority = "ipv4"
 
 source_urls = [
+    "https://7672.kstore.space/zb.txt", #IPV4 BY MT ON 21/10/2024
     "https://8143.kstore.space/碼頭106.png", #MT BY MT ON 21/10/2024
     "http://rihou.cc:55/lib/kx2024.txt", #YY BY YY ON 21/10/2024
     "http://dd.rihou.cc:555/gggg.nzk", #DD BY LEM ON 18/10/2024
