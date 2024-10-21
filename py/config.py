@@ -1,6 +1,8 @@
 ip_version_priority = "ipv4"
 
 source_urls = [
+    "https://8143.kstore.space/碼頭106.png", #MT BY MT ON 21/10/2024
+    "http://rihou.cc:55/lib/kx2024.txt", #YY BY YY ON 21/10/2024
     "http://dd.rihou.cc:555/gggg.nzk", #DD BY LEM ON 18/10/2024
     "https://live.zbds.top/tv/iptv4.txt", #ZBDS BY LEM ON 18/10/2024
     "https://gongdian.top/tv/gongdian.txt", #Gongdian ipv4 ON 19/10/2024
