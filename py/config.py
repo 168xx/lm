@@ -22,6 +22,7 @@ source_urls = [
     "http://tv.850930.xyz/kdsb2.m3u", #ADDED BY LEM ON 31/07/2024
     "http://tv.850930.xyz/kdsb.txt", #ADDED BY LEM ON 28/09/2024
     "http://tv.850930.xyz/gather.m3u", #ADDED BY LEM ON 29/07/2024
+    "https://raw.githubusercontent.com/kilvn/IPTV/refs/heads/master/iptv.m3u", #ADDED BY LEM ON 21/10/2024
     "https://raw.githubusercontent.com/wwb521/live/main/tv.m3u", #ADDED BY LEM ON 28/09/2024
     "https://raw.githubusercontent.com/hus888yu/app/main/yt.txt", #ADDED BY LEM ON 06/10/2024
     "https://raw.githubusercontent.com/hus888yu/app/main/nb.txt", #ADDED BY LEM ON 27/09/2024
